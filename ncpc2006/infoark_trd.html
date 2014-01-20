@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+<head>
+    <title>Info-ark NCPC2006</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <style type="text/css">
+        body {
+            color: black;
+            background-color: #ffffff;
+        }
+        h2 {
+            margin-top: 40px; 
+        }
+        pre {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Info-ark for NCPC 2006 i Trondheim</h1>
+
+    <p>
+        Denne info finnes p&aring;
+        <a href="http://ncpc.idi.ntnu.no/ncpc2006/infoark_trd.html">http://ncpc.idi.ntnu.no/ncpc2006/infoark_trd.html</a>.
+    </p>
+    <p>
+        Hvis noen savner info p&aring; denne siden, send gjerne en mail til 
+        <a href="mailto:Nils.Grimsmo@idi.ntnu.no">Nils.Grimsmo@idi.ntnu.no</a>.
+    </p>
+
+    <h2>Lovlige ressurser</h2>
+    <ul>
+        <li>Alt skriftlig materiale.</li>
+        <li><a href="http://java.sun.com/j2se/1.5.0/docs/api/index.html">Java 1.5.0 API</a></li>
+        <li><a href="http://www.sgi.com/tech/stl/table_of_contents.html">C++ STL</a> (SGI)</li>
+        <li><a href="http://www.cppreference.com/">cppreference.com</a></li>
+        <li>MSVS <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vcstdlib/html/vcoriStandardCLibraryReference.asp">Standard C++ Library Reference</a></li>
+        <ul>
+            <li><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vcstdlib/html/vclrfcpluspluslibraryoverview.asp">Standard C++ Library Overview</a></li>
+            <li><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vclib/html/_crt_run.2d.time_routines_by_category.asp">Run-Time Routines by Category</a></li>
+            <li><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vclib/html/vclrfalphabeticalfunctionreference.asp">Alphabetical Function Reference</a></li>
+            <li><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vclib/html/_crt_global_constants.asp">Global Constants</a></li>
+        </ul>
+        <li>Ingen andre elektroniske ressurser</li>
+    </ul>
+
+    <h2>Teknisk info</h2>
+    
+    <h3>Innlogging</h3>
+    <p>
+        <i>Merk at det er forskjellig brukernavn og passord for innlogging i Windows og PC^2</i>
+    </p>
+    <ul>
+        <li>Innlogging: Bruker/passord mottatt ved innsjekking. 
+            Domene IDIPC.</li>
+        <li>Brukeromr&aring;de: <code>Z:\work</code></li>
+        <li>Starte PC^2: <code>Z:\pc2v87\pc2team.bat</code></li>
+        <li>P&aring;logging PC2: teamN/teamN (for passende verdier av N)</li>
+    </ul>
+    <h3>Textpad</h3>
+    <ul>
+        <li>Starte Textpad: Start -&gt; All Programs -&gt; Textpad</li>
+        <li>Fikse '}': Configure -&gt; Preferences -&gt; Keyboard. Fjern ALT-0 
+            fra View + ActiveClipLib.</li>
+    </ul>
+    <h3>Emacs</h3>
+    <ul>
+        <li>Starte Emacs: Start -&gt; All Programs -&gt; GNU Emacs -&gt; .
+            (Problemer med { og }: Kan lages med <code>CTRL-ALT-7</code>
+            og <code>CTRL-ALT-0</code>).</li>
+    </ul>
+    <h3>VI</h3>
+    <ul>
+        <li>Kan lastes ned fra <a href="http://www.vim.org/download.php#pc">www.vim.org</a> og installeres p&aring;
+        <code>Z:</code>, hvis du heller vil bruke dette enn Emacs og
+        Textpad.</li>
+    </ul>
+    <h3>Eclipse og Visual Studio</h3>
+    <p>
+        Se <i>Kompilering og testing av programmer</i>
+    </p>
+    <h3>Utskrift</h3>
+    <p>
+        Du kan skrive ut programmene dine p&aring; skriveren \\printhost\p336 hvis du vil 
+        debugge p&aring; papir. Be en dommer hente utskriften.
+    </p>
+    <h3>Toalett</h3>
+    <p>
+        Finnes innerst i gangen.
+    </p>
+
+    <h2>Kompilering og testing av programmer</h2>
+    <p>
+        Du kan teste at det tekniske oppsettet fungerer p&aring; f&oslash;lgende m&aring;te:
+    </p>
+    <h3>Java</h3>
+    <ul>
+        <li>Lag katalogen Z:\work</li>
+        <li>Java p&aring;kommandolinjen:</li>
+        <ul>
+            <li>Lagre Test.java og test.in p&aring; Z:\work (listet under)</li> 
+            <li>Start -&gt; Run -&gt; Cmd</li>
+            <li><code>Z:</code></li>
+            <li><code>cd work</code></li>
+            <li><code>javac Test.java</code></li>
+            <li><code>java Test &lt; test.in</code></li>
+            <li>Sjekk at svaret ble riktig.</li>
+        </ul>
+        <li>Eclipse</li>
+        <ul>
+            <li>Start -&gt; All programs -&gt; 
+                Eclipse 3.2</li>
+            <li>File -&gt; Switch workspace... -&gt; Workspace: 
+                <code>Z:\work</code></li>
+            <li>File -&gt; New -&gt; Project -&gt; Java Project -&gt; Enter
+                project name: <code>NCPC2006</code> -&gt; Finish</li>
+            <li>File -&gt; New -&gt; File -&gt; File name:
+                <code>test.in</code> -&gt; Finish</li>
+            <li>File -&gt; New -&gt; Class -&gt; Enter name: <code>Test</code>
+                -&gt; Finish</li>
+            <li>Run -&gt; Run... -&gt; Arguments -&gt; Program arguments:
+                <code>src/test.in</code> -&gt; Run</li>
+            <li>Sjekk at svaret ble riktig.</li>
+        </ul>
+    </ul>
+
+    <h3>C/C++</h3>
+    <ul>
+        <li>Lag katalogen Z:\work</li>
+        <li>C/C++ p&aring; kommandolinjen:</li>
+        <ul>
+            <li>Lagre test.c/test.cpp og test.in p&aring; Z:\work 
+                (listet under)</li> 
+            <li>Start -&gt; All programs -&gt; 
+                Microsoft Visual Studio 2005 -&gt; 
+                Visual Studio Tools -&gt;
+                Visual Studio 2005 Command Prompt</li>
+            <li><code>Z:</code></li>
+            <li><code>cd work</code></li>
+            <li><code>cl /EHsc test.c</code> eller 
+                <code>cl /EHsc test.cpp</code></li>
+            <li><code>test.exe &lt; test.in</code></li>
+            <li>Sjekk at svaret ble riktig.</li>
+        </ul>
+        <!--
+        <li>C/C++ i Visual Studio:</li>
+        -->
+    </ul>
+
+    <h3>Testprogrammer</h3>
+
+    <p><b>test.in</b></p>
+    <pre>
+2.71828182846 3.14159265359</pre>
+
+    <p>
+        Disse programmene skal skrive ut <code>5.86</code> n&aring;r de 
+        f&aring;r <code>test.in</code> som input.
+    </p>
+
+    <p><b>Test.java</b></p>
+    <pre>
+import java.io.*;
+import java.util.*;
+
+public class Test {
+
+    public static void main(String[] args) throws Exception {
+        Locale.setDefault(Locale.UK);
+        if (args.length &gt; 0) {
+            // read from file ...
+            br = new BufferedReader(new FileReader(args[0]));
+        }
+        else {
+            // ... or read from standard in
+            br = new BufferedReader(new InputStreamReader(System.in));
+        }
+        double a = readDouble();
+        double b = readDouble();
+        System.out.printf("%.2f\n", a + b);
+    }
+
+    static BufferedReader br;
+    static StringTokenizer st = new StringTokenizer("");
+
+    static String readString() throws Exception {
+        while (!st.hasMoreTokens()) {
+            st = new StringTokenizer(br.readLine());
+        }
+        return st.nextToken();
+    }
+
+    static int readInt() throws Exception {
+        return Integer.parseInt(readString());
+    }
+
+    static double readDouble() throws Exception {
+        return Double.parseDouble(readString());
+    }
+}</pre>
+
+    <p><b>test.c</b></p>
+    <pre>
+#include &lt;stdio.h&gt;
+int main()
+{
+    double a, b;
+    scanf("%lf %lf", &amp;a, &amp;b);
+    printf("%.2lf\n", a + b);
+}</pre>
+    <p><b>test.cpp</b></p>
+    <pre>
+#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main()
+{
+    double a, b;
+    cin &gt;&gt; a &gt;&gt; b;
+    cout &lt;&lt; setiosflags(ios::fixed)
+         &lt;&lt; setprecision(2)
+         &lt;&lt; a + b 
+         &lt;&lt; endl;
+}</pre>
+
+<!-- END CONTENT -->
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
