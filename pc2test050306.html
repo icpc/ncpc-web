@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+<head>
+    <title>Nordic ICPC programming championship</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="keywords"
+          content="acm,icpc,collegiate,student,programming,contest,norway,norge,
+                   programmering,konkurranse,trondheim,norgesmesterskap,ntnu,
+                   idi,competition,tasks" />
+    <meta name="description" 
+          content="ACM International Collegiate Programming Contest - 
+                   Nordic branch." />
+    <!-- <link rel="stylesheet" type="text/css" href="main.css" /> -->
+</head>
+
+<body>
+
+<h1>Report on PC<sup>2</sup>-test 050306</h1>
+
+<h2>Short version</h2>
+<p>
+Molde and Oslo could not connect due to NAT and a firewall
+respectively. Trondheim, Umeå and Stockholm went on to run the test
+and it worked well. See what's next after the long version.
+</p>
+<h2>Long version (with polar bears)</h2>
+<p>
+Stockholm prepared a primary server and a <a
+href="http://www.nada.kth.se/contest/pc2_tet.zip">zip-archive</a>
+containing a PC<sup>2</sup>-distribution a few scripts and a
+HOW-TO. The other sites used this package to set up local servers and
+clients, and on March 6th we started up the primary server and the
+other servers tried to connect. We also ran some tests involving
+submission of runs, filtering of runs, judgeing runs, server crashes
+(and polar bear attacks in Umeå).
+</p>
+
+<p>
+There were two problems discovered that we could not solve in
+real-time. Oslo's server was behind a firewall and Molde's server was
+on a network using Network Address Translation. Both these issues are
+known to cause problems for PC<sup>2</sup> since it uses Java-RMI. The 
+PC<sup>2</sup>-manual says that this can be, and has been, solved by
+using a VPN. It was decided that we should solve these problems at a
+later date.
+</p>
+<p>
+Trondheim, Umeå and Stockholm simulated a small three-problem
+contest. We simulated the primary server going down as well as
+failures of other servers.
+</p>
+<p>
+The definition of languages and problems is done in advance at the
+primary server. The secondary servers get these definitions when
+connecting to the primary server. Teams can be entered at each site in
+advance without the servers connecting to eachother. Any administrator
+can fix language definitions and problem definitions if needed (e.g.,
+if input data for a problem is wrong). These changes get sent to all
+servers. Similarly, runs and clarifications reach alla
+servers. Clarification answers reach all teams (if "reply to all" is
+selected -- otherwise just the team asking gets the answer of course).
+</p>
+<p>
+The servers could be restarted and reconnected. The clients at the
+crash site MUST also be restarted. But then everything works well. The
+restarted server gets the clarifications that have been sent and
+answered at other sites while it was down. Also, the results from runs
+etc get synchronized when the server is restarted.
+</p>
+<p>
+Umeå then simulated a series of "polar bear attacks" and
+recovered each time. However, if one neglects to restart clients after
+the local server has been restarted results are unpredictable.
+</p>
+
+<h2>What's next</h2>
+<p>
+We knew that Firewalls and NAT would cause problems and also that
+these problems can be solved using a VPN. Or perhaps we can get around
+it if enough machines at each site are outside NAT and firewalls. At
+Lund I think the student machines are outside NAT and firewalls.
+<ul>
+<li>KTH and NTNU should approach the PC2-people in Shanghai and ask
+about their VPN-solution</li>
+<li>Find out which sites are NAT:ed (so far we know of Molde)</li>
+<li>Find out which sites are behind firewalls (so far we know of
+Oslo)</li>
+<li>find out if the local computer systems people can find or set up a
+bunch of machines that do not "suffer" from NAT of firewalls</li>
+<li>Run another test, preferably in April trying a VPN</li>
+<li>Try to involve also the other sites in a test</li>
+</ul>
+The last point is perhaps difficult, at least if we hope to get all
+sites to run a test at the same time. However, we might be able to run
+a small number of tests and thereby cover all sites with at least one test.
+Small sites should benefit a lot if we can get it to work. The task of
+setting up a secondary server is not particularly daunting.
+</p>
+
+</body>
+</html>

@@ -1,0 +1,1784 @@
+<html><head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+NCPC 2010 Registered Teams
+</title>
+<style type="text/css">/**
+ * Highlight style classes
+ * .a background color
+ * .b underline
+ * .c underline + font color
+ */
+ 
+@media screen{
+em.diigoHighlight {
+	text-align:inherit;
+	text-decoration: inherit;
+	line-height:inherit;
+	font:inherit;
+	color:inherit;
+	display:inline;
+	position:relative;
+}
+em.diigoHighlight.a.mouseOvered {
+	background-color: #ffc62a !important;
+}	
+
+em.diigoHighlight.b.mouseOvered, em.diigoHighlight.c.mouseOvered {
+	border-bottom: solid 2px #ffc62a;
+}
+	
+em.diigoHighlight.c {
+	color: #000099;
+}
+em.diigoHighlight.c.mouseOvered {
+	color: #ffc62a;
+}	
+
+em.diigoHighlight.a.yellow {
+	background-color: #FF9;
+}
+
+em.diigoHighlight.b.yellow, em.diigoHighlight.c.yellow {
+	border-bottom: solid 2px #FF9;
+}
+	
+img.diigoHighlight.yellow {/*image highlight*/
+	cursor: pointer; 
+	outline:2px solid #FF9;
+}
+	
+em.diigoHighlight.a.blue {
+	background-color: #ABD5FF;
+}
+
+em.diigoHighlight.b.blue, em.diigoHighlight.c.blue {
+	border-bottom: solid 2px #ABD5FF;
+}
+	
+img.diigoHighlight.blue {/*image highlight*/
+	cursor: pointer; 
+	outline:2px solid #ABD5FF;
+}
+	
+	
+em.diigoHighlight.a.green {
+	background-color: #B2E57E;
+}
+
+em.diigoHighlight.b.green, em.diigoHighlight.c.green {
+	border-bottom: solid 2px #B2E57E;
+}
+
+img.diigoHighlight.green {/*image highlight*/
+	cursor: pointer; 
+	outline:2px solid #B2E57E;
+}	
+	
+	
+em.diigoHighlight.a.pink {
+	background-color: #ffcccc;
+}
+
+em.diigoHighlight.b.pink, em.diigoHighlight.c.pink {
+	border-bottom: solid 2px #ffcccc;
+}
+	
+img.diigoHighlight.pink {/*image highlight*/
+	cursor: pointer; 
+	outline:2px solid #ffcccc;
+}	
+	
+img.diigoHighlight.mouseOvered {
+	cursor: pointer; 
+	outline:2px solid #ffc62a;
+}	
+	
+
+div.diigotb-inline-cloud{
+	position:fixed !important;
+	width:440px !important;
+	height:370px !important;
+	left:0;top:0;
+	background-color:#fef5c7 !important;
+	z-index:9999999999 !important;
+	display:none;
+	-moz-border-radius:15px !important;
+}
+/*  capture image */
+
+.diigotb-body #diigotb-upload-cover{
+	cursor:crosshair!important;
+	z-index:1999999!important;
+	position:fixed!important;
+	left:0!important;
+	top:31px;
+}
+	
+.diigotb-body #diigotb-upload-tip{
+    color: #fff!important;
+    padding:2px 4px!important;
+    position:fixed!important;
+    z-index:11000001!important;
+}
+	
+.diigotb-body #diigotb-upload-select{
+	position:fixed!important;
+	z-index:1000001;
+}
+	
+.diigotb-body #diigotb-upload-resizer{
+	z-index:11000002!important;
+	position:fixed!important;
+	cursor:move!important;
+	border:1px dashed black!important;
+}
+	
+.diigotb-body #currentColor{
+  background-color: #fff!important;
+  width: 37px!important;
+  height: 37px!important;
+  padding: 1px!important;
+  border: 1px solid #2e68e6!important;
+  float: left!important;
+  margin: 0 5px 0 0!important;
+}
+	
+.diigotb-body #currentColor div{
+  width: 37px!important;
+  height: 37px!important;	
+  margin:0!important;
+}
+.diigotb-body .selectPanel{
+	margin-top:5px!important;
+}
+	
+.diigotb-body .colorCell{
+  float: left!important;
+  margin: 0 1px 1px 0!important;
+  border: 1px solid #5f92ff!important;
+  width: 18px!important;
+  height: 18px!important;
+}
+	
+.diigotb-body .colorCell:hover{
+  border: 1px solid #FF9900!important;
+}
+.diigotb-body .colorCell.actived{
+  border: 1px solid #FF9900!important;
+}	
+	
+.diigotb-body .colorCell div{
+  width: 18px!important;
+  height: 18px!important;
+  cursor:pointer!important;
+  margin:0!important;
+}
+
+.diigotb-body .capture-black{background-color:#000!important;}
+.diigotb-body .capture-white{background-color:#fff!important;}
+.diigotb-body .capture-gray{background-color:#808080!important;}
+.diigotb-body .capture-light-gray{background-color:#c0c0c0!important;}
+
+.diigotb-body .capture-red{background-color:#ff0000!important;}
+.diigotb-body .capture-cyan{background-color:#00ffff!important;}
+.diigotb-body .capture-orange{background-color:#ff9900!important;}
+.diigotb-body .capture-blue{background-color:#0000ff!important;}
+
+.diigotb-body .capture-yellow{background-color:#ffff00!important;}
+.diigotb-body .capture-purple{background-color:#9900ff!important;}
+.diigotb-body .capture-green{background-color:#00ff00!important;}
+.diigotb-body .capture-pink{background-color:#ff00ff!important;}
+	
+.diigotb-body #diigotb-colorpanel{
+	background:transparent url(chrome://diigotb/skin/ann-bar-palette-bg-left.png) no-repeat scroll left center!important;
+	display:block;
+	height:55px!important;
+	position:fixed!important;
+	width:180px!important;
+	z-index:11000022!important;
+	margin:0!important;
+}
+	
+.diigotb-body .diigotb-cbg{
+	background:transparent url(chrome://diigotb/skin/ann-bar-palette-bg-right.png) no-repeat scroll right top!important;
+	height:55px!important;
+	line-height:55px!important;
+	padding-left:6px!important;
+	width:180px!important;
+	margin:0!important;
+}
+
+	
+.diigotb-body #currentArrow{
+	background:transparent url(chrome://diigotb/skin/ann-bar-palette-arrow.png) no-repeat scroll 0 0!important;
+	height:6px!important;
+	left:0;
+	position:relative!important;
+	top:-5px;
+	width:7px!important;
+	margin:0!important;
+}
+	
+.diigotb-body #currentArrow._istop{
+	background:transparent url(chrome://diigotb/skin/ann-bar-palette-arrow-down.png) no-repeat scroll 0 0!important;
+	top:51px!important;
+}
+	
+	
+.diigotb-body #diigotb-text-area{
+	position:fixed!important;
+	z-index:11000010!important;
+}
+	
+.diigotb-body .diigotb-text-input{
+	font: 18px/22px Helvetica,Arial,sans-serif!important;
+	border:0px solid #5f92ff!important;
+	z-index:11000011!important;
+}	
+	
+.diigotb-body #diigotb-editpanel{
+	background:transparent url(chrome://diigotb/skin/ann-bar-bg-right.png) no-repeat scroll right center!important;
+	height:35px!important;
+	position: fixed!important;
+	z-index:11000022!important;
+	margin:0!important;
+}
+	
+	
+.diigotb-body .diigotb-btn div{
+	cursor:pointer!important;
+	width:18px!important;
+	height:18px!important;
+	margin:2px!important;
+}
+.diigotb-body .diigotb-btn{
+	width:23px!important;
+	height:23px!important;
+}
+		
+	
+.diigotb-body #diigotb-editpanel .diigotb-bg{
+	background:transparent url(chrome://diigotb/skin/ann-bar-bg-left.png) repeat-x scroll left center!important;
+	height:35px!important;
+	padding-left:6px!important;
+	line-height:35px!important;
+	margin:0!important;
+}
+	
+		
+.diigotb-body div.diigotb-tip{
+	-moz-border-radius:4px 4px 4px 4px;
+	background-color:#f1f2f7;
+	border:1px solid #767676;
+	color:black;
+	display:none;
+	-moz-box-shadow:5px 5px 5px -5px #767676;
+	font:12px Arial,Helvetica,sans-serif;
+	margin:0 !important;
+	padding:3px 6px !important;
+	position:absolute;
+	z-index:2147483647;
+}
+	
+.diigotb-body #diigotb-editpanel div.diigotb-btn{
+	padding:0px!important;
+	display:inline-table!important;
+	margin-bottom:0 !important;
+	margin-left:0 !important;
+	margin-right:0 !important;
+	margin-top:5px;
+}
+	
+	
+.diigotb-body #diigotb-editpanel div.diigotb-sep img{
+	pading:0!important;
+	margin:0!important;
+}
+	
+.diigotb-body #diigotb-editpanel div.diigotb-sep{
+	pading:4px 0!important;
+	display:inline-table!important;
+	margin:0!important;
+	line-height:0 !important;
+}	
+	
+.diigotb-body #diigotb-editpanel div.diigotb-btn.enabled:hover{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-current.png') no-repeat!important;
+}
+	
+.diigotb-body #diigotb-editpanel #diigotb-undo.enabled div{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-undo.png') no-repeat center center!important;
+}
+	
+.diigotb-body #diigotb-editpanel div.diigotb-btn.actived{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-current.png') no-repeat!important;
+}
+	
+.diigotb-image-border{
+	border:1px solid #666 !important;
+}
+	
+#diigotb-imagepanel{
+	height:22px!important;
+	position: absolute!important;
+	z-index:11000022!important;
+	margin:0!important;
+}
+
+#diigotb-imagepanel .diigotb-btn{
+	cursor:pointer!important;
+	width:20px!important;
+	height:20px!important;
+	margin:2px!important;
+	float:left !important;
+	background:transparent url(chrome://diigotb/skin/save-image-action-icons.png) no-repeat scroll!important;
+}	
+	
+	
+#diigotb-imagepanel #diigotb-quick-save{
+	background-position:0 0!important;
+}
+		
+#diigotb-imagepanel.processing #diigotb-quick-save{
+	background-position:0 -20px!important;
+	cursor:default!important;
+}
+
+		
+#diigotb-imagepanel.needpremium #diigotb-quick-save{
+	background-position:0 -20px!important;
+	cursor:default!important;
+}	
+
+#diigotb-imagepanel.hassaved #diigotb-quick-save{
+	background-position: -60px 0!important;
+	cursor: pointer !important;
+}
+
+.diigotb-imagetip{
+	background:transparent url(chrome://diigotb/skin/notice-bar-bg-right.png) no-repeat scroll right center !important;
+	height:21px !important;
+	margin:0 !important;
+	position:absolute !important;
+	z-index:11000022 !important;
+	width:106px;
+}
+	
+.diigotb-imagebg{
+	background:transparent url(chrome://diigotb/skin/notice-bar-bg-left.png) repeat-x scroll left center !important;
+	height:21px !important;
+	margin:0 !important;
+	padding-left:6px !important;
+	width:90px;
+}
+	
+.diigotb-imagetip-text{
+	padding-left:20px!important;
+	font:11px/13px Helvetica,Arial,sans-serif!important;
+	color:white!important;
+	line-height:20px!important;
+	float:left;
+}
+	
+.diigotb-imagetip.processing .diigotb-imagetip-text{
+	background:transparent url(chrome://diigotb/skin/processing-fb.gif) no-repeat scroll left center !important;
+}
+	
+.diigotb-imagetip.hassaved .diigotb-imagetip-text{
+	background:transparent url(chrome://diigotb/skin/icon-done.png) no-repeat scroll left center !important;
+}
+	
+.diigotb-border{
+	position: absolute!important;
+	z-index:11000000!important;
+	margin:0!important;
+	background-color: #4b8cdc!important;
+}
+.diigotb-left{
+	width:1px!important;
+}
+.diigotb-right{
+	width:1px!important;
+}
+.diigotb-top{
+	height:1px!important;
+}
+.diigotb-bottom{
+	height:1px!important;
+}
+
+.diigotb-body #diigotb-rect div{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-rectangle.png') no-repeat center center!important;
+}	
+.diigotb-body #diigotb-round div{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-ellipse.png') no-repeat center center!important;
+}
+.diigotb-body #diigotb-text div{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-font.png') no-repeat center center!important;
+}
+	
+.diigotb-body #diigotb-arrow div{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-arrow.png') no-repeat center center!important;
+}
+	
+.diigotb-body .diigotb-sep{
+	background: transparent url('chrome://diigotb/skin/ann-bar-bg-separator.png') no-repeat center center!important;
+}
+	
+.diigotb-body #diigotb-undo div{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-undo-disabled.png') no-repeat center center!important;
+}
+	
+.diigotb-body #diigotb-capture-save div{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-quickly-save.png') no-repeat center center!important;
+}
+	
+	
+	
+.diigotb-body #diigotb-upload-resizer div {
+  position: absolute!important;
+  width: 9px!important;
+  height: 9px!important;
+  /*background-color: white;*/
+  z-index:11000002!important;
+  margin:0px!important;
+  background:transparent url(chrome://diigotb/skin/spot.png) no-repeat scroll left center!important;
+}
+
+.diigotb-body #diigotb-upload-resizer div.gleft {
+  left: -9px!important;
+}
+
+.diigotb-body #diigotb-upload-resizer div.gtop {
+  top: -9px!important;
+}
+
+.diigotb-body #diigotb-upload-resizer div.gright {
+  right: -9px!important;
+}
+
+.diigotb-body #diigotb-upload-resizer div.gbottom {
+  bottom: -9px!important;
+}
+
+.diigotb-body #diigotb-upload-resizer div.ghor {
+  margin-left: auto!important;
+  margin-right: auto!important;
+  left: 0px!important;
+  right: 0px!important;
+}
+
+.diigotb-body #diigotb-upload-resizer div.gver {
+  margin-top: auto!important;
+  margin-bottom: auto!important;
+  top: 0px!important;
+  bottom: 0px!important;
+}
+	
+.diigotb-body{
+	padding-top: 31px!important;
+}
+	
+.diigotb-body #diigotb-topbar{
+  background: url(chrome://diigotb/skin/topbar-bg.png) left top repeat-x!important;
+  border-bottom: 1px solid #999!important;
+  color: #555!important;
+  font: 12px/18px Helvetica,Arial,sans-serif!important;
+  height: 30px!important;
+  line-height: 30px!important;
+  position: fixed!important;
+  left: 0!important;
+  top: 0!important;
+  text-align:center!important;
+  z-index:1999999!important;
+}
+
+.diigotb-body #diigotb-msg img{
+  margin:0 5px 0 0!important;
+  vertical-align: middle!important;
+}
+	
+.diigotb-body #diigotb-msg{
+	color:#333!important;
+}
+
+.diigotb-body #diigotb-msg a{
+  color: #0044cc!important;
+  text-decoration: none!important;
+}
+
+.diigotb-body #diigotb-msg a:hover{
+  text-decoration: underline!important;
+}
+
+.diigotb-body #diigotb-escLink{
+  display: block!important;
+  float: right!important;
+  margin: 5px 5px 0 0!important;
+  text-decoration: none!important;
+  width: 50px!important;
+  cursor:pointer!important;
+}
+
+.diigotb-body #diigotb-escLink:hover{
+  text-decoration: underline!important;
+}
+
+.diigotb-body #diigotb-escLink span{
+  background: url(chrome://diigotb/skin/esc-right.png) right top no-repeat!important;
+  display: block!important;
+  padding-right: 9px!important;
+}
+
+.diigotb-body #diigotb-escLink span strong{
+  background: url(chrome://diigotb/skin/esc-left.png) left top no-repeat!important;
+  display: block!important;
+  color: #fff!important;
+  font-weight: 700!important;
+  line-height: 20px!important;
+  text-indent:7px!important;
+}
+	
+	
+
+/*highlight label*/
+.diigoHighlight .diigoHighlightLabel sup {
+	font:normal normal normal 8px/8px "lucida grande",tahoma,verdana,arial,sans-serif;
+	text-decoration:none;
+	background-color:inherit;
+	cursor:default;
+}
+	
+body.diigoHiPen.yellow{
+	cursor:url(chrome://diigotb/skin/highlighter-orange.cur), text !important
+}
+	
+body.diigoHiPen.blue{
+	cursor:url(chrome://diigotb/skin/highlighter-blue.cur), text !important
+}
+
+body.diigoHiPen.green{
+	cursor:url(chrome://diigotb/skin/highlighter-green.cur), text !important
+}	
+	
+body.diigoHiPen.pink{
+	cursor:url(chrome://diigotb/skin/highlighter-pink.cur), text !important
+}
+em.diigoHighlight.type_0.commented {	
+	padding-left:30px;
+}
+	
+/*float note*/
+div.diigoHighlight.type_2 {
+	position:absolute;
+	width:29px;
+	height:36px;
+	text-align:center;
+	background:transparent url('chrome://diigotb/skin/float_icon.png') no-repeat 50% 50%;
+	z-index:9996;
+}
+div.diigoHighlight.type_2.mouseOvered {
+	position:absolute;
+	width:37px;
+	height:31px;
+	text-align:center;
+	background:transparent url('chrome://diigotb/skin/float_icon.png') no-repeat;
+	z-index:9996;
+}	
+div.diigoHighlight.type_2 span {
+	color:#000;
+	font:bold 13px Arial, Helvetica, sans-serif;
+	cursor: default;
+	line-height: 37px;
+	text-shadow: #fff 0 1px 0;
+}
+/*
+* html div.diigoHighlight.type_2{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src="http://www.diigo.com/javascripts/webtoolbar/images/float_icon.png");
+	overflow:hidden;
+	background:none;
+}
+*/
+	
+
+div.diigoIcon.commented.TextIcon.diigoEdit{
+	background-repeat:no-repeat !important;
+	background-position:right !important;
+}
+
+	
+div.diigoIcon.commented.ImageIcon.diigoEdit{
+	background-repeat:no-repeat !important;
+	background-position:right !important;
+}
+
+
+/*mouse over effect*/
+/*
+.diigoHighlight.id_190e5778b533dc0fa1b1660653a4f6f5 {outline: 2px dotted green !important;}
+*/
+div.diigoIcon{
+	cursor:pointer !important;
+	margin: 0pt; 
+	padding: 0px 0px 0px 0px;
+	position: absolute;
+	display:none;
+	width: 24px !important; 
+	z-index:999999;
+	height: 23px !important;
+	background: transparent url('chrome://diigotb/skin/edit-highlight.png') no-repeat left;
+}
+
+div.diigoIcon span{
+	color:#000000;
+	display:block;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:13px;
+	font-weight:700;
+	line-height:18px;
+	text-align:center;
+	text-shadow:0 1px 1px #FFFFFF;
+}
+
+div.diigoIcon.commented.ImageIcon{
+	display:block !important;
+	background-color: transparent !important;
+}
+	
+div.diigoIcon:hover{
+	background-background: transparent !important;
+	background-repeat:no-repeat !important;
+	background-position:right !important;
+}
+	
+div.diigoIcon.commented.TextIcon{
+	display:block !important;
+	left:0;
+	bottom:0;
+}
+	
+div.diigoIcon.commented.public{
+	background: #FFFFFF url('chrome://diigotb/skin/public-annotation.png') no-repeat left;
+}
+
+div.diigoIcon.commented.private{
+	background: #FFFFFF url('chrome://diigotb/skin/private-annotation.png') no-repeat left;
+}
+	
+div.diigoIcon.commented.group{
+	background: #FFFFFF url('chrome://diigotb/skin/group-annotation.png') no-repeat left;
+}
+	
+/*Clip video*/
+div.diigoClipVideo{
+	float:left;
+	height:16px;
+	padding:0 16px 0 6px;
+	background:#f5f5f5 url(chrome://diigotb/skin/toolbar-clip-bg.gif) no-repeat right 0;
+	border:1px solid #ccc;
+	border-bottom-width:0;
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	z-index:999;
+	position:absolute;
+}
+
+div.diigoClipVideo.clipped {
+  background-position: right -32px; left: 717px; top: 135px;
+}
+
+	div.diigoClipVideo span{
+		font-weight:bold;
+		font-size:10px;
+		line-height:16px;
+		text-decoration:underline;
+		color:#03f;
+		cursor:pointer;
+		margin-right:6px
+	}
+	div.diigoClipVideo span:hover,div.diigoClipVideo span:active{
+		color:#00f
+	}
+	/*.diigolet input{
+		font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+		font-size:9px;
+	}*/
+	
+/*-----------notice msg--------------*/
+.diigotb-notice-img  {
+	float:left!important;
+	height:16px!important;
+	width:16px!important;
+	margin-top:6px!important;
+	margin-right:3px!important;
+}
+.success .diigotb-notice-img{
+	background:url("chrome://diigotb/skin/notice-icons.png") no-repeat scroll 0 0 transparent!important;
+}
+.failed .diigotb-notice-img{
+	background:url("chrome://diigotb/skin/notice-icons.png") no-repeat scroll -16px 0 transparent!important;
+}
+.info .diigotb-notice-img{
+	background:url("chrome://diigotb/skin/notice-icons.png") no-repeat scroll -32px 0 transparent!important;
+}
+.process .diigotb-notice-img{
+	background:url("chrome://diigotb/skin/processing.gif") no-repeat scroll left 0 transparent!important;
+}	
+	
+.diigotb-notice-msg-rt  {
+	background:url("chrome://diigotb/skin/notice-bar-2-bg-left.png") no-repeat scroll left bottom transparent!important;
+	line-height:28px!important;
+	padding-left:10px!important;
+	height:30px!important;
+}
+.failed .diigotb-notice-msg-rt  {
+	background:url("chrome://diigotb/skin/notice-bar-2-bg-left.png") no-repeat scroll left top transparent!important;
+}
+	
+.diigotb-notice-close{
+	float:right!important;
+	height:16px!important;
+	width:16px!important;
+	margin-left:20px!important;
+	margin-top:6px!important;
+	cursor:pointer;
+	background:url("chrome://diigotb/skin/notice-icons.png") no-repeat scroll -48px 0 transparent!important;
+}
+
+.diigotb-notice-close:hover{
+	background-position: -63px 0!important;
+}
+	
+.diigotb-notice-msg  {
+	background:url("chrome://diigotb/skin/notice-bar-2-bg-right.png") no-repeat scroll right bottom transparent!important;
+	float:right!important;
+	height:30px!important;
+	padding:0 11px 0 0!important;
+	border: none!important;
+	margin:0!important;
+	position:fixed!important;
+	font:12px/14px Helvetica,Arial,sans-serif!important;
+	z-index:100000!important;
+}
+.diigotb-notice-msg a {
+	color:#0044cc!important; 
+	text-decoration:underline!important;
+}
+	
+.failed.diigotb-notice-msg  {
+	background:url("chrome://diigotb/skin/notice-bar-2-bg-right.png") no-repeat scroll right top transparent!important;
+}
+	
+}
+
+
+@media print{
+em.diigoHighlight.a, em.diigoHighlight.b, em.diigoHighlight.c {
+	border-bottom:0.5pt dashed Black;
+}
+
+
+/*image highlight*/
+/*no inline comments*/
+img.diigoHighlight {
+	border:0.5pt dashed Black
+}
+
+/*float note*/
+div.diigoHighlight.type_2 {
+	display:none
+}
+div.diigoHighlight.type_2 span {
+	display:none
+}
+}</style>
+  </head>
+
+<body bgcolor="#faebd7">
+<img src="../gfx/denmark.gif" width="30">
+<img src="../gfx/finland.gif" width="30">
+<img src="../gfx/iceland.gif" width="30">
+<img src="../gfx/norway.gif" width="30">
+<img src="../gfx/sweden.gif" width="30">
+<h1>NCPC 2010 Registered Teams</h1>
+
+
+<i>A total of 227 teams have registered so far.</i>
+<hr>
+<h3>DM i Programmering København</h3>
+<ol>
+<li>
+<b>Team 42</b><br>
+Mathias Svensson, Kristoffer Søholm, Kasper Brandt <i>- Datalogisk Institut på Københavns Universitet</i><br><br>
+</li>
+<li>
+<b>Programming Acrobats Supreme</b><br>
+Henrik Alsing Pedersen, Frederik Meisner Madsen, Danni B Schou <i>- DTU - Danmarks Tekniske Universitet</i><br><br>
+</li>
+<li>
+<b>Study Buddies</b><br>
+Jesper Hellesø Hansen, Allan Riordan Boll, Jakob Kragelund <i>- DTU - Danmarks Tekniske Universitet</i><br><br>
+</li>
+<li>
+<b>Angrebsaber</b><br>
+Martin Tange, Mikkel Bojsen <i>- DTU - Danmarks Tekniske Universitet</i><br><br>
+</li>
+<li>
+<b>SAJ</b><br>
+Jens Hertz, Sune Keller, Anders Pedersen <i>- DTU - Danmarks Tekniske Universitet</i><br><br>
+</li>
+<li>
+<b>Lambdabamserne</b><br>
+Søren Dahlgaard, Mathias Bæk Tejs Knudsen, Sebastian Paaske Tørholm <i>- Datalogisk Institut på Københavns Universitet</i><br><br>
+</li>
+<li>
+<b>Team Hardcoded</b><br>
+Anders Handler, Daniel Winther, Dennis Noer <i>- DTU - Danmarks Tekniske Universitet</i><br><br>
+</li>
+<li>
+<b>O(RLY)</b><br>
+Helge Munk Jacobsen, Tim Garbos, Rasmus Malthe Jørgensen <i>- DTU - Danmarks Tekniske Universitet</i><br><br>
+</li>
+<li>
+<b>InsertTeamNameHere</b><br>
+David Kofoed Wind, Theis Iversen, Jens Christian Hillerup <i>- DTU - Danmarks Tekniske Universitet</i><br><br>
+</li>
+<li>
+<b>Knights of the std c++ libraries</b><br>
+Andreas Mieritz, Christian Moesgaard <i>- DTU - Danmarks Tekniske Universitet</i><br><br>
+</li>
+<li>
+<b>The Dirty Chipmunks</b><br>
+Klaus Kristoffersen, Philip Hansen, Tobias Jeppe <i>- DTU - Danmarks Tekniske Universitet</i><br><br>
+</li>
+<li>
+<b>It's Dangerous to Code Alone</b><br>
+Andrei Lissovoi, Attila Sükösd <i>- DTU - Danmarks Tekniske Universitet</i><br><br>
+</li>
+<li>
+<b>They came from /dev/null</b><br>
+Artavazd  Hakhverdyan, Dario  Bertini <i>- Syddansk Universitet</i><br><br>
+</li>
+<li>
+<b>Can you give me a few pointers?</b><br>
+Mathias Hansen, Emil Møller, Sune Kristian Jakobsen <i>- DTU - Danmarks Tekniske Universitet og KU - Københavns Universitet</i><br><br>
+</li>
+</ol>
+<hr>
+<h3>DM i Programmering Århus</h3>
+<ol>
+<li>
+<b>All Your Bacon Are Belong To Us</b><br>
+Troels Leth Jensen, Reynir  Reynisson, Jacob Harris Cryer Kragh <i>- Aarhus Universitet</i><br><br>
+</li>
+<li>
+<b>This could be your advert</b><br>
+Jesper Nielsen, Jana Kunert, Mads Pedersen <i>- Aarhus Universitet</i><br><br>
+</li>
+<li>
+<b>Entities</b><br>
+Jacob Hougaard, Ole Rasmussen, Kasper Sørensen <i>- Aarhus Universitet</i><br><br>
+</li>
+<li>
+<b>Followers of Knuth</b><br>
+Thor Prentow, Bjarke Bondo Andersen <i>- Aarhus Universitet</i><br><br>
+</li>
+<li>
+<b>cDNA</b><br>
+Jesper Nielsen, Paula Tataru, Yu Qian <i>- Aarhus Universitet</i><br><br>
+</li>
+<li>
+<b>Followers of Stallman</b><br>
+Jakob Truelsen, Troels Vognsen <i>- SCALGO and Aalborg Universitet Esbjerg</i><br><br>
+</li>
+<li>
+<b>DAIMI Oldboys Kodning</b><br>
+Mark Greve, Kristoffer Arnsfelt Hansen, Gerth Stølting Brodal <i>- Aarhus Universitet</i><br><br>
+</li>
+<li>
+<b>Team ATJ</b><br>
+Jørgen Fogh, Troels Toftebjerg Hansen, Anders Egerup Halager <i>- Aarhus Universitet</i><br><br>
+</li>
+<li>
+<b>Algorithmically Challenged</b><br>
+Lasse Deleuran, Freek van Walderveen, Rocio Santillan Rodriguez <i>- Aarhus Universitet</i><br><br>
+</li>
+<li>
+<b>:!emacs &lt;Enter&gt; C-x M-c M-butterfly</b><br>
+Rasmus Ibsen-Jensen, Casper Kejlberg-Rasmussen, David Kjær <i>- Aarhus Universitet</i><br><br>
+</li>
+<li>
+<b>Followers of Tarjan</b><br>
+Allan Jørgensen, Nodari Sitchinava, Pooya Davoodi <i>- Aarhus Universitet</i><br><br>
+</li>
+<li>
+<b>Run Silent, Run Deep</b><br>
+Daniel Andersson, William Hesse, Florian Loitsch <i>- -</i><br><br>
+</li>
+<li>
+<b>Team Double Dog</b><br>
+Jesper Broni Andersen, Morten Søgård Jensen <i>- Aarhus Universitet</i><br><br>
+</li>
+</ol>
+<hr>
+<h3>Aalto University</h3>
+<ol>
+<li>
+<b>SegfaulttAS</b><br>
+Konsta Hölttä, Antti Kangasrääsiö, Jaakko Kantojärvi <i>- Aalto University</i><br><br>
+</li>
+<li>
+<b>Amit&amp;Vikash</b><br>
+Amit  Soni, Vikash Jha <i>- Aalto University</i><br><br>
+</li>
+<li>
+<b>signal(SIGSEGV, SIG_IGN);</b><br>
+Antti Tuomi, Raimo Nikkilä, Petteri Koivumäki <i>- Aalto University</i><br><br>
+</li>
+<li>
+<b>Ihan sama</b><br>
+Lari Sinisalo, Nuutti Hölttä, Toni Huttunen <i>- Aalto University</i><br><br>
+</li>
+<li>
+<b>Team A</b><br>
+Kristian Mört, Vertti Rapeli, Kimmo Kärkkäinen <i>- Aalto University</i><br><br>
+</li>
+</ol>
+<hr>
+<h3>University of Helsinki</h3>
+<ol>
+<li>
+<b>123abbaabba</b><br>
+Mika Urtela, Topi Musto, Ossi Saresoja <i>- University of Helsinki</i><br><br>
+</li>
+<li>
+<b>jar</b><br>
+Riikka Ruuth, Joni Virtanen, Anni Hartikainen <i>- University of Helsinki</i><br><br>
+</li>
+<li>
+<b>oneal</b><br>
+Tuomo Lempiäinen, Pekka Mikkola, Aki Reijonen <i>- University of Helsinki</i><br><br>
+</li>
+<li>
+<b>Bubble Sorters</b><br>
+Mikko Sysikaski, Mika Laitinen, Aleksi Hartikainen <i>- University of Helsinki</i><br><br>
+</li>
+<li>
+<b>saxrollers</b><br>
+Santtu Keskinen, Jussi Kokkala <i>- University of Helsinki</i><br><br>
+</li>
+</ol>
+<hr>
+<h3>Háskólakeppnin í forritun - Reykjavik University</h3>
+<ol>
+<li>
+<b>Snudda</b><br>
+Hjálmar Leó Einarsson, Arelíus Sveinn Arelíusarson, Pétur Haukur Jóhannesson <i>- Reykjavik University</i><br><br>
+</li>
+<li>
+<b>Hamar Thors</b><br>
+Brynjar Magnusson, Hamidreza Pourvatan, Coming soon  <i>- Reykjavik University</i><br><br>
+</li>
+<li>
+<b>arg</b><br>
+Gunnar Cortes, Ragnar Lárus Sigurðsson, Arnór Barkarson <i>- Reykjavik University</i><br><br>
+</li>
+</ol>
+<hr>
+<h3>Háskólakeppnin í forritun - University of Iceland</h3>
+<ol>
+</ol>
+<hr>
+<h3>Molde University College</h3>
+<ol>
+<li>
+<b>Gimø Folkehøgskule Algoritmeteam</b><br>
+Charlotte Gimø Nordberg <i>- Gimø Folkehøgskule</i><br><br>
+</li>
+</ol>
+<hr>
+<h3>NTNU</h3>
+<ol>
+<li>
+<b>iEEE</b><br>
+Espen Olsen, Espen Sande, Eirik Jenssen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Memory Leak</b><br>
+Tormod Ryeng, Hallvard Norheim Bø, Åsmund Eldhuset <i>- dSafe, Bekk, NTNU</i><br><br>
+</li>
+<li>
+<b>Kings of NYNEX</b><br>
+Kjetil Ørbekk, Erlend Hamberg, John Helge Anthony <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>for ( Problem p : problems ) solve_problem(p);</b><br>
+Trond Klakken, Magnus Sellereite Fjell, Thor Kristian Valderhaug <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Team Cacophony</b><br>
+Ruben Spaans <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>unoriginal slackers</b><br>
+Andreas Nordahl, Mats Ellingsen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>MasterChiefs</b><br>
+Fredrik Nygård Carlsen, Jan-Preben Mossin, Sebastian Bøe <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>// TODO: Implement team name here</b><br>
+Bjørn Christian Seime, Joakim Andersson, Benjamin Bjørnseth <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>&lt;{{{{&gt;&lt; ASCIIphisk 2.o - REBoRN</b><br>
+Martin Tobias Holmedahl Sandsmark, Stian Møllersen, Pål Thomassen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Coffee, coding and cookies!</b><br>
+Kjetil  Mehl, Stian Liknes, Matthew Guise <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>THUNDERFAP</b><br>
+Erlend Haugsdal, Jonas Eikli, Malin Berg <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Lotto</b><br>
+Andreas Hammar, Erik Smistad, Olav Bjørkøy <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Fatal Failure</b><br>
+Ole-Petter Olsen, Lars Solvoll Tønder <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>NTNU Gabongforening Programmeringdivisjon</b><br>
+Emil Taylor Bye, Audun Eple Skjervold, Odd Magnus Trondrud <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>The Stackpoopers</b><br>
+Erik Kvanli, Terje Runde, Eirik Mildestveit Hammerstad <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>getName()</b><br>
+Sverre Haga, Andreas Oppebøen, Håkon Hitland <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>, or something...</b><br>
+Ola Martin Støvneng, Jørgen Nordmoen, Magnus Kirø <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Wizards of Oz</b><br>
+Morten Gjendemsjø, Lars Kirkholt Melhus, John Magne Røe <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Bit for Bit</b><br>
+Ivar Urdalen, Stian Valentin Eriksen-Deinhoff, Anders Brekke <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>PaperProgrammers, 0 by 0</b><br>
+Bjørn Fevang, Jan Eriksson, Vegard Johannessen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>ohome build</b><br>
+Hans Christian Falkenberg, Truls Amundsen Bjørklund, Ingar Saltvik <i>- MSFT</i><br><br>
+</li>
+<li>
+<b>Proper Subset of GBB</b><br>
+Stian Kristoffersen, Erik Bakken, Bjørn Erik Loeng <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Ninja Kittens</b><br>
+Filip Dovland, Henrik Rønnekleiv <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Java Crash Test Dummies</b><br>
+Vilius Kazakauskas, Hans Olav Slotte, Asgeir Aakre <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Binary Sudoku Solvers SE</b><br>
+Bjørn Rustad, Per Ove Ringdal, Simen Natvig <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Brainfucked</b><br>
+Magnus Botnan, Geir Bogfjellmo, Geir-Arne Fuglstad <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>ಠ_ಠ ಠ_ಠ ಠ_ಠ</b><br>
+Kristian Veøy, Magnus Haug, Fredrik Ludvigsen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>IDDQD</b><br>
+Halvor Strand, Mikael Finstad <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>ID-Ten-T Error</b><br>
+Jan Alexander S. Bremnes, Stig Tore  Johannesen, Håvard Tørresen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Team Aylar</b><br>
+Martin Kirkholt Melhus, Philip Røst Wehinger, Marius Thoresen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>DEADBEEF</b><br>
+Eivind Larsen, Nicklas Utgaard, Fredrik Åsgård <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>piiviiviinubs</b><br>
+Andreas Lindahl Flåten, Torje Digernes, Mathias Arbo <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>nooblol = new nooblol;</b><br>
+Ragnar Stuhaug, Haakon Christopher Bakka, Aksel Wilhelm Wold Eide <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Team Ultra-Super-Hyper-Duper-Über-Mega-Giga-Fantastic-Tera-CODEZORZ!!!11one</b><br>
+Lars-Ivar Hesselberg Simonsen, Nicolaj Broby Petersen, Tord Øygard <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>WC4P</b><br>
+Anders Sandvik, Thomas Rootwelt <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Spiders in Space</b><br>
+Dag Einar Monsen, Patrick Romstad, John Edvard Reiten <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Nebbdyr Fighting</b><br>
+Frederik Leira, Mikkel Antonsen, Håvard Håkon <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>malloc ( pow( 2, 64) )</b><br>
+Mads Sandvei <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Sheldoneers</b><br>
+Eirik Jenssen Daling, Per-Kristian Helland, Åshild Kaldahl Thorrud <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>The Dining Philosophers</b><br>
+Edvard Kristoffer Karlsen, Emil Kverndal, Magne Vikjord <i>- HiST, HiST, NTNU</i><br><br>
+</li>
+<li>
+<b>Team LAWL</b><br>
+Jonas Amundsen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Team BigDecimal Rainbow</b><br>
+David  Åse, Vegar Engen, Aleksander Heintz <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Team EMP</b><br>
+Mats Julian Olsen, Edvard  Hove, Petter Langlete <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Cow-a-bunga!!!</b><br>
+Tor Fredrik Eriksen, Susanne Moseby, Gaute Nordhaug <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Bloomin' Octagons</b><br>
+Alexander Larsen, Per Kristian Kummermo, Rolf Erik  Gjeldnes <i>- Høgskolen i Sør-Trøndelag</i><br><br>
+</li>
+<li>
+<b>Trollface</b><br>
+Erik Lothe, Anders Palfi, Tom Glover <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Aut disce aut discede</b><br>
+Tor Storruste, Andreas Eriksen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Fredrick&amp;Øyvind</b><br>
+Fredrick Strøm, Øyvind Kheradmandi <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Meh</b><br>
+Petter Westby, Håvar Fosstveit <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>The Expandables</b><br>
+Håkon Wikene, Trygve Aaberge, Aleksander Aas Sjåfjell <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>The Java Suicide Squad</b><br>
+Erik Samuelsson, Trond Østensen, Simen Fivelstad Smaaberg <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>camelCase</b><br>
+Jonas Svarvaa, Carl-Erik Hagelien <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Janus EDB</b><br>
+Halfdan Bondevik, Pål Christian Njølstad, Steinar H. Fretheim <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Coffee Overflow</b><br>
+Alexander Asplund, Stephan Eriksen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>hei_0</b><br>
+Fedor Fadeev <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>The Floyd-Warshalls</b><br>
+Elias Aamot, Mads Opheim, Roger André Søraa <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Moles and Men</b><br>
+Yngve Svalestuen, Andreas Morland, Kenneth Krogh <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Til Valhall!</b><br>
+Eivind Bjørkelund, Robert Versvik <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>The pointer of no return</b><br>
+Johan Jansen, Anders Eie <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>The Conopticons</b><br>
+Erik Åldstedt Sund, Ivan Nedrehagen, Børge Bjørnli Nygård <i>- Conoptica AS</i><br><br>
+</li>
+<li>
+<b>NTNU-Nafis</b><br>
+Nafiseh Shabib, Nooshin  Aghajani <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Extraordinary Coral Masters</b><br>
+Christian Håland, Torbjørn Aase <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>2b || ! 2b</b><br>
+Jean Niklas L'orange, Christer Emil Haga Bru, Jens Takle <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Severe Beta</b><br>
+Martin A. Juell, Johannes H. Jensen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>public double penetration;</b><br>
+Joel Chelliah, Snorre Corneliussen, Magnus Westergaard <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Logical conjunction</b><br>
+Andreas H. Ulltveit-Moe, Martin Ellefsrød <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>The Sheldon Cooper Appreciation Society</b><br>
+Samuel Wejéus, Rune Vikestad,  Karl Mardoff Kittilsen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>↑ ↑ ↓ ↓ ← → ← → B A (Start)</b><br>
+Andreas Kalvå, Ragnar Ranøyen Homb, Andreas  Sperre <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>han e'kje så stor som dokkar har hørt</b><br>
+John-erik Johansen, Kristian Laskemoen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Fredrik og krill tørte ikke være med!</b><br>
+Espen Jacobsson, Tri Nguyen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>kjøleskapet vil bli ryddet lørdag 25. september</b><br>
+Bjørn Theisen, Rune Aas <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>epicfail, part 3</b><br>
+Bent Ove Stinessen, Asle Dragsten Liebech, Kristian Døvik <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Sponset av 'TBA'</b><br>
+Kjetil Babington, Torbjørn Morland, Gunnar Inge Gjøvik Sortland <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>The Royal Society for Putting Pointers on Top of Other Pointers so that They Make a Neat Little Stack of Pointers.</b><br>
+Thomas Tøkje, Tore Egil Halse, Bjørn Eirik Benjaminsen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>General this.array</b><br>
+Einar Uvsløkk, Tom Eirik Slettahjel <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Bugorama</b><br>
+Jim Frode Hoff <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Scissors cuts paper, paper covers rock, rock crushes lizard, lizard 
+poisons Spock, Spock smashes scissors, scissors decapitates lizard, 
+lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as 
+it always has, rock crushes scissors</b><br>
+Simon Litlehamar, Charlie Midtlyng, John-Erik Johansen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Team America</b><br>
+Georgy Ushakov, Andreas Johnsen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>Team Eirik</b><br>
+Eirik Marthinsen <i>- NTNU</i><br><br>
+</li>
+<li>
+<b>2 Guys 1 Team</b><br>
+Imre Kerr, Didrik Jonassen <i>- NTNU</i><br><br>
+</li>
+</ol>
+<hr>
+<h3>University of Bergen</h3>
+<ol>
+<li>
+<b>Terje Vigen og de Underlig Gråsprængte</b><br>
+Torbjørn Tessem, Torgeir Grønning, Alexander Rosbach <i>- University of Bergen</i><br><br>
+</li>
+<li>
+<b>Team&lt;Awesome&gt; team = new Team&lt;Awesome&gt;(this);</b><br>
+Knut Karevoll, Haakon Løtveit Løtveit, Tore Myklebust <i>- University of Bergen</i><br><br>
+</li>
+<li>
+<b>Har'kje snøring</b><br>
+Magnar Myrtveit, Kristian Haaga <i>- University of Bergen</i><br><br>
+</li>
+<li>
+<b>*blank*</b><br>
+Erik Parmann, Pål Grønås Drange, Sigve Hortemo Sæther <i>- University of Bergen</i><br><br>
+</li>
+<li>
+<b>LOAD"*",8,1</b><br>
+Yngve Ådlandsvik <i>- University of Bergen</i><br><br>
+</li>
+</ol>
+<hr>
+<h3>University of Oslo</h3>
+<ol>
+<li>
+<b>NoImaginationException</b><br>
+Andreas Kleppe, Håvard Geithus <i>- University of Oslo</i><br><br>
+</li>
+<li>
+<b>Team Steria</b><br>
+Eirik Reksten, Cuong Huu Truong, Kandeeban Arumugam <i>- Steria</i><br><br>
+</li>
+<li>
+<b>daemon</b><br>
+Espen Skafuel, Thomas Bølstad Martinsen, Erling Magnus Haugstad <i>- Oslo University College</i><br><br>
+</li>
+<li>
+<b>++c;</b><br>
+Markus Dregi, Torgeir Børresen, Jing Kjeldsen <i>- University of Oslo</i><br><br>
+</li>
+<li>
+<b>Clearly the Cleverest Sheep</b><br>
+Erlend Kristiansen, Håkon Olav Østerbø, Emil Mogstad <i>- University of Oslo</i><br><br>
+</li>
+<li>
+<b>ALT</b><br>
+Lars Jahr  Røine, Torkil  Vederhus, Anders  Johansen <i>- University of Oslo</i><br><br>
+</li>
+<li>
+<b>3 ninja kids</b><br>
+Ståle Zerener Haugnæss, Mathis Kappeler, Martin Vonheim Larsen <i>- University of Oslo</i><br><br>
+</li>
+<li>
+<b>I want this. Not that. Right now.</b><br>
+Mads Høgberget, Simon Lergenmuller, Andreas Stusvik <i>- University of Oslo</i><br><br>
+</li>
+<li>
+<b>Tanraku-masters</b><br>
+Sigmund Hansen, Khiem Ho Xuan, Håkon Normann <i>- University of Oslo</i><br><br>
+</li>
+<li>
+<b>BBB</b><br>
+Andreas Hamre, Ole Marius Hoel Rindal <i>- University of Oslo</i><br><br>
+</li>
+<li>
+<b>fail0rz</b><br>
+Liv Denstad, Jørgen Høgberget, Vu Duy Pham <i>- University of Oslo</i><br><br>
+</li>
+<li>
+<b>Lumpex</b><br>
+Peter Marcinkowski, Edward Alexander Eriksen <i>- University of Oslo</i><br><br>
+</li>
+<li>
+<b>Team Awsome!</b><br>
+Tore Olav Ness, Torbjørn Sørby, Magnus Kristoffersen <i>- University of Oslo</i><br><br>
+</li>
+<li>
+<b> - Ape (2) drepte mann med kokosnøtt</b><br>
+Nikolai Hansen, Leif Harald Karlsen, Eindride Ilmari Kjersheim <i>- University of Oslo</i><br><br>
+</li>
+<li>
+<b>Mathemagic</b><br>
+John Mikael  Modin, Christian  Strandenæs, Gabriel Balaban <i>- University of Oslo</i><br><br>
+</li>
+<li>
+<b>Norgesmesterne</b><br>
+Salman Sohail Khawaja, Haakon Johan Sperre, Per Richard Næss <i>- Oslo University College</i><br><br>
+</li>
+<li>
+<b>Ubbu</b><br>
+Øyvind Ødegård, Sindre Moen <i>- NITH</i><br><br>
+</li>
+<li>
+<b>Nord-vestlig frisk bris</b><br>
+Ola Liabøtrø, Jarle Stavnes, Karl Erik Holter <i>- University of Oslo</i><br><br>
+</li>
+<li>
+<b>dead ^ alive</b><br>
+Stian Valle, Tony Valle <i>- University of Oslo</i><br><br>
+</li>
+<li>
+<b>AbstractNameFactory.getInstance().generateName()</b><br>
+Jonathan Lillesæter, David Kristensen, Stian  Hole Nesbø <i>- University of Oslo</i><br><br>
+</li>
+</ol>
+<hr>
+<h3>Chalmers</h3>
+<ol>
+<li>
+<b>Team Zoidberg</b><br>
+Arash Rouhani, Fredrik Brosser, Rikard Lundmark <i>- Chalmers</i><br><br>
+</li>
+<li>
+<b>Klåparna från Java</b><br>
+Torbjörn Wästerlid, Staffan Ankardal, Anton Johansson <i>- Chalmers</i><br><br>
+</li>
+<li>
+<b>dgrupp9</b><br>
+Niklas Ulvinge, Krister Svanlund, Phillip Irri <i>- Chalmers</i><br><br>
+</li>
+<li>
+<b>Team Bååth-Sjöblom</b><br>
+Thomas Bååth-Sjöblom <i>- Chalmers</i><br><br>
+</li>
+<li>
+<b>Lag Ekorre</b><br>
+Dan Rosén, Magnus Jedvert, Anders Martinsson <i>- Chalmers</i><br><br>
+</li>
+<li>
+<b>The pragmatic programmers</b><br>
+Anders Bennehag, Martin Nordström, Carl Nordheim <i>- Chalmers</i><br><br>
+</li>
+</ol>
+<hr>
+<h3>Linköping University</h3>
+<ol>
+<li>
+<b>ELiTHe</b><br>
+Martin Nielsen-Lönn, Jeremia Nyman, Robert Norlander <i>- Linköping University</i><br><br>
+</li>
+<li>
+<b>&gt;&gt;BitShift</b><br>
+Karl Lundfall, Viktor Lövgren, Felix Faber <i>- Linköping University</i><br><br>
+</li>
+<li>
+<b>Mono</b><br>
+Timothy Foster <i>- Blekinge Institute of Technology</i><br><br>
+</li>
+<li>
+<b>0011101000101001</b><br>
+Alexander Faxå, Johan Falk, Johan Serebrink <i>- Linköping University</i><br><br>
+</li>
+<li>
+<b>Double Rainbow?!</b><br>
+Daniel Resman, Niklas Hillgren, Jon Mårdsjö <i>- Linköping University</i><br><br>
+</li>
+<li>
+<b>clanf15kN^</b><br>
+Andreas Ölund, Carl Ehrenstråhle, Sebastian Thorarensen <i>- Linköping University</i><br><br>
+</li>
+<li>
+<b>LiTHest</b><br>
+Daniel Svensson, Martin Erola, Simon Johansson <i>- Linköping University</i><br><br>
+</li>
+<li>
+<b>It's All About The Pentiums</b><br>
+Marc Moussali, Niklas Huss, Fredrik Svensson <i>- Linköping University</i><br><br>
+</li>
+<li>
+<b>McQuack</b><br>
+Christian Olsson, Mikael Leiviskä <i>- Linköping University</i><br><br>
+</li>
+<li>
+<b>Career has arrived</b><br>
+Jonas Hådén, Tim Nordenfur, Benjamin Ingberg <i>- Linköping University</i><br><br>
+</li>
+<li>
+<b>BTH ONE</b><br>
+Johan Svensson, Sakarias Johansson, Christopher Taberman <i>- BTH - Blekinge Tekniska Högskola</i><br><br>
+</li>
+</ol>
+<hr>
+<h3>Lund University</h3>
+<ol>
+<li>
+<b>AL GORE RHYTHMS</b><br>
+Anton Hansson, Linus Tufvesson, Marcus Johansson <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>We're coders, but that's ok</b><br>
+Rasmus Henningsson, Jonatan Wulcan, Robin Karlsson <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Den platta grodan</b><br>
+Mattias Krus, Tomas Christiansson, Mats-Petter Wallander <i>- FlatFrog Laboratories AB</i><br><br>
+</li>
+<li>
+<b>Epic LOL</b><br>
+Dimitrios Vlastaras, Peter Abrahamsson, Aron Lidé <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Team Twerpwadbump</b><br>
+Snild Dolkow, Jon Sturk, Fredrik Persson <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Niklas och gänget är i farten igen!</b><br>
+Andreas Nilsson, Andreas Argelius, Niklas Silfverström <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Lol, vet inte:P</b><br>
+Robert Borg, Richard Simko, Carl Åkerlindh <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Bearnaisesås ν</b><br>
+David Everlöf, Arvid Lindell, Thomas Lidén <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>#define PI 3</b><br>
+Joakim Andersson, Fredrik Andersson, Hannes Nevalainen <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Vi har Emil!</b><br>
+Niklas Lindblad, Emil Fredriksson, Mikael Novén <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>asdasdasd</b><br>
+Anders Månsson, Tobias Lindqvist, Johan Fredriksson <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Team Bad Smell</b><br>
+Cem Eliyürekli, Daniel Gustafsson, Andreas Tågerud <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Änglarna</b><br>
+Lars Gustafson, Daniel Eliasson, Hampus Mauritzon <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>3Guys2Contests</b><br>
+Mattias Ahlström, Anton Risberg Alaküla, Jonathan Hagberg <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Davids M&amp;M</b><br>
+Mikael Sahlström, Mikael Nilsson, David Jönsson <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>opponents.clear();</b><br>
+Filip Karlsson, Linus Karlsson, Jimmy Assarsson <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Lars-åke</b><br>
+Andreas Salomonsson <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>The Executables</b><br>
+Jonas Nolte, Emil Selinder, Max Strandberg <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>fulhack</b><br>
+Johan Lindqvist, Ola Bäcker, Mats Rydberg <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Sparky Friends</b><br>
+André Nilsson, Sara Nilsson, Jesper Mattsson <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>sudo make me a sandwich</b><br>
+Christian Lindgren, Linus Svensson, Niklas Claesson <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Smurfarna</b><br>
+Anders Rehn, Mahmoud Nasser, Victor  Johnsson <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Cute Kittens</b><br>
+Carl Ekerot, Christopher Käck, Fredrik  Strandin <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Per Holms änglar</b><br>
+Daniel Ohlsson, Daniel Lehtonen <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Chunky Baconeers</b><br>
+Christoffer Sawicki, Bengt Ericsson <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>JOLT</b><br>
+Christopher Jonsson, Maj Stenmark, Johnny  Sjöberg <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>The Legion</b><br>
+Kristian Rönn, Jakob Berglund, Filip Lindqvist <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>thereIsNoSuchErrorException()</b><br>
+Petter Lindholm, Simon Frennberg, Erik Wallenborg <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Synchronized Onez</b><br>
+Jonas Kristensson, Christer Ebbesson, Sebastian Cato <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Vi har i alla fall (haft) flickvän!</b><br>
+Edward Dunn Ekelund, Björn Norrliden, Patrik Pochill <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>TeamKudde</b><br>
+Victor Albrecht, Pontus Jonsson, Anton Martinsen <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Double Trouble</b><br>
+Ola Hugosson, Petter Ericson <i>- Anoto</i><br><br>
+</li>
+<li>
+<b>Segmentation Fault</b><br>
+Jimmy Pettersson, Axel Antonsson, Sofia Hörberg <i>- Lund University</i><br><br>
+</li>
+<li>
+<b>Dark Templar/Mothership</b><br>
+Gustav Sällberg, Peter Seimar, Axel Keskikangas <i>- Lund University</i><br><br>
+</li>
+</ol>
+<hr>
+<h3>Umeå University</h3>
+<ol>
+<li>
+<b>fest</b><br>
+Simon Sandström, Maximilian Paju <i>- Umeå University</i><br><br>
+</li>
+<li>
+<b>Zoo</b><br>
+Petter Ericson, Lucas Lindström, Emil Rönnbäck <i>- Umeå University</i><br><br>
+</li>
+<li>
+<b>Liandri Mining Corporation</b><br>
+Lars Viklund <i>- Umeå University</i><br><br>
+</li>
+<li>
+<b>Alpha-beta pruned</b><br>
+Rickard Westerlund <i>- Umeå University</i><br><br>
+</li>
+<li>
+<b>JustABunchOfErrors</b><br>
+Lennart Steinvall, Björn Engström <i>- Umeå University</i><br><br>
+</li>
+<li>
+<b>UMIT</b><br>
+Mona Forsman, Stefan Hedman,     <i>- Umeå University</i><br><br>
+</li>
+</ol>
+<hr>
+<h3>KTH - Royal Institute of Technology</h3>
+<ol>
+<li>
+<b>De Kattlika Djuren</b><br>
+Michael Hjortholt, Pärham Fazelzadeh Hashemi, Jon Nilsson <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Jargoons</b><br>
+David Schlyter, Osvald Ivarsson, Niklas Bäckström <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Folkets befrielsearmé</b><br>
+Tobias Widén, Tobias Svensson, Andreas Pålsson Widén <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>I see what you did there</b><br>
+Nicklas Ansman, Meidi Tõnisson, Andreas Cederholm <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>E.H.M...</b><br>
+Jonas Lindmark, Misael Berrios Salas <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>老虎電腦的過勞 [lǎohǔ diànnǎo de guòláo] Computer Tigers of Stress</b><br>
+Alexander Solsmed, Carl Henrik Klåvus, Martin Berntsson <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Külüllüs</b><br>
+Paul Griffin, Andreas Sjöroos, Rasmus Ansin <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Baka liten kaka</b><br>
+Kristina Nylander, Tobias Evert, Anton Haglund <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Jäger äger</b><br>
+Amaru Cuba Gyllensten, Dan Isacson, Björn Hegerfors <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>! c[_]</b><br>
+Lukas Polacek, Ulf Lundström, Anders Sjöqvist <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Nando</b><br>
+Fernando José Iglesias García <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Moo</b><br>
+Jonas Sundberg, Cecilia Roes, Håkan Terelius <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Pythonkramarne</b><br>
+Emil Lundberg, Jonas Adler, Peda Dizdarevic <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Le Raja</b><br>
+Jonas Aule, Linus Ericsson, Rakiv Ahmed <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Mjölk och cola</b><br>
+Mattias Andrée, Sebastian Valck <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Lag Bernhardsson</b><br>
+Joel Jonsson, Erik Bernhardsson, Carl Nettelblad <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Common People</b><br>
+Petter Eriksson, Simon Lundmark, Emre Berge Ergenekon <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Machine Teaching</b><br>
+Björn Löfroth, Niklas Lundborg, Johan Dalenius <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Nada</b><br>
+André Susano Pinto, Erik Aas <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Meepo</b><br>
+Henrik Ygge, Sebastian Geidenstam <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>Simmarn och hans vänner</b><br>
+Oskar Arvidsson, Oskar Werkelin Ahlin, Edvin Ekblad <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>☃</b><br>
+Joel Bohman, Linus Wallgren, Samuel Lidén Borell <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>You must construct additional Pylons</b><br>
+Anders Westling, Urban Pettersson, Kamil Hakim <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+<li>
+<b>LaC</b><br>
+Thibault Raffaillac <i>- KTH - Royal Institute of Technology</i><br><br>
+</li>
+</ol>
+<hr>
+
+<i><a href="http://ncpc.idi.ntnu.no/ncpc2010/">NCPC web page</a></i>
+</body></html>

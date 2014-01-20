@@ -1,0 +1,99 @@
+a, a.active, a.visited {
+    text-decoration: none;
+}
+img {
+    border-style: none;
+}
+body {
+    color: black;
+    background-color: #dddddd;
+}
+p {
+    text-align: justify;
+}
+p, td, th {
+    font-family: sans-serif;
+    vertical-align: top;
+}
+th {
+    white-space: nowrap;
+}
+h1 {
+    font-size: 50px;
+}
+h1, h2, .center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+h3 {
+    margin: 0px;
+    padding: 3px;
+    padding-left: 10px;
+}
+h4 {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 8px;
+}
+h1, h2, h3 {
+    font-family: sans-serif;
+}
+h1 {
+    padding-top: 20px;
+}
+td, th {
+    vertical-align: top;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.page {
+    color: black;
+    background-color: #ffffff;
+    padding: 20px;
+}
+.divcenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+.head {
+    color: black;
+    background-color: #ddddff;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.inactive, .discreet, .sponcell {
+    color: #aaaaaa;
+    background-color: inherit;
+}
+.discreet, .sponcell {
+    font-size: small;
+}
+.imgcell, .sponcell {
+    text-align: center; 
+    vertical-align: middle;
+    width: 33%;
+    padding: 0px;
+    margin: 0px;
+}
+.sponcell {
+    padding-bottom: 10px;
+}
+.icpctable {
+    color: rgb(0,128,128);
+    background-color: rgb(247,251,251);
+    border: 0;
+    padding: 2px;
+    margin: 0px;
+}
+.icpccell {
+    vertical-align: top;
+    color: #F7FBFB;
+    background-color: #008080;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 3px;
+}

@@ -1,0 +1,358 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
+<head>
+    <title>NCPC PC^2 HOWTO</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="keywords"
+          content="acm,icpc,collegiate,student,programming,contest,norway,norge,
+                   programmering,konkurranse,trondheim,norgesmesterskap,ntnu,
+                   idi,competition,tasks" />
+    <meta name="description" 
+          content="ACM International Collegiate Programming Contest - 
+                   Nordic branch." />
+<!--    <link rel="stylesheet" type="text/css" href="main.css" /> -->
+</head>
+<body>
+    <table align="center" width="750px">
+        <tr>
+            <td class="page">
+
+<h1>Nordic ICPC PC^2 Setup HOWTO</h1>
+
+<table>
+    <tr>
+        <td style="padding-right: 10px;"><a href="NCPC-Site-HOWTO.html">NCPC-Site-HOWTO</a></td>
+        <td style="padding-right: 10px;"><a href="NCPC-PC2-HOWTO.html">NCPC-PC2-HOWTO</a></td>
+        <td style="padding-right: 10px;"><a href="NCPC-Director-HOWTO.html">NCPC-Director-HOWTO</a></td>
+    </tr>
+</table>
+
+<p style="color: red; background-color: inherit">
+    This document is a draft.
+</p>
+
+<h2>The PC^2 contest system</h2>
+<p>
+    PC^2 is a client-server based system that handles submissions during a
+    programming contest. Teams use a team client that allows them to submit
+    solutions to problems and also to submit questions, so called
+    <em>clarification requests</em>. The judges run a judge client that allows
+    them to judge submitted solutions and  answer clarifications. There are two
+    more clients: the administrator, used for defining the contest parameters,
+    including the test data, and the board client which produces a result web
+    page.
+</p>
+<p>
+    Ideally, all sites should use PC^2 configured to handle all sites as part
+    of a single contest. This is the most fair setup since the clarification
+    requests and answers propagate to all teams and judges instantly and
+    automaticly. The main hurdle is that it is difficult to handle situations
+    where some of the clients or servers are behind firewalls or NAT.
+</p>
+<p>
+    Even if you wish to only run judging locally at your site, there are still
+    benefits to be had by using PC^2, so we strongly recommend it.
+</p>
+<p>
+    <strong>Software and documentation</strong> can be found at <a
+        href="http://www.ecs.csus.edu/pc2/">http://www.ecs.csus.edu/pc2/</a>.
+    You will probably want to print a version of both the team guide and the
+    administrators guide. The documentation is quite good and cannot easily be
+    condensed to a single web page. (FIXME: does the what's new document contain info not available in rest of docs?)
+</p>
+<p><strong>Some known issues</strong> follow</p>
+<ol>
+    <li>Servers and clients cannot communicate through firewalls or NAT
+        (see Appendix C).</li>
+    <li>Appendix F.5.2: string1 should be "Yes" to indicate acceptance,
+        (not "Accept"). </li>
+    <li> You need to be careful which working directories you use for judges,
+        the server and the administrator. If these directories are team
+        readable, YOU WILL EXPOSE THE SECRET JUDGE DATA.
+    </li>
+</ol>
+
+<h2>PC^2 installation</h2>
+<p style="color: red">
+    This section will be updated. 
+</p>
+<ol>
+<li><p>
+    Obtain version 8.7 from 
+    <a href="http://www.ecs.csus.edu/pc2/">http://www.ecs.csus.edu/pc2/</a>.
+    It addresses several bugs in versions 8.5 and 8.6. This HOWTO is not
+    compatible with the older versions of PC^2.</p>
+</li>
+<li>
+<p>
+    Unzip PC2 in a publicly readable directory. Should the clients run
+    on independent machiens without access to this directory, then you
+    will have to unzip the PC^2 package on every client machine
+    (judge, team, and administrator machines).  If you are unzipping
+    the .zip file, you probably want to unzip it into an empty
+    directory called pc2 (if you are unzipping the .tar.gz file you'll
+    get such a directory automatically).
+</p>
+</li>
+<li>
+<p>
+    Designate someone to be the <em>admin</em> of PC^2 locally during the setup
+    and actual contest. Create two directories <strong>readable only by the admin</strong>. We
+    will call them serverdir and admindir below. <br /> 
+    <strong>Always start pc2server(.bat) from serverdir</strong> <br /> 
+    <strong>Always start pc2admin(.bat) from admindir</strong> <br /> 
+    Also make a directory (called webdir below) that is www-readable where the
+    scoreboard will be.  
+</p>
+</li>
+<li>
+<p>
+    The pc2-directory contains four init-files: pc2v8.ini,
+    sitelist.ini, policy.ini, reject.ini.  
+</p>
+</li>
+<li>
+<p>
+    pc2v8.ini needs to be customized for your site. You can download a
+    <a href="files/pc2v8.ini">template</a> and follow the comments in
+    that file for how to customize it.  Typically, you will only have
+    to update the <tt>server</tt> entry in the [client] section, and
+    the <tt>site</tt> entries in both the [client] and [server]
+    sections.
+</p>
+</li>
+<li>
+    Move sitelist.ini to serverdir, and make sure the site name you
+    entered in pc2v8.ini is present in the sitelist.ini file.
+</li>
+<li>
+<p>
+    Finally, you need to fix the scripts pc2server(.bat),
+    pc2admin(.bat), pc2judge(.bat), pc2team(.bat), pc2board(.bat)
+    (these scripts are in the pc-2 directory):
+</p>
+<ul>
+<li>
+<p>
+    Move pc2server to serverdir, pc2admin to the admindir, and
+    pc2board to the webdir.
+</p>
+</li>
+<li>
+<p>
+    Make sure that pc2team should is in the "path" of teams, and that
+    pc2judge is in the "path" of judges.
+</p>
+</li>
+<li>
+<p>
+    For all five scripts, modify them so that the Java CLASSPATH includes the
+    pc2-directory. Also, make them copy pc2v8.ini and policy.ini to the current
+    directory when they are invoked. This will facilitate distribution of these
+    files to all team accounts and also allow for easy distribution of any
+    updates in case one file needs fixing, since the team just needs to exit
+    the client and restart it to get a fresh copy. 
+</p>
+</li>
+</ul>
+</li>
+</ol>
+
+<h2>Server setup</h2>
+
+<strong>This setup should be done prior to the contest day.</strong>
+
+<ol>
+
+<li>
+<p>
+The admin starts pc2server from serverdir (Answer 'N' when asked if
+other servers are up) and pc2admin from admindir. Change the password
+for "root" (i.e., the pc2admin user). Then the admin follows the
+instructions in the administrator guide to create accounts for judges,
+board, and teams. Change their passwords as well (and record them).
+</p>
+</li>
+
+<li> <p>When naming the team accounts, make sure you follow the <a
+href="NCPC-Team-Naming.html">Team Naming Conventions</a> </p></li>
+
+</ol>
+
+<p>
+The next steps differ depending on whether you participate in the
+tightly coupled contest or whether you run a stand-alone site.
+</p>
+
+<h3> Tightly coupled sites </h3>
+
+<ol>
+<li>
+<p>
+Replace the sitelist.ini file in serverdir with the <a
+href="files/sitelist.ini">sitelist.ini for the tightly coupled
+contest</a>.  Copy sitelist.ini to serverdir. sitelist.ini
+<strong>must be identical</strong> for all sites participating in the
+tightly coupled contest.
+</p>
+</li>
+<li>
+<p>
+Make sure the <tt>remoteServer</tt> entry in pc2v8.ini is as follows:
+<pre>
+remoteServer=rungner.nada.kth.se:50002
+</pre>
+</p>
+</li>
+<li>
+<p>
+Make sure there are compile scripts for C, C++ and Java.  The
+semantics for these scripts should be as follows (<strong>note</strong> that this applies to both Unix and Windows environments):
+<ul>
+    <li><tt>makeC.bat {:mainfile} {:basename}</tt> produces <tt>{:basename}.exe</tt></li>
+    <li><tt>makeCpp.bat</tt> is just like <tt>makeC.bat</tt> but for C++ programs</li>
+    <li><tt>makeJava.bat {:mainfile} {:basename}</tt> produces <tt>{:basename}.class</tt></li>
+</ul>
+These three scripts need to be in the paths of both contestants and judges.
+</p>
+</li>
+<li><p>(FIXME: add info about run scripts.)</p>
+</li>
+
+<li> <p>Generate a timeouts.ini file containing correct time limits for
+your site (see <a href="#timelimits">below</a> for more details on this). </p> </li>
+
+<li>
+<p>
+Participate in the tightly coupled test conducted prior to the actual
+contest.  
+</p>
+</li>
+
+</ol>
+
+<p>
+You can start the server by changing directory to &lt;server-dir&gt;
+and running the pc2server script. You can stop the server simply by
+killing the process (e.g., ctrl-c).  When the server asks whether
+there already are servers up and running, answering 'Y' will cause it
+to try to connect to the <tt>remoteServer</tt> given in pc2v8.ini, thereby connecting to the tightly coupled contest.
+</p>
+
+
+<h3> Standalone sites </h3>
+
+<p>
+As a standalone site (or as the primary server in the tightly coupled
+contest), you also need to configure the contest languages and
+problems.</p>
+<p>
+For this task, we refer to Chapter 6 of the PC^2 Administrator Guide.
+Some advice:
+</p>
+
+<ul>
+<li>
+Languages: It is not necessary, but usually simpler, to provide
+scripts that compile submissions and scripts used to launch them when
+executing them. Name these scripts when defining languages with the
+pc2admin tool rather than writing out the compilation and execution
+commands in the dialog box, <br /> i.e., <tt>makec.bat {:mainfile}
+{:basename}</tt> rather than <tt>g++ -O {:mainfile} -o
+{:basename}</tt>
+</li>
+
+</ul>
+
+<p>
+    Please consult the administrators guide (PDF included in the PC^2
+    distribution) for further details.
+</p>
+
+
+<h2>Clients: The Administrator</h2>
+<p>
+The pc2admin client is mentioned above under <em>Server
+setup</em>. For further information, consult the
+PC<sup>2</sup>-documentation. 
+</p>
+
+<h2>Clients: Contestants and Judges</h2>
+<p>
+Judges run clients (pc2judge) and so do teams (pc2team). Since the
+server has sensitive inforamtion, it is important that teams and, for
+good measure, judges do not have access to this sensitive
+information. If you are at all uncertain about which directories that
+need protecting, then it may be wiser to make the entire server
+installation unreadable to anyone except the user running the server
+and make a separate installation for teams and judges. In partcular,
+the server will have two databases, one global (containing, among
+other things, the test data) and one local. These must not be readable
+by teams.
+</p>
+<p>
+Do not start two clients from the same directory. This tends to make a
+mess as both team and judge clients use a directory called "execute". If
+two judges use the same account they will be sharing the execute
+directory and bad things will happen!
+</p>
+<p>
+FIXME: Describe how to limit network access. (This would be nice but
+is probably too platform specific to go into.)
+</p>
+
+<h2>Clients: Scoreboard</h2>
+<p>
+The pc2board client collects information to produce a scoreboard. It
+is enough if this client is run at one site in a coupled contest
+(e.g., the primary site), but it is possible to run it locally as
+well. Please consult the documentation, and be aware that som rather
+major changes to the board client functionality occured with version
+8.7. 
+<p>
+When naming the team accounts, make sure you follow the <a
+href="NCPC-Team-Naming.html">Team Naming Conventions</a>. This is
+necessary for the scripts that produce the decorated board with flags
+and university logos. It is also necessary for the scripts that filter
+out national and local standings. 
+</p>
+</p>
+
+
+<h2><a name="timelimits">Setting up time limits for the tightly coupled contest</a></h2>
+
+<p>
+For sites participating in the tightly coupled contest, you need to
+have a local file called <tt>timeouts.ini</tt>, giving the local time
+limits of the respective problems (since these may vary widely from
+site to site).
+</p>
+<p>
+In order to determine time limits, it is probably easiest to use the
+<tt>timelimits++</tt> program available with the problem set.  It runs
+all judge solutions on the secret judge data and determines suitable
+time limits based on these runtimes.  It produces the
+<tt>timeouts.ini</tt> file on standard out.
+</p>
+<p>
+Another option is to construct the <tt>timeouts.ini</tt> file
+manually.  It should consist of a series of lines, each of the form
+"<tt>name = limit</tt>" where <tt>name</tt> is the shortname of the
+problem, and <tt>limit</tt> is the timelimit (in seconds) for this
+problem.  The <tt>timeouts.ini</tt> file can also contain comments,
+which are lines starting with a '<tt>#</tt>' sign.
+</p>
+<p>
+The <tt>timeouts.ini</tt> file needs to be located in the directories
+from which judges start pc2judge.  Typically, you probably want to
+make the pc2judge script copy the <tt>timeouts.ini</tt> file to the
+current directory before starting pc2.
+</p>
+
+
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
