@@ -1,0 +1,18 @@
+<head>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="keywords" content="ncpc,acm,icpc,collegiate,student,programming,contest,nm,sm,vm,programmering" />
+  <meta name="description" content="Nordic Collegiate Programming Contest" />
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/main.css" />
+</head>
+
+<body>
+  <div style="text-align: center;">
+    <table class="divcenter" style="text-align: justify" width="750px">
+      <tr>
+        <td class="page">
+          {{ content }}
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
