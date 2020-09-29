@@ -1,37 +1,22 @@
-<head>
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="keywords" content="ncpc,acm,icpc,collegiate,student,programming,contest,nm,sm,vm,programmering" />
-  <meta name="description" content="Nordic Collegiate Programming Contest" />
-  <link rel="stylesheet" type="text/css" href="../main.css" />
-</head>
-
-<body>
-  <div style="text-align: center;">
-    <table class="divcenter" style="text-align: justify" width="750px">
-      <tr>
-        <td class="page">
-          <h1>{{ page.shortTitle }}</h1>
-          <h2>{{ page.dateTime }}</h2>
-          <br />
-
-          <table width="100%">
-            <tr>
-              <td>
-                <a href="#info">Information</a><br />
-                <a href="#sites">Participating sites</a><br />
-                <a href="#rules">Rules</a><br />
-                <br />
-                <a href="../">Back to main NCPC page</a><br />
-              </td>
-              <td style="text-align: center">
-                <i>a part of</i><br />
-                <img alt="ICPC logo" src="../gfx/acm-icpc-logo.gif" />
-              </td>
-            </tr>
-          </table>
-          {{ content }}
-        </td>
-      </tr>
-    </table>
-  </div>
-</body>
+---
+layout: page
+---
+<h1>{{ page.shortTitle }}</h1>
+<h2>{{ page.dateTime }}</h2>
+<br />
+<table width="100%">
+  <tr>
+    <td>
+      <a href="#info">Information</a><br />
+      <a href="#sites">Participating sites</a><br />
+      <a href="#rules">Rules</a><br />
+      <br />
+      <a href="{{ site.url }}">Back to main NCPC page</a><br />
+    </td>
+    <td style="text-align: center">
+      <i>a part of</i><br />
+      <img alt="ICPC logo" src="../gfx/acm-icpc-logo.gif" />
+    </td>
+  </tr>
+</table>
+{{ content }}
