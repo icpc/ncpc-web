@@ -1,0 +1,431 @@
+/**************** body and tag styles ****************/
+
+body {
+  margin: 25px 0;
+  background-color: #E0E0E0;
+/*  background: url(/web/20160403031901im_/http://ncpc2010.scrool.se/images/ncpc.gif);*/
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+
+#bodybox {
+  width: auto;
+  min-width: 800px;
+  margin: 0px 15px;
+}
+		  
+h1 {
+  font-size: 1.6em;
+  margin-bottom:15px;
+  margin-top:15px;	  
+}
+					
+h2 {
+  font-size: 1.4em;
+  margin-bottom:10px;
+}
+
+div#icpc2010_home {
+  text-align: center;
+}
+
+#icpc2010_home img {
+  margin:20px;
+  width: 250px;
+}
+
+#clarbox {
+width: 100%;
+text-align:center;
+height:4ex;
+}
+
+#newclar {
+  text-align:center;
+  margin: 0 auto;
+  padding:3px;
+  color:red;
+  border: solid black 2px;
+  font-weight:bold;
+}
+
+div.newanswer {
+  padding:2px;
+  border: solid black 1px;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight:bold;
+  padding-top:15px;
+  margin-bottom:10px;
+}
+		
+a:link, a:visited {
+  color:#2756CC;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+a:link:hover, a:visited:hover {
+  color:#2756CC;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+td{
+  vertical-align:top;
+  border:0;
+}
+
+.error{
+  color:#FF0000;
+  font-weight:bold;
+}
+
+.icon{
+  height:15px;
+  border:0px;
+  margin-right:5px;
+}
+
+hr{
+  border:1px solid #CCCCCC;
+  border-bottom:0;
+  margin-top:3px;
+  margin-bottom:3px;
+}
+
+.no_border{
+  border:0px;
+}
+
+/**************** filter styles ****************/
+#filter{
+  padding:0;
+  margin:0;
+}
+#filter_table{
+  margin-top:25px;
+  width:100%;
+  border-collapse:collapse;
+}
+#filter_table td{
+  width:50%;
+  border:0;
+  vertical-align:bottom;
+}
+
+/**************** container styles ****************/
+#container {
+  width: auto;
+/*
+  min-width:800px; 
+  max-width:1024px;
+*/
+  clear:both;
+  background-color: #FFFFFF;
+  margin: 0 auto 0 auto;
+  position:relative;
+  padding-left:25px;
+  padding-right:25px;
+  text-align:left;
+  padding-top:15px;
+  padding-bottom:15px;
+  font-size: 1em;
+  height:100%;
+  color: #000000;
+  border:1px solid #666666;   
+}
+/**************** sidebar styles ****************/
+
+#sidebar {
+}
+
+/**************** login styles ****************/
+#login {
+  text-align:left;
+  vertical-align:top;
+}
+  	  	  
+
+/***************** search styles ***************/
+#search {
+  text-align:right; width:100%;
+}
+
+/**************** header styles ****************/
+#header {
+  width: auto;
+  /*width: 850px; */
+  margin: 0 auto 0 auto;
+  font-size: 1em;
+  line-height: 1.6em;
+  color: #333333;
+}
+#headertext {
+  width:33%; 
+  float:left;
+}
+
+#header p { 
+  margin: 0px;
+  color: #666666;
+}
+#header a{
+  font-weight:bold;
+}
+#header a:hover{
+  font-weight:bold;
+}
+
+#icpc_logo{
+  width:100%;
+  float: left;
+  text-align:center;
+  padding-bottom:25px;
+}
+
+/**************** menu styles ****************/
+#nav{
+  width:80%; 
+  float:left;
+}
+#login_link{
+  float:right;
+}
+/**************** profile styles ****************/
+.info_field_right{
+  float:left;
+  margin-top:15px;
+  margin-bottom:15px;
+  margin-right:5px;
+}
+.info_field_left{
+  float:left;
+  margin-bottom:15px;
+  clear:both;
+}
+#authinfo, #stats{
+  border-collapse:collapse;
+  margin-right:15px;
+  margin-bottom:15px;
+}
+#authinfo th, td, #stats th, td{
+  padding-left:5px;
+  padding-right:5px;
+  border:1px solid #CCCCCC;
+}
+table.info{
+  border-collapse:collapse;
+}
+#update_info table{
+  border-collapse:collapse;
+}
+#update_info td{
+  border:0;
+}
+#update_info form{
+  border:2px;
+}
+
+/**************** source styles ****************/
+#source_frame{
+  width:500px;
+  height:400px;
+  border:1px solid #000000;
+}	
+#course_info{
+  border-top:1px solid #CCCCCC;
+}
+
+#filetree, #solved, #judge_table, #problem_list, #standings, #students, #teachers, #submissions{
+  border-collapse:collapse;
+  margin-top:15px;
+  width:100%;
+}  
+
+#filetree th, #solved th, #judge_table th, #problem_list th, #standings th, #students th, #teachers th, #submissions th{
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:3px;
+  padding-bottom:0px;
+  border-bottom:2px solid #AAAAAA;
+  border-top:2px solid #AAAAAA;
+  border-right:1px solid #CCCCCC;
+  border-left:1px solid #CCCCCC;
+}  
+#filetree td, #solved td, #judge_table td, #problem_list td, #standings td, #students td, #teachers td, #submissions td{
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:3px;
+  padding-bottom:0px;
+  border:1px solid #CCCCCC;
+} 
+.accepted{
+  color:#00AA33;
+  margin:0;
+  padding:0;
+}
+.rejected{
+  color:#FF0000;
+  margin:0;
+  padding:0;
+}
+.status {
+  text-align:center;
+}
+.runtime {
+  text-align:right;
+}
+.unjudged{
+  margin:0;
+  padding:0;
+}
+td.solved{
+  background-color:#99FF99;
+}
+td.attempted{
+  background-color:#FF9999;
+}
+td.pending{
+  background-color:#9999FF;
+}
+
+/**************** judge submit ****************/
+#submit_table table{
+  border-top:1px solid #CCCCCC;
+}
+#submit_table td{
+  padding-top:15px;
+  border:0px;
+}
+/**************** judge styles ****************/
+table.prev_next{
+  width:100%; 
+  border-collapse:collapse; 
+  margin:0;
+}
+td.prev_next_l{
+  width:25%; 
+  text-align:left; 
+  vertical-align:middle;
+  border:0px; 
+  padding-top:5px;
+  padding-bottom:0px;
+  padding-left:0px;
+}
+td.prev_next_c{
+  width:50%; 
+  text-align:center;
+  vertical-align:middle;
+  border:0px; 
+  padding-top:5px;
+  padding-bottom:0px;
+  padding-left:0px;
+}
+td.prev_next_r{
+  width:25%; 
+  text-align:right; 
+  vertical-align:middle;
+  border:0px; 
+  padding-top:5px;
+  padding-bottom:0px;
+  padding-left:0px;
+}
+
+/**************** footer styles ****************/
+
+
+/**************** footer styles ****************/
+#footer {
+  margin:auto;
+  padding-top: 5px;
+  width: auto;
+/*
+  width: 850px;
+*/
+  color:#333333;  
+  font-size: 1em;
+  clear:both;
+  border-top:1px solid #CCCCCC;
+}
+		  
+#footer_left {
+  width: 40%;
+  text-align:left;
+  float:left;
+}
+
+#footer_right {
+  width: 40%;
+  text-align:right;
+  float:left;
+}
+
+#footer_center {
+  width: 20%;
+  text-align: center;
+  float: left;
+}
+
+/************* submission styles *********/
+#extrainfo p { 
+	border:1px solid #CCCCCC; 
+	padding:5px;
+}
+
+#extrainfo a {color:red; }
+
+td.dump_input {
+	background-color: #f6f6f6;
+}
+
+td.dump_answer {
+	background-color: #ffffdd;
+}
+
+td.dump_output {
+	background-color: #e7ffff;
+}
+
+/********** standings styles *********/
+
+td.school, td.flag {
+        vertical-align:middle;
+}
+
+img.school, img.flag {
+        height:28px;
+        width:28px;
+}
+
+
+/************* clarification styles ******/
+.clar_reply {
+    padding-left: 15px;
+}
+/************* print styles **************/
+
+@media print {
+
+  a { text-decoration:none; }
+  /*
+     #login_link, #nav  { display:none; }
+  */
+  #header {display:none; }
+
+  body { background-color: white;}
+
+  #teachernav, #adminnav, #studentnav { display:none; }
+  
+  #container {
+    width: 100%;
+    height:100%;
+    color: #000000;
+    border:none;
+    padding: 0px;
+  }
+  
+}
