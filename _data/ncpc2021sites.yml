@@ -1,0 +1,106 @@
+- name : Denmark
+  unis :
+  - name : University of Copenhagen
+    contact: Anne Honum
+    email : 'ahhj netcompany.com'
+    confirmed: false
+  - name : Aarhus University
+    contact: Gerth Stølting Brodal
+    email : 'gerth cs.au.dk'
+    confirmed: false
+  - name : ITU Copenhagen
+    contact: Thore Husfeldt
+    email : 'thore itu.dk'
+    confirmed: false
+
+- name: Estonia
+  unis:
+  - name : Tallinn University of Technology
+    contact: Ago Luberg
+    email : 'ago.luberg taltech.ee'
+    confirmed: false
+  - name : University of Tartu
+    contact: Meelis Kull
+    email : 'meelis.kull ut.ee'
+    confirmed: false
+
+- name: Finland
+  unis:
+  - name : Aalto University
+    contact: Jukka Suomela
+    email : 'jukka.suomela aalto.fi'
+    confirmed: false
+  - name : University of Helsinki
+    contact: Antti Laaksonen
+    email : 'ahslaaks cs.helsinki.fi'
+    confirmed: false
+
+- name: Iceland
+  unis:
+  - name : Reykjavik University
+    contact: Bjarki Ágúst Guðmundsson
+    email: 'suprdewd gmail.com'
+    confirmed: false
+
+- name: Lithuania
+  unis:
+  - name : Vilnius University
+    contact: Vladas Tumasonis
+    email: 'vladas.tumasonis mif.vu.lt'
+    confirmed: false
+  - name : Vilnius Gediminas Technical University
+    contact: Dmitrij Šešok
+    email: 'dmitrij.sesok vgtu.lt'
+    confirmed: false
+  - name : Kaunas University of Technology
+    contact: Mindaugas Vasiljevas
+    email: 'mindaugas.vasiljevas ktu.lt'
+    confirmed: false
+
+- name: Norway
+  unis:
+  - name : NTNU Trondheim
+    contact: Joakim Granli Antonsen
+    email: 'joakim.g.antonsen ntnu.no'
+    confirmed: false
+  - name : University of Bergen
+    contact: Olav Røthe Bakken
+    email: 'olavrb gmail.com'
+    confirmed: false
+  - name : University of Oslo
+    contact: Sondre Lunde
+    email: 'sondrslu ifi.uio.no'
+    confirmed: false
+  - name : UiT - Narvik
+    contact: Ghada Bouzidi
+    email: 'ghada.bouzidi uit.no'
+    confirmed: false
+
+- name: Sweden
+  unis:
+  - name : Karlstad University
+    contact: Jonathan Vestin
+    email: 'jonathan.vestin kau.se'
+    confirmed: false
+  - name : Linköpings universitet
+    contact: Edvard Thörnros
+    email: 'ordf lithekod.se'
+    confirmed: false
+  - name : Luleå Institute of Technology
+    contact: Anton Johansson
+    email: 'anton.johansson ludd.ltu.se'
+    confirmed: false
+  - name : Lund University
+    contact: Måns Magnusson
+    email: 'exoji2e gmail.com'
+    confirmed: true
+    contestType: On Site
+    #url: "https://codeatlth.org"
+  - name : KTH Royal Institute of Technology
+    contact: Joseph Swernofsky
+    email: 'josephsw kth.se'
+    confirmed: false
+  - name : Umeå University
+    contact: Tomas Forsman
+    email: 'stric cs.umu.se'
+    confirmed: false
