@@ -1,0 +1,253 @@
+---
+layout: contestpage
+title: "Nordic Collegiate Programming Contest 2021"
+shortTitle: "NCPC 2021"
+dateTime: "Saturday October 9th 11:00-16:00 CEST (UTC+2)"
+lastUpdate: "2021-09-11"
+---
+
+
+<table class="head">
+  <tr>
+    <td>
+      <a name="info" />
+      <h3>Information</h3>
+    </td>
+    <td style="text-align:right; vertical-align: middle">
+      <a href="">top</a>
+    </td>
+  </tr>
+</table>
+
+<p>
+  NCPC 2021 will be held on {{ page.dateTime }}.
+</p>
+
+<p>
+The <a href="https://icpc.global/regionals/finder/Nordic-2021">registration is not yet open</a>.
+</p>
+
+<!--
+<p>Contest links:
+<ul>
+  <li><a href="https://ncpc20.kattis.com/standings">The contest site</a></li>
+  <li>Problem set [<a href="ncpc2020problems.pdf">PDF</a>].
+  </li>
+  <li>Slides describing solutions
+    [<a href="ncpc20slides.pdf">PDF</a>].</li>
+  <li>Post-contest solutions and results live stream
+    [<a href="https://youtu.be/yZn6xKEN1uU">youtube</a>].</li>
+  <li>Judges' input and output
+    [<a href="https://drive.google.com/file/d/1Pfg86IfFqUaKVpyccMPTbYRW8SCjrGVk/view?usp=sharing">tar.bz2</a> (137 MB)].</li>
+  <li>Judges' solutions
+    [<a href="ncpc2020-solutions.tar.bz2">tar.bz2</a>]. </li>
+  <li>Packaged problems including testdata, solutions, wrong solutions, output validators, input generators, problem statement sources, etc. [<a href="https://drive.google.com/file/d/1VKDTcSezgmsPkvzDXPQJZgcbh9TINhmm/view?usp=sharing">tar.bz2</a> (141 MB)]
+  </li>
+  <li>All material are copyright 2020 by the NCPC 2020 jury. They are licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons BY-SA v3.0</a> license.</li>
+</ul>
+</p>
+-->
+
+<hr />
+<p>
+NCPC is a distributed contest with many sites throughout the Nordic countries.
+</p>
+<p>
+<b>This year the contest will be hosted online due to Covid-19.</b> Some universities might still host a small hub. See further information about <a href='#rules'>rules</a> and <a href="#sites">sites</a> below.
+</p>
+
+<p>
+  The winners will be Nordic Champions in programming. Universities may select student teams that advance to <a href="http://nwerc.eu">NWERC</a>,
+  the regional finals in the <a href="http://icpc.baylor.edu">ICPC</a> contest. NCPC also encompasses national and local championships.
+</p>
+
+<!--
+<p>
+There will be <b>a warmup contest</b>
+at <a href="https://open.kattis.com/contests/ncpc2020warmup">https://open.kattis.com/contests/ncpc2020warmup</a>
+to help you practice on Saturday October 31, 11-16 CET.  The warmup contest will generally consist mostly of easier problems but there may be a few more challenging ones as well.
+</p>
+
+-->
+
+<!-- 
+<p>
+  There will be a <b>public contest</b> using the same problems as NCPC-at
+  <a href="https://open.kattis.com/contests/ncpc2019open">https://open.kattis.com/contests/ncpc2019open</a>.
+  The contest starts at 11.00 CEST, i.e. at the same time as NCPC. <em>Do not use the public contest if you are participating in NCPC officially at a contest site!</em>
+</p>
+-->
+
+<p>
+  NCPC will use the Kattis automatic judging system provided by <a href="http://kattis.com/">Kattis</a>.  If you have never used it, we encourage you to try it out before the contest to make sure you know how it works.
+</p>
+
+<ul>
+  <li><a href="https://open.kattis.com/help">Instructions for the Kattis contest system</a>.</li>
+  <li>For a short tutorial on how to use it, go to one of the language-specific help pages available from the previous link.</li>
+  <li>If you have not participated before, it is a good idea to look at the <a href="https://ncpc20.kattis.com/problems">problems from last year's NCPC</a>.
+</ul>
+
+<p>
+  Organisers should review the
+  <a href="../NCPC-Site-HOWTO.html">NCPC-Site-HOWTO</a>.
+</p>
+<table>
+  <tr>
+    <td>NCPC director:</td>
+    <td>Fredrik Niemel&auml; (Kattis)</td>
+  </tr>
+  <tr>
+    <td>Head of Jury:</td>
+    <td>Per Austrin (KTH Royal Institute of Technology / Kattis)</td>
+  </tr>
+  <tr>
+    <td>Technical Director:</td>
+    <td>Pehr S&ouml;derman (Kattis)</td>
+  </tr>
+</table>
+
+<table class="head">
+  <tr>
+    <td>
+      <a name="sites" />
+      <h3>Participating sites</h3>
+    </td>
+    <td style="text-align:right; vertical-align: middle">
+      <a href="">top</a>
+    </td>
+  </tr>
+</table>
+
+<p>
+  Below is a list of sites that will hopefully join NCPC in 2021. 
+  Follow the links to get local information such as when and where to meet.
+</p>
+
+<p>
+  <strong>Notes for 2021:</strong>
+  <ol>
+    <li> Even though the contest this year takes place online, every team will still be affiliated with one of these sites.  A team must register itself for the site geographically closest to the institution the team represents.
+    <li>  Some of these sites may offer local physical arrangements for the competition. Information about this is (or will hopefully be) provided at the respective local organization pages linked to below. If it's known to the editor of this page if the site will be on site or remote (only online), it is marked in the table below.
+  </ol>
+</p>
+
+<table>
+  <tr>
+    <th style="text-align: left;">Status</th>
+    <th style="text-align: left;">Format</th>
+    <th style="text-align: left;">Country / University</th>
+    <th style="text-align: left;">Contact information</th>
+  </tr>
+  {% for country in site.data.ncpc2021sites %}
+    <tr>
+      <th></th>
+      <th></th>
+      <th style="text-align: left;">{{ country.name }}</th>
+    </tr>
+    {% for uni in country.unis %}
+      <tr>
+        <td style="width:90px;">{% if uni.confirmed %} Confirmed {% else %} Pending {% endif %} </td>
+        <td style="width:70px;">{{ uni.contestType }}</td>
+        <td >
+          {% if uni.url %} <a href="{{ uni.url }}"> {% endif %}
+            {{ uni.name }}
+          {% if uni.url %} </a> {% endif %}
+          </td>
+        <td >
+          {{ uni.contact }}<br /> 
+          <code>&lt;{{ uni.email }}&gt;</code>
+        </td>
+      </tr>
+    {% endfor %}
+  <tr><td>&nbsp;</td></tr>
+  {% endfor %}
+</table>
+
+<hr />
+<br />
+If some information is incorrect in the table above, or you'd like to add a link/confirm your site - please send an email to Måns Magnusson <code>&lt;exoji2e@gmail.com&gt;</code>, and I'll update it as soon as possible.
+
+<table class="head">
+  <tr>
+    <td>
+      <a name="rules" />
+      <h3>Rules</h3>
+    </td>
+    <td style="text-align:right; vertical-align: middle">
+      <a href="">top</a>
+    </td>
+  </tr>
+</table>
+
+<p>
+  In short: Teams of up to three persons try to solve as many problems as possible from a set, without external help.
+</p>
+
+<p>
+  The rules for this contest is given by the
+  <a href="http://icpc.baylor.edu/regionals/rules">ICPC regional contest rules</a>,
+  with the following clarifications and additions:
+</p>
+
+<h4>Who may compete</h4>
+<p>
+  The teams competing consist of up to three persons.
+  The competition is open to everybody, as long as they are either a citizen of the NCPC countries or related to an
+  entity (company or university) in the NCPC countries.
+  Every team must compete for some Nordic country and university.
+</p>
+
+<h4>ICPC eligibility</h4>
+<p>
+  Only
+  <a href="http://icpc.baylor.edu/regionals/rules">ICPC eligible</a>
+  student teams compete in the ICPC division. These may qualify for the regional finals
+  (<a href="http://nwerc.eu">NWERC</a>), and further to the <a href="http://icpc.baylor.edu">ICPC World Finals</a>.
+  Basically, any student who started his/her university/college studies in 2016 or later is eligible to compete.
+  For exceptions such as retaken years, military service and so on, please refer to the
+  <a href="http://icpc.baylor.edu/regionals/rules">ICPC rules</a>.
+  Persons who have competed in five regional finals already, or two world finals, may not compete in the ICPC division.
+</p>
+
+<h4>How and where you may compete (temporary rules for 2021)</h4>
+<ul>
+  <li> In 2021, the contest is done online, and you may compete from your home, your university computer lab, or anywhere else in the universe.
+  <li> The up to three team members of a team do not need to be physically at the same place, you can compete from your own homes.
+  <li> You may use multiple computers (the three team members can code simultaneously).
+</ul>
+
+<h4>What you may do during the contest (temporary rules for 2021)</h4>
+<ul>
+  <li> You may use prewritten code and whatever software is available on your computer.
+  <li> You may use any reference materials you have access to in books or on the Internet (e.g. wikipedia and other information your favorite search engine can turn up).
+  <li> You may <strong>NOT</strong> communicate with anyone other than the contest organisers and your own team members (in particular you may not communicate with other teams or ask for help on discussion forums).
+</ul>
+
+<h4 id="rules-contest">The contest</h4>
+
+<p>
+  The problem set consists of a number of problems (usually 8-12). The problem set will be in English, and given to the participating teams when the contest begins. For each of these problems, you are to write a program in any of the programming languages supported by the Kattis system (see <a href="https://open.kattis.com/help">here</a> for a list).  The jury guarantees that each problem is solvable in C++ and Java. No guarantees for other languages are given due to the large number of allowed languages, however the jury guarantees that for every language there is at least one problem solvable in that language (it has always been the case that several of the problems were solvable in all available languages, but there is no guarantee of this).
+</p>
+<p>
+  The submitted programs must read from standard input (stdin) and write to standard output (stdout), unless otherwise stated. After you have written a solution, you may submit it using the specified submission system.
+</p>
+<p>
+  The team that solves the most problems correctly wins. If two teams solve the same number of problems, the one with the lowest total time wins. If two top teams end up with the same number of problems solved and the same total time, then the team with
+  the lowest time on a single problem is ranked higher. If two teams solve the same number of problems, with the same total time, and the same time on all problems, it is a draw. The time for a given problem is the time from the beginning of
+  the contest to the time when the first correct solution was submitted, plus 20 minutes for each incorrect submission of that problem. The total time is the sum of the times for all solved problems, meaning you will not get extra time for a
+  problem you never submit a correct solution to.
+</p>
+<p>
+  If you feel that a problem definition is ambiguous, you may submit a clarification request via the submission system. If the judges think there is no ambiguity, you will get a short answer stating this. Otherwise, the judges will write a clarification,
+  that will be sent to all teams at all sites in the contest.
+</p>
+
+<p>
+<hr />  
+<br />
+  
+</p>
+
+<p> Last updated: {{page.lastUpdate}}</p>
+<p> Editor: Måns Magnusson <code>&lt;exoji2e@gmail.com&gt;</code>
