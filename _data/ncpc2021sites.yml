@@ -60,9 +60,9 @@
 - name: Norway
   unis:
   - name : NTNU Trondheim
-    contact: Joakim Granli Antonsen
-    email: 'joakim.g.antonsen ntnu.no'
-    confirmed: false
+    contact: Hanne Brynildsrud
+    email: 'hannbry stud.ntnu.no'
+    confirmed: true
   - name : University of Bergen
     contact: Olav Røthe Bakken
     email: 'olavrb gmail.com'
