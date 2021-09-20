@@ -64,9 +64,12 @@
     email: 'hannbry stud.ntnu.no'
     confirmed: true
   - name : University of Bergen
-    contact: Olav Røthe Bakken
-    email: 'olavrb gmail.com'
-    confirmed: false
+    contact: Torstein Strømme1
+    email: 'torstein.stromme uib.no'
+    confirmed: true
+    contestType: On Site
+    url: "https://contest.ii.uib.no/ncpc/2021/"
+
   - name : University of Oslo
     contact: Sondre Lunde
     email: 'sondrslu ifi.uio.no'
