@@ -86,9 +86,11 @@
     email: 'jonathan.vestin kau.se'
     confirmed: false
   - name : Linköpings universitet
-    contact: Edvard Thörnros
+    contact: Gustav Sörnäs
     email: 'ordf lithekod.se'
-    confirmed: false
+    confirmed: true
+    url: https://lithekod.se/ncpc
+    contestType: On Site
   - name : Luleå Institute of Technology
     contact: Anton Johansson
     email: 'anton.johansson ludd.ltu.se'
