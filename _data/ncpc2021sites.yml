@@ -9,9 +9,10 @@
     email : 'gerth cs.au.dk'
     confirmed: false
   - name : ITU Copenhagen
-    contact: Thore Husfeldt
-    email : 'thore itu.dk'
-    confirmed: false
+    contact: Christian Janos Lebeda
+    email : 'chle itu.dk'
+    confirmed: true
+    contestType: On Site
 
 - name: Estonia
   unis:
