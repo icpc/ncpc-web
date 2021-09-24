@@ -109,4 +109,6 @@
   - name : Umeå University
     contact: Tomas Forsman
     email: 'stric cs.umu.se'
-    confirmed: false
+    confirmed: true
+    contestType: Online
+    url: https://s.cs.umu.se/go/ncpc
