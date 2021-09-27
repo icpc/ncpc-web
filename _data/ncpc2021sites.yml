@@ -30,7 +30,8 @@
   - name : Aalto University
     contact: Jukka Suomela
     email : 'jukka.suomela aalto.fi'
-    confirmed: false
+    confirmed: true
+    contestType: Online
   - name : University of Helsinki
     contact: Antti Laaksonen
     email : 'ahslaaks cs.helsinki.fi'
@@ -72,9 +73,11 @@
     url: "https://contest.ii.uib.no/ncpc/2021/"
 
   - name : University of Oslo
-    contact: Sondre Lunde
-    email: 'sondrslu ifi.uio.no'
-    confirmed: false
+    contact: Sarek H. Skotåm
+    email: 'sarekhs uio.no'
+    confirmed: true
+    contestType: On Site
+
   - name : UiT - Narvik
     contact: Ghada Bouzidi
     email: 'ghada.bouzidi uit.no'
