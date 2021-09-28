@@ -3,11 +3,15 @@
   - name : University of Copenhagen
     contact: Anne Honum
     email : 'ahhj netcompany.com'
-    confirmed: false
+    confirmed: true
+    contestType: On Site
+
   - name : Aarhus University
     contact: Gerth Stølting Brodal
     email : 'gerth cs.au.dk'
-    confirmed: false
+    confirmed: true
+    contestType: On Site
+
   - name : ITU Copenhagen
     contact: Christian Janos Lebeda
     email : 'chle itu.dk'
