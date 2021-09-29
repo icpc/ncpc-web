@@ -3,12 +3,16 @@
   - name : University of Copenhagen
     contact: Anne Honum
     email : 'ahhj netcompany.com'
+    contact2: Sebastian Paaske Tørholm
+    email2 : 'spt jobindex.dk'
     confirmed: true
     contestType: On Site
 
   - name : Aarhus University
     contact: Gerth Stølting Brodal
     email : 'gerth cs.au.dk'
+    contact2: Svend Christian Svendsen
+    email2: 'scs netcompany.com'
     confirmed: true
     contestType: On Site
 
