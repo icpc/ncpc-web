@@ -57,7 +57,8 @@
   - name : Vilnius University
     contact: Vladas Tumasonis
     email: 'vladas.tumasonis mif.vu.lt'
-    confirmed: false
+    confirmed: true
+    contestType: Online
   - name : Vilnius Gediminas Technical University
     contact: Dmitrij Šešok
     email: 'dmitrij.sesok vgtu.lt'
@@ -73,6 +74,8 @@
     contact: Hanne Brynildsrud
     email: 'hannbry stud.ntnu.no'
     confirmed: true
+    contestType: Online
+
   - name : University of Bergen
     contact: Torstein Strømme
     email: 'torstein.stromme uib.no'
