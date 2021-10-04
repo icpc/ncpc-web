@@ -28,7 +28,7 @@
     contact: Ago Luberg
     email : 'ago.luberg taltech.ee'
     confirmed: true
-    contestType: Online
+    contestType: Only Online
   - name : University of Tartu
     contact: Meelis Kull
     email : 'meelis.kull ut.ee'
@@ -41,12 +41,12 @@
     contact: Jukka Suomela
     email : 'jukka.suomela aalto.fi'
     confirmed: true
-    contestType: Online
+    contestType: Only Online
   - name : University of Helsinki
     contact: Antti Laaksonen
     email : 'ahslaaks cs.helsinki.fi'
     confirmed: true
-    contestType: Online
+    contestType: Only Online
 
 
 - name: Iceland
@@ -62,7 +62,7 @@
     contact: Vladas Tumasonis
     email: 'vladas.tumasonis mif.vu.lt'
     confirmed: true
-    contestType: Online
+    contestType: Only Online
   - name : Vilnius Gediminas Technical University
     contact: Dmitrij Šešok
     email: 'dmitrij.sesok vgtu.lt'
@@ -78,7 +78,7 @@
     contact: Hanne Brynildsrud
     email: 'hannbry stud.ntnu.no'
     confirmed: true
-    contestType: Online
+    contestType: Only Online
 
   - name : University of Bergen
     contact: Torstein Strømme
@@ -130,5 +130,5 @@
     contact: Tomas Forsman
     email: 'stric cs.umu.se'
     confirmed: true
-    contestType: Online
+    contestType: Only Online
     url: https://s.cs.umu.se/go/ncpc
