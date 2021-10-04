@@ -52,9 +52,10 @@
 - name: Iceland
   unis:
   - name : Reykjavik University
-    contact: Bjarki Ágúst Guðmundsson
-    email: 'suprdewd gmail.com'
-    confirmed: false
+    contact: Unnar Freyr Erlendsson
+    email: 'unnar nwerc.eu'
+    confirmed: true
+    contestType: On Site
 
 - name: Lithuania
   unis:
