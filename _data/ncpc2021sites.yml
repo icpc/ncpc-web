@@ -27,11 +27,13 @@
   - name : Tallinn University of Technology
     contact: Ago Luberg
     email : 'ago.luberg taltech.ee'
-    confirmed: false
+    confirmed: true
+    contestType: Online
   - name : University of Tartu
     contact: Meelis Kull
     email : 'meelis.kull ut.ee'
-    confirmed: false
+    confirmed: true
+    contestType: On Site
 
 - name: Finland
   unis:
@@ -43,7 +45,9 @@
   - name : University of Helsinki
     contact: Antti Laaksonen
     email : 'ahslaaks cs.helsinki.fi'
-    confirmed: false
+    confirmed: true
+    contestType: Online
+
 
 - name: Iceland
   unis:
@@ -117,9 +121,11 @@
     contestType: On Site
     url: "https://codeatlth.org/ncpc2021"
   - name : KTH Royal Institute of Technology
-    contact: Joseph Swernofsky
-    email: 'josephsw kth.se'
-    confirmed: false
+    contact: Björn Martinsson
+    url: https://www.facebook.com/events/1016776219110036
+    email: 'bmart kth.se'
+    confirmed: true
+    contestType: On Site
   - name : Umeå University
     contact: Tomas Forsman
     email: 'stric cs.umu.se'
