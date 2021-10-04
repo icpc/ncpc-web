@@ -147,8 +147,8 @@ to help you practice on Saturday October 31, 11-16 CET.  The warmup contest will
     </tr>
     {% for uni in country.unis %}
       <tr>
-        <td style="width:90px;">{% if uni.confirmed %} Confirmed {% else %} Pending {% endif %} </td>
-        <td style="width:70px;">{{ uni.contestType }}</td>
+        <td style="width:80px;">{% if uni.confirmed %} Confirmed {% else %} Pending {% endif %} </td>
+        <td style="width:85px;">{{ uni.contestType }}</td>
         <td >
           {% if uni.url %} <a href="{{ uni.url }}"> {% endif %}
             {{ uni.name }}
