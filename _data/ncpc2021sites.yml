@@ -67,7 +67,8 @@
   - name : Vilnius Gediminas Technical University
     contact: Dmitrij Šešok
     email: 'dmitrij.sesok vgtu.lt'
-    confirmed: false
+    confirmed: true
+    contestType: Only Online
   - name : Kaunas University of Technology
     contact: Mindaugas Vasiljevas
     email: 'mindaugas.vasiljevas ktu.lt'
