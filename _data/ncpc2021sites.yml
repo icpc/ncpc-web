@@ -106,6 +106,7 @@
     contact: Victor Song
     email: 'songv@student.chalmers.se'
     confirmed: true
+    contestType: Only Online
     
   - name : Karlstad University
     contact: Jonathan Vestin
