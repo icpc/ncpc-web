@@ -101,6 +101,11 @@
 
 - name: Sweden
   unis:
+  - name : Chalmers
+    contact: Victor Song
+    email: 'songv@student.chalmers.se'
+    confirmed: true
+    
   - name : Karlstad University
     contact: Jonathan Vestin
     email: 'jonathan.vestin kau.se'
