@@ -1,0 +1,25 @@
+<head>
+  <title>{% if page.headerText %}{{ page.headerText }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="keywords" content="ncpc,acm,icpc,collegiate,student,programming,contest,nm,sm,vm,programmering" />
+  <meta name="description" content="Nordic Collegiate Programming Contest" />
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+</head>
+
+<body>
+  <div class="banner">
+    <div class="container" style="position:relative;">
+      <div class="banner-img-wrapper">
+        <img class="banner-img" src="/pics/banner.png" />
+        <div class="banner-overlay"></div>
+      </div>
+      <div class="banner-text">
+        <h1 class="title">{{ page.headerText }}</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    {{ content }}
+  </div>
+  <script data-goatcounter="https://ncpc.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>

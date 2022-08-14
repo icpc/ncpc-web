@@ -1,0 +1,130 @@
+- name : Denmark
+  emoji: 🇩🇰
+  unis :
+  - name : University of Copenhagen
+    extra_unis:
+      - name: Danish Technical University
+      - name: ITU Copenhagen
+    contact: Anne Honum
+    email : 'ahhj netcompany.com'
+    confirmed: true
+
+  - name : Aarhus University
+    contact: Gerth Stølting Brodal
+    email : 'gerth cs.au.dk'
+    confirmed: false
+
+
+- name: Estonia
+  emoji: 🇪🇪
+  unis:
+  - name : Tallinn University of Technology
+    contact: Ago Luberg
+    email : 'ago.luberg taltech.ee'
+    confirmed: false
+
+  - name : University of Tartu
+    contact: Meelis Kull
+    email : 'meelis.kull ut.ee'
+    confirmed: false
+
+- name: Finland
+  emoji: 🇫🇮
+  unis:
+  - name : Aalto University
+    contact: Jukka Suomela
+    email : 'jukka.suomela aalto.fi'
+    confirmed: false
+
+  - name : University of Helsinki
+    contact: Antti Laaksonen
+    email : 'ahslaaks cs.helsinki.fi'
+    confirmed: false
+
+
+- name: Iceland
+  emoji: 🇮🇸
+  unis:
+  - name : Reykjavik University
+    contact: Unnar Freyr Erlendsson
+    email: 'unnar nwerc.eu'
+    confirmed: false
+
+- name: Lithuania
+  emoji: 🇱🇹
+  unis:
+  - name : Vilnius University
+    contact: Vladas Tumasonis
+    email: 'vladas.tumasonis mif.vu.lt'
+    confirmed: false
+
+  - name : Vilnius Gediminas Technical University
+    contact: Dmitrij Šešok
+    email: 'dmitrij.sesok vgtu.lt'
+    confirmed: false
+
+  - name : Kaunas University of Technology
+    contact: Mindaugas Vasiljevas
+    email: 'mindaugas.vasiljevas ktu.lt'
+    confirmed: false
+
+- name: Norway
+  emoji: 🇳🇴
+  unis:
+  - name : NTNU Trondheim
+    contact: Hanne Brynildsrud
+    email: 'hannbry stud.ntnu.no'
+    confirmed: false
+
+  - name : University of Bergen
+    contact: Torstein Strømme
+    email: 'torstein.stromme uib.no'
+    confirmed: false
+
+  - name : University of Oslo
+    contact: Sarek H. Skotåm
+    email: 'sarekhs uio.no'
+    confirmed: false
+
+  - name : UiT - Narvik
+    contact: Ghada Bouzidi
+    email: 'ghada.bouzidi uit.no'
+    confirmed: false
+
+- name: Sweden
+  emoji: 🇸🇪
+  unis:
+  - name : Chalmers
+    contact: Victor Song
+    email: 'songv student.chalmers.se'
+    confirmed: false
+    
+  - name : Karlstad University
+    contact: Jonathan Vestin
+    email: 'jonathan.vestin kau.se'
+    confirmed: false
+
+  - name : Linköpings universitet
+    contact: Gustav Sörnäs
+    email: 'ordf lithekod.se'
+    confirmed: false
+
+  - name : Luleå Institute of Technology
+    contact: Anton Johansson
+    email: 'anton.johansson ludd.ltu.se'
+    confirmed: false
+
+  - name : Lund University
+    contact: Måns Magnusson
+    email: 'exoji2e gmail.com'
+    confirmed: false
+
+  - name : KTH Royal Institute of Technology
+    contact: Björn Martinsson
+    email: 'bmart kth.se'
+    confirmed: false
+
+  - name : Umeå University
+    contact: Tomas Forsman
+    email: 'stric cs.umu.se'
+    confirmed: false
