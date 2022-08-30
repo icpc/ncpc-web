@@ -26,7 +26,7 @@
   - name : University of Tartu
     contact: Meelis Kull
     email : 'meelis.kull ut.ee'
-    confirmed: false
+    confirmed: true
 
 - name: Finland
   emoji: 🇫🇮
@@ -84,7 +84,7 @@
   - name : University of Oslo
     contact: Sarek H. Skotåm
     email: 'sarekhs uio.no'
-    confirmed: false
+    confirmed: true
 
   - name : UiT - Narvik
     contact: Ghada Bouzidi
