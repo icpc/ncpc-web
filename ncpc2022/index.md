@@ -3,7 +3,7 @@ layout: default
 headerText: "NCPC 2022"
 title: "Nordic Collegiate Programming Contest 2022"
 dateTime: "Saturday October 8th 11:00-16:00 CEST (UTC+2)"
-lastUpdate: "2022-08-30"
+lastUpdate: "2022-08-31"
 year: 2022
 ---
 <nav class="navbar menu-bar" markdown="0">
@@ -11,6 +11,7 @@ year: 2022
   <a href="#registration"><div class="menu-item">Registration</div></a>
   <a href="#sites"><div class="menu-item">Sites</div></a>
   <a href="#rules"><div class="menu-item">Rules</div></a>
+  <a href="#directors"><div class="menu-item">Site Director</div></a>
   <a href="#organizers"><div class="menu-item">Organizers</div></a>
 </nav>
 <br />
@@ -85,8 +86,16 @@ Pending Confirmation means that the site was organized last year, but it has not
           {% if uni.url %} </a> {% endif %}
           </td>
         <td style="font-size:12;">
-          {{ uni.contact }}<br /> 
+          <div>
+          <span>{{ uni.contact }}</span>
           <code>&lt;{{ uni.email }}&gt;</code>
+          </div>
+          {% for extra_contact in uni.extra_contacts %}
+          <div>
+            <span>{{ extra_contact.name }}</span>
+            <code>&lt;{{ extra_contact.email }}&gt;</code>
+          </div>
+          {% endfor %}
         </td>
         <td style="font-size:12;">
         {% if uni.contact2 %}
@@ -102,7 +111,7 @@ Pending Confirmation means that the site was organized last year, but it has not
 
 <hr />
 <br />
-If you are a site organizer please email Måns Magnusson at `exoji2e@gmail.com` to confirm that your site will be hosted. You can also email me if you wish to organize a site at a non-listed university.
+If you are a site director please email Måns Magnusson at `exoji2e@gmail.com` to confirm that your site will be hosted. You can also email me if you wish to organize a site at a non-listed university.
 
 
 <div class="bar">
@@ -171,6 +180,16 @@ that will be sent to all teams at all sites in the contest.
 
 
 </div>
+
+<div class="bar">
+  <a name="directors" />
+  <h3>Site Director</h3>
+</div>
+Each site has a site director. The site director is responsible for running the local site during the contest, preferably with the help of a local group. The following conditions should be met at each site:
+
+- Participating teams should be seated in designated area with one table per team and ample space between teams.
+- Each team should have close access to a power outlet for their computer.
+- Each team should receive 3 printed copies of the problem statements in an envelope in the minutes before the contest starts, which they should open when the contest starts.
 
 <div class="bar">
   <a name="organizers" />
