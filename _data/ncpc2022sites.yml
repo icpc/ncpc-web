@@ -77,9 +77,9 @@
   emoji: 🇳🇴
   unis:
   - name : NTNU Trondheim
-    contact: Hanne Brynildsrud
-    email: 'hannbry stud.ntnu.no'
-    confirmed: false
+    contact: Kristoffer Nyvoll
+    email: 'kristnyv stud.ntnu.no'
+    confirmed: true
 
   - name : University of Bergen
     contact: Torstein Strømme
@@ -127,7 +127,7 @@
   - name : KTH Royal Institute of Technology
     contact: Björn Martinsson
     email: 'bmart kth.se'
-    confirmed: false
+    confirmed: true
 
   - name : Umeå University
     contact: Tomas Forsman

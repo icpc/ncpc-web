@@ -103,7 +103,7 @@ Pending Confirmation means that the site was organized last year, but it has not
           <code>&lt;{{ uni.email2 }}&gt;</code>
         {% endif %}
         </td>
-        <td>{% if uni.confirmed %} Confirmed {% else %} Pending Confirmation {% endif %} </td>
+        <td>{% if uni.confirmed %} ✅ Confirmed {% else %} Pending Confirmation {% endif %} </td>
       </tr>
     {% endfor %}
   {% endfor %}
