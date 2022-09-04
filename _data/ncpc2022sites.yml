@@ -101,8 +101,8 @@
   unis:
   - name : Chalmers
     contact: Victor Song
-    email: 'songv student.chalmers.se'
-    confirmed: false
+    email: 'songv chalmers.se'
+    confirmed: true
     
   - name : Karlstad University
     contact: Jonathan Vestin
@@ -122,7 +122,7 @@
   - name : Lund University
     contact: Måns Magnusson
     email: 'exoji2e gmail.com'
-    confirmed: false
+    confirmed: true
 
   - name : KTH Royal Institute of Technology
     contact: Björn Martinsson
