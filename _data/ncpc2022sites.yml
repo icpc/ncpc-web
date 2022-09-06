@@ -87,8 +87,8 @@
     confirmed: false
 
   - name : University of Oslo
-    contact: Sarek H. Skotåm
-    email: 'sarekhs uio.no'
+    contact: Sergey Jakobsen
+    email: 'sergeyj uio.no'
     confirmed: true
 
   - name : UiT - Narvik
