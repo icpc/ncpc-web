@@ -44,6 +44,18 @@ NCPC will use the Kattis automatic judging system provided by [Kattis](https://k
 - For a short tutorial on how to use it, go to one of the language-specific help pages available from the previous link.
 - If you have not participated before, it is a good idea to look at the [problems from last year's NCPC](https://ncpc21.kattis.com/problems).
 
+### Practice contests
+
+There will be some practice contests on kattis before NCPC.
+
+<table class="info-table">
+  <tr><th>Date</th><th>Link</th></tr>
+  <tr><td>2022-09-11</td><td><a href="https://open.kattis.com/contests/ncpc22practice1">https://open.kattis.com/contests/ncpc22practice1</a></td></tr>
+  <tr><td>2022-09-17</td><td></td></tr>
+  <tr><td>2022-09-25</td><td></td></tr>
+  <tr><td>2022-10-01</td><td></td></tr>
+</table>
+
 <div class="bar">
   <a name="registration"></a>
   <h3>Registration</h3>
