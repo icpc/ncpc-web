@@ -3,7 +3,7 @@ layout: default
 headerText: "NCPC 2022"
 title: "Nordic Collegiate Programming Contest 2022"
 dateTime: "Saturday October 8th 11:00-16:00 CEST (UTC+2)"
-lastUpdate: "2022-09-06"
+lastUpdate: "2022-09-08"
 year: 2022
 ---
 <nav class="navbar menu-bar" markdown="0">
@@ -165,7 +165,7 @@ If you are a site director please email Måns Magnusson at `exoji2e@gmail.com` t
 
 - In 2022, the contest is held at the participating sites.
 - All members of a team have to be present at the same site.
-- Your team may bring a single personal computer (with a single keyboard and a single screen) to use during the competition.
+- Your team may bring a single personal computer (with one keyboard, one mouse and one screen) to use during the competition.
 - You may not use any additional electronic devices (such as mobile phones) to compete.
 
 
@@ -190,6 +190,13 @@ problem you never submit a correct solution to.
 If you feel that a problem definition is ambiguous, you may submit a clarification request via the submission system. If the judges think there is no ambiguity, you will get a short answer stating this. Otherwise, the judges will write a clarification,
 that will be sent to all teams at all sites in the contest.
 
+
+<hr />
+
+### Change-log
+
+- 2022-09-08 clarification about bringing mouse with computer.
+- 2022-08-14 initial publication.
 
 </div>
 
