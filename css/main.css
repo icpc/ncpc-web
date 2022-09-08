@@ -137,6 +137,17 @@ code {
     font-size: 14px;
 }
 
+.info-table {
+    border-collapse: collapse;
+}
+.info-table td, .info-table th {
+    padding-right: 8px;
+    padding-top: 8px;
+}
+.info-table th {
+    text-align: left;
+}
+
 .site-table {
     border-collapse: collapse;
 }
