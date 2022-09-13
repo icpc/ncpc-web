@@ -26,7 +26,7 @@
   - name : Tallinn University of Technology
     contact: Ago Luberg
     email : 'ago.luberg taltech.ee'
-    confirmed: false
+    confirmed: true
 
   - name : University of Tartu
     contact: Meelis Kull
@@ -39,7 +39,7 @@
   - name : Aalto University
     contact: Jukka Suomela
     email : 'jukka.suomela aalto.fi'
-    confirmed: false
+    confirmed: true
 
   - name : University of Helsinki
     contact: Antti Laaksonen
@@ -61,7 +61,7 @@
   - name : Vilnius University
     contact: Vladas Tumasonis
     email: 'vladas.tumasonis mif.vu.lt'
-    confirmed: false
+    confirmed: true
 
   - name : Vilnius Gediminas Technical University
     contact: Dmitrij Šešok
