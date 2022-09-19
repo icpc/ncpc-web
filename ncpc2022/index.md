@@ -3,7 +3,7 @@ layout: default
 headerText: "NCPC 2022"
 title: "Nordic Collegiate Programming Contest 2022"
 dateTime: "Saturday October 8th 11:00-16:00 CEST (UTC+2)"
-lastUpdate: "2022-09-18"
+lastUpdate: "2022-09-19"
 year: 2022
 ---
 <nav class="navbar menu-bar" markdown="0">
@@ -61,7 +61,7 @@ There will be some practice contests on kattis before NCPC.
   <h3>Registration</h3>
 </div>
 
-Head over to the ICPC site to register your team: [https://icpc.global/regionals/finder/Nordic-2023](https://icpc.global/regionals/finder/Nordic-2022).
+Head over to the ICPC site to register your team: [https://icpc.global/regionals/finder/Nordic-2022](https://icpc.global/regionals/finder/Nordic-2022).
 
 <br />
 All team members need an account at [https://icpc.global](https://icpc.global).
