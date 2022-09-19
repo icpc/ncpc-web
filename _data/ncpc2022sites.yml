@@ -107,7 +107,8 @@
   - name : Karlstad University
     contact: Jonathan Vestin
     email: 'jonathan.vestin kau.se'
-    confirmed: false
+    confirmed: true
+    url: https://www.cs.kau.se/ncpc22/
 
   - name : Linköpings universitet
     contact: Gustav Sörnäs
