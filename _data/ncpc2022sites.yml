@@ -64,9 +64,9 @@
     confirmed: true
 
   - name : Vilnius Gediminas Technical University
-    contact: Dmitrij Šešok
-    email: 'dmitrij.sesok vgtu.lt'
-    confirmed: false
+    contact: Artūras Mackūnas
+    email: 'arturas.mackunas vilniustech.lt'
+    confirmed: true
 
   - name : Kaunas University of Technology
     contact: Mindaugas Vasiljevas
