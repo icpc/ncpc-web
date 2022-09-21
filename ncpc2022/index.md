@@ -3,7 +3,7 @@ layout: default
 headerText: "NCPC 2022"
 title: "Nordic Collegiate Programming Contest 2022"
 dateTime: "Saturday October 8th 11:00-16:00 CEST (UTC+2)"
-lastUpdate: "2022-09-20"
+lastUpdate: "2022-09-21"
 year: 2022
 ---
 <nav class="navbar menu-bar" markdown="0">
