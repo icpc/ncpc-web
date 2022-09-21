@@ -50,10 +50,11 @@ There will be some practice contests on kattis before NCPC.
 
 <table class="info-table">
   <tr><th>Date</th><th>Link</th></tr>
-  <tr><td>2022-09-11</td><td><a href="https://open.kattis.com/contests/ncpc22practice1">https://open.kattis.com/contests/ncpc22practice1</a></td></tr>
-  <tr><td>2022-09-17</td><td><a href="https://open.kattis.com/contests/ncpc22practice2">https://open.kattis.com/contests/ncpc22practice2</a></td></tr>
-  <tr><td>2022-09-25</td><td></td></tr>
-  <tr><td>2022-10-01</td><td></td></tr>
+  <tr><td>2022-09-11 11-16</td><td><a href="https://open.kattis.com/contests/ncpc22practice1">https://open.kattis.com/contests/ncpc22practice1</a></td></tr>
+  <tr><td>2022-09-17 11-16</td><td><a href="https://open.kattis.com/contests/ncpc22practice2">https://open.kattis.com/contests/ncpc22practice2</a></td></tr>
+  <tr><td>2022-09-25 11-16</td><td></td></tr>
+  <tr><td>2022-10-01 11-16</td><td></td></tr>
+  <tr><td>2022-10-01 18-23</td><td><a href="https://maps22.kattis.com/contests/maps22">https://maps22.kattis.com/contests/maps22</a></td></tr>
 </table>
 
 <div class="bar">
