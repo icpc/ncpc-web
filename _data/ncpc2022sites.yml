@@ -111,9 +111,9 @@
     url: https://www.cs.kau.se/ncpc22/
 
   - name : Linköpings universitet
-    contact: Gustav Sörnäs
+    contact: Lowe Kozak Åslöv
     email: 'ordf lithekod.se'
-    confirmed: false
+    confirmed: true
 
   - name : Luleå Institute of Technology
     contact: Anton Johansson
