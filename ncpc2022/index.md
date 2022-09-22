@@ -167,7 +167,7 @@ If you are a site director please email Måns Magnusson at `exoji2e@gmail.com` t
 <p>
   Teams consisting of university students, who are [ICPC eligible](https://icpc.global/regionals/rules), are encouraged to participate in the ICPC division. These may qualify for the regional finals
   ([NWERC](https://nwerc.eu)), and further to the [ICPC World Finals](https://icpc.global).
-  Basically, any student who started his/her university/college studies in {{ page.year | minus: 4 }} or later is eligible to compete.
+  Basically, any student born in {{ page.year | minus: 23 }} or later, and who started their university/college studies in {{ page.year | minus: 4 }} or later is eligible to compete.
   For exceptions such as retaken years, military service and so on, please refer to the [ICPC rules](https://icpc.global/regionals/rules).
   Persons who have competed in five regional finals already, or two world finals, may not compete in the ICPC division.
 </p>
@@ -206,6 +206,7 @@ that will be sent to all teams at all sites in the contest.
 
 ### Change-log
 
+- 2022-09-22 added info about age requirement for ICPC eligibility.
 - 2022-09-08 clarification about bringing mouse with computer.
 - 2022-08-14 initial publication.
 
