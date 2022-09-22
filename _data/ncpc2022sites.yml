@@ -92,9 +92,9 @@
     confirmed: true
 
   - name : UiT - Narvik
-    contact: Ghada Bouzidi
-    email: 'ghada.bouzidi uit.no'
-    confirmed: false
+    contact: Ronny Stirling
+    email: 'rst112 post.uit.no'
+    confirmed: true
 
 - name: Sweden
   emoji: 🇸🇪
