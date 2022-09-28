@@ -71,7 +71,7 @@
   - name : Kaunas University of Technology
     contact: Mindaugas Vasiljevas
     email: 'mindaugas.vasiljevas ktu.lt'
-    confirmed: false
+    confirmed: true
 
 - name: Norway
   emoji: 🇳🇴
