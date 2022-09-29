@@ -82,9 +82,12 @@
     confirmed: true
 
   - name : University of Bergen
-    contact: Torstein Strømme
-    email: 'torstein.stromme uib.no'
-    confirmed: false
+    contact: Brigt Håvardstun
+    email: 'Brigt.Havardstun student.uib.no'
+    confirmed: true
+    extra_contacts:
+      - name: Torstein Strømme
+        email: 'Torstein.Stromme uib.no'
 
   - name : University of Oslo
     contact: Sergey Jakobsen
