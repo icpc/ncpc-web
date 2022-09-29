@@ -125,6 +125,9 @@
     email: 'exoji2e gmail.com'
     confirmed: true
     url: https://codeatlth.org/ncpc2022/
+    extra_contacts:
+      - name: Per Andersson
+        email: 'per.andersson cs.lth.se'
 
   - name : KTH Royal Institute of Technology
     contact: Björn Martinsson
