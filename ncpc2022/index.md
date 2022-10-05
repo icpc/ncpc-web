@@ -3,7 +3,7 @@ layout: default
 headerText: "NCPC 2022"
 title: "Nordic Collegiate Programming Contest 2022"
 dateTime: "Saturday October 8th 11:00-16:00 CEST (UTC+2)"
-lastUpdate: "2022-10-04"
+lastUpdate: "2022-10-05"
 year: 2022
 ---
 <nav class="navbar menu-bar" markdown="0">
@@ -23,10 +23,10 @@ year: 2022
   <h3>Information</h3>
 </div>
 
-The Nordic Collegiate Programming Contest {{ page.year }} will take place <b>{{ page.dateTime }}</b>.
+The Nordic Collegiate Programming Contest {{ page.year }} takes place <b>{{ page.dateTime }}</b>.
 
 <br />
-[The registration is open!](#registration)
+The contest is hosted on [https://ncpc22.kattis.com/contests/ncpc22](https://ncpc22.kattis.com/contests/ncpc22). Use your own Kattis account, it will be linked to your team the day before the contest. If you do not have a Kattis account, an account will be created for you and you will receive an email with information about your new account.
 
 <br />
 
@@ -46,7 +46,7 @@ NCPC will use the Kattis automatic judging system provided by [Kattis](https://k
 
 ### Practice contests
 
-There will be some practice contests on kattis before NCPC.
+Some practice contests were hosted to practice on before NCPC.
 
 <table class="info-table">
   <tr><th>Date</th><th>Link</th></tr>
@@ -213,14 +213,26 @@ that will be sent to all teams at all sites in the contest.
 </div>
 
 <div class="bar">
+  <a name="open-contest" />
+  <h3>Open Contest</h3>
+</div>
+Teams from countries outside the NCPC countries, or teams who can't participate at a site can instead participate in the open contest, starting one hour after the official contest with the same problem set: [https://open.kattis.com/contests/ncpc22open](https://open.kattis.com/contests/ncpc22open).
+
+<div class="bar">
   <a name="directors" />
   <h3>Site Director</h3>
 </div>
 Each site has a site director. The site director is responsible for running the local site during the contest, preferably with the help of a local group. The following conditions should be met at each site:
 
-- Participating teams should be seated in designated area with one table per team and ample space between teams.
+- Participating teams should be seated in a designated area with one table per team and ample space between teams.
 - Each team should have close access to a power outlet for their computer.
-- Each team should receive 3 printed copies of the problem statements in an envelope in the minutes before the contest starts, which they should open when the contest starts.
+- Each team should receive 3 printed copies of the problem statements in a sealed envelope in the minutes before the contest, which they may open once the contest starts.
+
+The problem statements will be emailed to the site directors lunch time the 7th of October. For each team, print three copies of the problem statements and put them in a sealed envelope.
+
+The participants will use their own Kattis accounts to access their teams at [https://ncpc22.kattis.com/contests/ncpc22](https://ncpc22.kattis.com/contests/ncpc22). There will be Kattis accounts created for participants who do not already have an account. They will receive an email about this the day before the contest.
+
+If you as site director plan to hand out balloons during the contest, there is a balloon system inside Kattis. To get access to the system, send your Kattis username to Pehr Söderman `pehrs@kattis.com`.
 
 <div class="bar">
   <a name="organizers" />
