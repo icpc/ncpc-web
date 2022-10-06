@@ -3,7 +3,7 @@ layout: default
 headerText: "NCPC 2022"
 title: "Nordic Collegiate Programming Contest 2022"
 dateTime: "Saturday October 8th 11:00-16:00 CEST (UTC+2)"
-lastUpdate: "2022-10-05"
+lastUpdate: "2022-10-06"
 year: 2022
 ---
 <nav class="navbar menu-bar" markdown="0">
@@ -61,18 +61,15 @@ Some practice contests were hosted to practice on before NCPC.
   <a name="registration"></a>
   <h3>Registration</h3>
 </div>
+The registration closed the 5th of October.
 
-Head over to the ICPC site to register your team: [https://icpc.global/regionals/finder/Nordic-2022](https://icpc.global/regionals/finder/Nordic-2022).
-
-<br />
-All team members need an account at [https://icpc.global](https://icpc.global).
+ICPC website for the contest: [https://icpc.global/regionals/finder/Nordic-2022](https://icpc.global/regionals/finder/Nordic-2022).
 
 <br />
 
 **Student teams** should verify that the ICPC eligibility status is marked green "Eligibility: Predicted eligible". This is important to be able to advance to the regional contest NWERC. If it the status is red "Eligibility: Predicted ineligible" you can click the eligibility button and scroll down to view the log of reasons of why your team is predicted ineligible. The most common reason is that some team member has an incomplete ICPC profile.
 
 <br />
-The registration closes the 5th of October.
 <div class="bar">
   <a name="sites" ></a>
   <h3>Sites</h3>
