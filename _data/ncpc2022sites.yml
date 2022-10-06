@@ -18,6 +18,9 @@
     contact: Gerth Stølting Brodal
     email : 'gerth cs.au.dk'
     confirmed: true
+    extra_contacts:
+      - name: Sheila Lærkegaard Johannesen
+        email: 'sljo netcompany.com'
 
 
 - name: Estonia
