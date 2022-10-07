@@ -243,6 +243,7 @@ If you as site director plan to hand out balloons during the contest, there is a
   <tr>
     <td>NCPC director:</td>
     <td>Fredrik Niemelä (Kattis)</td>
+    <td>fredrik kattis.com</td>
   </tr>
   <tr>
     <td>Head of Jury:</td>
@@ -251,10 +252,12 @@ If you as site director plan to hand out balloons during the contest, there is a
   <tr>
     <td>Technical Director:</td>
     <td>Pehr Söderman (Kattis)</td>
+    <td>pehrs kattis.com</td>
   </tr>
   <tr>
     <td>Webmaster:</td>
     <td>Måns Magnusson (Lund University)</td>
+    <td>exoji2e gmail.com</td>
   </tr>
 </table>
 
