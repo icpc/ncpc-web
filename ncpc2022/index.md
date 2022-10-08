@@ -29,7 +29,7 @@ The Nordic Collegiate Programming Contest {{ page.year }} takes place <b>{{ page
 The contest is hosted on [https://ncpc22.kattis.com/contests/ncpc22](https://ncpc22.kattis.com/contests/ncpc22). Use your own Kattis account, it will be linked to your team the day before the contest. If you do not have a Kattis account, an account will be created for you and you will receive an email with information about your new account.
 
 <br />
-There will be a live stream with a solution walk through and a scoreboard resolver starting approximately 15 minutes after the contest. The link will be posted here when available. <!-- [Link to livestream at youtube](https://www.youtube.com/watch?v=7tPmFRIH6ng) -->
+There will be a live stream with a solution walk through and a scoreboard resolver starting approximately 15 minutes after the contest. The link will be posted here when available. [Link to livestream at youtube](https://www.youtube.com/watch?v=S25kO1kric8)
 
 <br />
 
