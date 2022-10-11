@@ -23,13 +23,19 @@ year: 2022
   <h3>Information</h3>
 </div>
 
-The Nordic Collegiate Programming Contest {{ page.year }} takes place <b>{{ page.dateTime }}</b>.
+The Nordic Collegiate Programming Contest {{ page.year }} took place <b>{{ page.dateTime }}</b>. In total 201 teams participated from 7 countries, trying to solve as many as possible of the 11 problems.
 
-<br />
-The contest is hosted on [https://ncpc22.kattis.com/contests/ncpc22](https://ncpc22.kattis.com/contests/ncpc22). Use your own Kattis account, it will be linked to your team the day before the contest. If you do not have a Kattis account, an account will be created for you and you will receive an email with information about your new account.
+The winning team was _The Balloon Animals_ from University of Copenhagen, Denmark, who solved all 11 problems before the scoreboard freeze! _#define true rand_ from Vilnius University, Lithuania got second place, also solving all 11 problems. _Keksi Fan Club_ from University of Helsinki, Finland placed third, solving 10 problems! Congratualtions to the top teams!
 
-<br />
-There will be a live stream with a solution walk through and a scoreboard resolver starting approximately 15 minutes after the contest. The link will be posted here when available. [Link to livestream at youtube](https://www.youtube.com/watch?v=S25kO1kric8)
+For the all results, have a look at the [final results](https://ncpc22.kattis.com/standings).
+
+### Contest links:
+- [Final results](https://ncpc22.kattis.com/standings)
+- Post-contest solutions and results live stream: [youtube](https://www.youtube.com/watch?v=S25kO1kric8)
+- Problem set: [ncpc2022problems.pdf](https://github.com/icpc/ncpc-web/releases/download/ncpc2022-data/ncpc2022problems.pdf)
+- Slides describing solutions: [ncpc22slides.pdf](https://github.com/icpc/ncpc-web/releases/download/ncpc2022-data/ncpc22slides.pdf)
+- Packaged problems including testdata, solutions, wrong solutions, output validators, input generators, problem statement sources, etc: [ncpc2022-problems.zip](https://github.com/icpc/ncpc-web/releases/download/ncpc2022-data/ncpc2022-problems.zip) (141 MB)
+- Judges' solutions: [ncpc2022-solutions.zip](https://github.com/icpc/ncpc-web/releases/download/ncpc2022-data/ncpc2022-solutions.zip) (43 KB)
 
 <br />
 

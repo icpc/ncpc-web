@@ -1,7 +1,7 @@
 ---
 layout: default
 headerText: "NCPC"
-lastUpdate: "2022-08-14"
+lastUpdate: "2022-10-11"
 ---
 
 <nav class="navbar menu-bar" markdown="0">
@@ -17,16 +17,18 @@ lastUpdate: "2022-08-14"
 <h3>News</h3>
 </div>
 
-[NCPC 2022](ncpc2022/) will take place the 8th of October 2022 11:00-16:00 (UTC+2).
+[NCPC 2022](ncpc2022/) took place the 8th of October 2022 11:00-16:00 (UTC+2). In total 201 teams participated from 7 countries, trying to solve as many as possible of the 11 problems.
+
+The winning team was _The Balloon Animals_ from University of Copenhagen, Denmark, who solved all 11 problems!
+
+For the all results, have a look at the [final results](https://ncpc22.kattis.com/standings).
+
+Find the problem set and problem data at the [NCPC 2022 page](ncpc2022/).
+
+We hope to see you again next year!
 
 <hr />
 
-<a href="/ncpc2021">NCPC 2021</a> was organized the 9th of October 2021 11:00-16:00 (UTC+2). In total 228 teams participated from 7 countries, trying to solve as many as possible of the 13 problems.
-
-The winning team was <i>Omogen Heap</i> from KTH Royal Institute of Technology, Sweden, who was the only team solving 11 out of the 13 problems. Congratulations!
-
-For the all results, have a look at the [final standings](https://ncpc21.kattis.com/standings)
-<hr />
 
 <div class="bar">
   <a name="about" ></a>
