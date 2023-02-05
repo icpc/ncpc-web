@@ -7,9 +7,9 @@
     --transparent-gradient: linear-gradient(#FFFFFF00, #FFFFFFAA, #FFFFFFEE);
 }
 
-h1,h2,h3,h4,h5,h6,p,blockquote,pre,div,li,td,th { 
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
-    font-style: normal; 
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,div,li,td,th {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
     font-variant: normal;
     margin: 0px;
 }
@@ -38,6 +38,11 @@ p {
     margin-bottom: 5px;
 }
 
+button {
+    border: none;
+    cursor: pointer;
+}
+
 code {
     padding: 2px 4px;
     font-size: 90%;
@@ -51,19 +56,26 @@ code {
     padding-left: 4px;
     margin-right: auto;
     margin-left: auto;
-    max-width: 540px;
+    max-width: 600px;
 }
-@media (min-width: 768px) {
+@media (min-width: 710px) {
     .container {
-        max-width: 720px;
+        max-width: 700px;
     }
 }
-@media (min-width: 1200px) {
+
+@media (min-width: 900px) {
+    .container {
+        max-width: 860px;
+    }
+}
+
+@media (min-width: 1020px) {
     .container {
         max-width: 1000px;
     }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1220px) {
     .container {
         max-width: 1200px;
     }
@@ -88,6 +100,10 @@ code {
     left: 0%;
     margin: 0px;
     z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    right: 0%;
+    align-items: baseline;
 }
 .banner-text .title {
     color: var(--main-color);
@@ -108,9 +124,39 @@ code {
 .menu-bar {
     display: flex;
     flex-wrap: wrap;
+    justify-content: left;
+    gap: 10px;
+    transition: height 0.15s ease-in-out;
 }
 
-.menu-bar a {
+.navbar-toggler {
+    display: none;
+    cursor: pointer;
+    width: 33px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 10px
+}
+
+.navbar-toggler:hover {
+    background: #eee;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    position: relative;
+    background: #666;
+    border-radius: 3px;
+}
+.navbar-toggler span:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+
+a {
     text-decoration: none;
 }
 
@@ -118,15 +164,17 @@ code {
     padding: 10px 20px;
     font-size: 14px;
     background: var(--main-color);
-    margin-right: 10px;
-    margin-bottom: 10px;
     color: white;
     font-weight: bold;
     white-space:nowrap;
+    border-radius: 5px;
+    transition:  background-color 0.15s ease-in-out;
 }
+
 .menu-item:hover {
     background: var(--hover-color);
 }
+
 
 .bar {
     padding: 10px 20px;
@@ -159,7 +207,7 @@ code {
     background-color:#ddd;
 }
 
-.rules-section {
+.rules-section, .news-item {
     padding: 8px;
     background: #e7e7e7;
     border-radius: 8px;
@@ -169,4 +217,62 @@ code {
 .rules-section h4 {
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.btn-discord {
+    color: white;
+    background-color: #5865f2;
+    font-weight: 700;
+    font-size: 11pt;
+    line-height: 13pt;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    transition: background-color 0.15s ease-in-out;
+}
+.btn-discord:hover {
+    background-color: #8ea2e1;
+}
+.discord-button-wrapper {
+    transform: translateY(-12px);
+}
+
+@media only screen and (max-width: 709px) {
+    .menu-bar {
+        flex-direction: column;
+        gap: 5px;
+    }
+    div.menu-item {
+        min-width: 100px;
+        max-width: 120px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+    .banner-text .title {
+        font-size: 48px;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar:not(.open) {
+        display: none;
+    }
+    .right-top-link {
+        bottom: 28px;
+    }
+}
+
+@media (max-width: 560px) {
+    .btn-discord {
+        padding: 10px 10px;
+    }
+    .discord-text {
+        display: none;
+    }
+}
+@media (max-width: 425px) {
+    .btn-discord {
+        display: none;
+    }
 }

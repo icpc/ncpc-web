@@ -1,0 +1,1 @@
+The rules for NCPC 2023 have not been decided yet. In the meantime, have a look at the [rules for last year](/ncpc2022/#rules).

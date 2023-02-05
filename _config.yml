@@ -1,4 +1,9 @@
 #encoding: ISO-8859-1
 title: "NCPC - Nordic Collegiate Programming Contest"
+discord_link: https://discord.gg/8mDKWnBJUY
+
 kramdown:
   parse_block_html: true
+
+plugins:
+  - jekyll-redirect-from

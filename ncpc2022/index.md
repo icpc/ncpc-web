@@ -84,7 +84,7 @@ ICPC website for the contest: [https://icpc.global/regionals/finder/Nordic-2022]
   <h3>Sites</h3>
 </div>
 
-Below is a list of sites that will hopefully join NCPC in {{ page.year }}. 
+Below is a list of sites that will hopefully join NCPC in {{ page.year }}.
 
 Pending Confirmation means that the site was organized last year, but it has not been confirmed that it will be organized this year.
 <!-- Follow the links to get local information such as when and where to meet. -->
@@ -266,12 +266,3 @@ If you as site director plan to hand out balloons during the contest, there is a
     <td><code>exoji2e@gmail.com</code></td>
   </tr>
 </table>
-
-<hr />  
-<br />
-
-Last updated: {{page.lastUpdate}}
-
-Webmaster: Måns Magnusson `exoji2e@gmail.com`
-
-<br />

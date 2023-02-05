@@ -1,6 +1,7 @@
 <head>
   <title>{% if page.headerText %}{{ page.headerText }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="keywords" content="ncpc,acm,icpc,collegiate,student,programming,contest,nm,sm,vm,programmering" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Nordic Collegiate Programming Contest" />
   <link rel="stylesheet" type="text/css" href="/css/main.css" />
 </head>
@@ -14,11 +15,28 @@
       </div>
       <div class="banner-text">
         <h1 class="title">{{ page.headerText }}</h1>
+        <div class="discord-button-wrapper">
+        <a href="{{site.discord_link}}" class="btn btn-discord">
+          <img src="/gfx/discord.png" height="25" style="vertical-align: middle;">
+          <span class="discord-text">Discord server</span>
+        </a>
+        </div>
       </div>
     </div>
   </div>
   <div class="container">
     {{ content }}
+  <br/>
+  {% if page.lastUpdate %}
+  <hr />
+  <p>
+  Last updated: {{page.lastUpdate}}
+  </p>
+  <p>
+  Webmaster: Måns Magnusson <code>exoji2e@gmail.com</code>
+  </p>
+  <br/>
+  {% endif %}
   </div>
   <script data-goatcounter="https://ncpc.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>

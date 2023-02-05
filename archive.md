@@ -1,64 +1,17 @@
 ---
 layout: default
-headerText: "NCPC"
-lastUpdate: "2022-10-11"
+headerText: "NCPC Archive"
+lastUpdate: "2023-02-12"
 ---
 
-<nav class="navbar menu-bar" markdown="0">
-  <a href="ncpc2022/"><div class="menu-item">NCPC 2022</div></a>
-  <a href="#news"><div class="menu-item">News</div></a>
-  <a href="#about"><div class="menu-item">About</div></a>
-  <a href="#archive"><div class="menu-item">Archive</div></a>
-</nav>
+{% include_relative ncpc2023/navbar.md %}
 
+<br/>
 
-<div class="bar">
-<a name="news" ></a>
-<h3>News</h3>
-</div>
-
-[NCPC 2022](ncpc2022/) took place the 8th of October 2022 11:00-16:00 (UTC+2). In total 201 teams participated from 7 countries, trying to solve as many as possible of the 11 problems.
-
-The winning team was _The Balloon Animals_ from University of Copenhagen, Denmark, who solved all 11 problems!
-
-For the all results, have a look at the [final results](https://ncpc22.kattis.com/standings).
-
-Find the problem set and problem data at the [NCPC 2022 page](ncpc2022/).
-
-We hope to see you again next year!
-
-<hr />
-
-
-<div class="bar">
-  <a name="about" ></a>
-  <h3>About</h3>
-</div>
-
-The Nordic Collegiate Programming Contest (NCPC) is an annual team-based programming contest aimed at university and college students in the Nordic and Baltic countries. NCPC takes places at at many participating universities and colleges. The same problem set is used at all sites. NCPC results are aggregated electronically, and the event simultaneously serves as local, national, and Nordic championships.
-
-The contest is suitable for programmers of almost all skill levels, from 
-beginner to expert, as the problem set always has both very easy and very
-difficult problems. There are also separate score tables for the local 
-sites, national level and the entire contest. This means you can 
-choose on which level you want to compare yourself.
-
-NCPC has been the Nordic championship in competitive programming since 2002.
-
-All the Nordic locations belong to the Northwestern European region in
-the ICPC system. The [Northwestern Europe Programming Contest](https://nwerc.eu) (NWERC) is usually held in the middle of November. Universities use the
-local/national/nordic event as a preliminary for this contest. 
-
-The top teams at NWERC advance to compete in the [ICPC](https://icpc.global) - the world finals of the top student teams around the world. Thousands of teams from thousands of universities world wide compete in the regional contests (like NWERC) and sub regional contests (like NCPC) which lead up to the world finals. About 120 teams compete in each world final.
-
-<div class="bar">
-  <a name="archive" ></a>
-  <h3>Archive</h3>
-</div>
-
-#### Previous Contests:
+### Previous Contests:
 
 <ul>
+<li><a href="ncpc2022/">NCPC 2022</a></li>
 <li><a href="ncpc2021/">NCPC 2021</a></li>
 <li><a href="ncpc2020/">NCPC 2020</a></li>
 <li><a href="ncpc2019/">NCPC 2019</a></li>
@@ -84,7 +37,7 @@ The top teams at NWERC advance to compete in the [ICPC](https://icpc.global) - t
     <a href="http://www.ifi.uio.no/~db/nm-i-programmering/nm2002/">NM 2002</a></li>
 <li><a href="http://www.cs.lth.se/contest/c01/">SM 2001</a> /
     <a href="http://www.ifi.uio.no/~db/nm-i-programmering/nm2001/">NM 2001</a></li>
-<li><a href="http://www.cs.lth.se/contest/c00/">SM 2000</a> / 
+<li><a href="http://www.cs.lth.se/contest/c00/">SM 2000</a> /
     <a href="http://www.ifi.uio.no/~db/nm-i-programmering/nm2000/">NM 2000</a></li>
 <li><a href="http://www.cs.lth.se/contest/c99/">SM 1999</a> /
     <a href="http://www.ifi.uio.no/~db/ifi-m97/">Oslo 1999</a> /
@@ -101,7 +54,7 @@ The top teams at NWERC advance to compete in the [ICPC](https://icpc.global) - t
 
 </ul>
 
-#### News Clips
+### News Clips
 
 <h5>Nordic competitions 2006</h5>
 <ul>
@@ -129,9 +82,9 @@ The top teams at NWERC advance to compete in the [ICPC](https://icpc.global) - t
         <a href="http://www.svd.se/dynamiskt/naringsliv/did_9495208.asp">KTH sjua i programmerings-VM</a></li>
     <li>computerworld.no:
         <a href="http://www.cw.no/index.cfm/fuseaction/artikkel/id/49838">Til VM i Shanghai</a></li>
-    <li>itavisen.no:                                                                      
+    <li>itavisen.no:
         <a href="http://www.itavisen.no/showArticle.php?articleId=1305879">NTNU-lag forsvarte landets &aelig;re</a></li>
-    <li>hegnar.no:                                                                      
+    <li>hegnar.no:
         <a href="http://www.hegnar.no/IT-Kanalen/newsdet.asp?id=179223&amp;cat=110">VM i programmering</a></li>
 </ul>
 
@@ -180,12 +133,3 @@ The top teams at NWERC advance to compete in the [ICPC](https://icpc.global) - t
     <li>idg.se:
         <a href="http://domino.idg.se/cs/artikel.nsf/0/f23b8c139ce070c2c1256de3002e6dbf?OpenDocument">Svenskar b&auml;st i Nordeuropa</a></li>
 </ul>
-
-
-<hr />
-<br />
-Updated: {{ page.lastUpdate }}
-
-Responsible editor: <a href="mailto:exoji2e@gmail.com">Måns Magnusson</a>
-
-<br />
