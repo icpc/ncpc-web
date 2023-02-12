@@ -16,8 +16,8 @@ The Nordic Collegiate Programming Contest (NCPC) is an annual team-based program
 Each university hosts their own local site. Scoreboards are maintained for local sites, national level, and the overall contest, giving participants the opportunity to compare their performance against others at their desired level of competition. Professional teams (with team members not enrolled at a university) are also welcome to participate.
 
 <div class="call-to-action-wrap" markdown="0">
-<a href="/ncpc2023/compete/"><button class="menu-item">Compete!</button></a>
-<a href="/ncpc2023/sites/"><button class="menu-item">Organize a local site!</button></a>
+<a href="/ncpc2023/compete"><button class="menu-item">Compete!</button></a>
+<a href="/ncpc2023/sites"><button class="menu-item">Organize a local site!</button></a>
 </div>
 
 <div class="bar">
