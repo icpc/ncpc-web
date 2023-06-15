@@ -12,7 +12,7 @@
         email: 'ahhj netcompany.com'
       - name: Klaus Skelbæk Madsen
         email: 'ksm jobindex.dk'
-    confirmed: false
+    confirmed: true
 
   - name : Aarhus University
     contact: Gerth Stølting Brodal
@@ -128,7 +128,7 @@
   - name : Lund University
     contact: Måns Magnusson
     email: 'exoji2e gmail.com'
-    confirmed: false
+    confirmed: true
 
   - name : KTH Royal Institute of Technology
     contact: Björn Martinsson
