@@ -17,7 +17,7 @@
   - name : Aarhus University
     contact: Gerth Stølting Brodal
     email : 'gerth cs.au.dk'
-    confirmed: false
+    confirmed: true
     extra_contacts:
       - name: Sheila Lærkegaard Johannesen
         email: 'sljo netcompany.com'
@@ -56,7 +56,7 @@
   - name : Reykjavik University
     contact: Arnar Bjarni Arnarson
     email: 'keppnisforritun gmail.com'
-    confirmed: false
+    confirmed: true
 
 - name: Lithuania
   emoji: 🇱🇹
@@ -66,10 +66,10 @@
     email: 'vladas.tumasonis mif.vu.lt'
     confirmed: false
 
-  - name : Vilnius Gediminas Technical University
+  - name: VILNIUS TECH
     contact: Artūras Mackūnas
     email: 'arturas.mackunas vilniustech.lt'
-    confirmed: false
+    confirmed: true
 
   - name : Kaunas University of Technology
     contact: Mindaugas Vasiljevas
