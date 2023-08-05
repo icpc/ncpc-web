@@ -3,7 +3,7 @@ layout: default
 headerText: "NCPC 2023"
 title: "Nordic Collegiate Programming Contest 2023"
 dateTime: "Saturday October 7th 2023 11:00-16:00 CEST (UTC+2)"
-lastUpdate: "2023-02-12"
+lastUpdate: "2023-08-05"
 year: 2023
 ---
 {% include_relative navbar.md %}
@@ -23,6 +23,12 @@ Each university hosts their own local site. Scoreboards are maintained for local
 <div class="bar">
   <a name="news" ></a>
   <h3>News</h3>
+</div>
+
+<div class="news-item">
+<i>2023-08-05</i>
+
+The registration has opened at [https://icpc.global/regionals/finder/Nordic](https://icpc.global/regionals/finder/Nordic).
 </div>
 
 <div class="news-item">

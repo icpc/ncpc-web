@@ -3,7 +3,7 @@ layout: default
 headerText: "NCPC 2023"
 title: "Nordic Collegiate Programming Contest 2023"
 dateTime: "Saturday October 7th 11:00-16:00 CEST (UTC+2)"
-lastUpdate: "2023-02-12"
+lastUpdate: "2023-08-05"
 year: 2023
 ---
 {% include_relative navbar.md %}
@@ -24,7 +24,7 @@ Form a three-member team and get ready to take on the challenge!
   <a name="registration"></a>
   <h3>Registration</h3>
 </div>
-Registration has not opened yet.
+Register at [https://icpc.global/regionals/finder/Nordic](https://icpc.global/regionals/finder/Nordic). More sites will be available to chose from when confirmed!
 
 <div class="bar">
   <a name="rules"></a>
