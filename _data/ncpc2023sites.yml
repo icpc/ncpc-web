@@ -102,6 +102,11 @@
     email: 'rst112 post.uit.no'
     confirmed: false
 
+  - name : UiT - Tromsø
+    contact: Eindride Kjersheim
+    email: 'eindride.kjersheim gmail.com'
+    confirmed: true
+
 - name: Sweden
   emoji: 🇸🇪
   unis:
