@@ -42,7 +42,7 @@
   - name : Aalto University
     contact: Jukka Suomela
     email : 'jukka.suomela aalto.fi'
-    confirmed: false
+    confirmed: true
 
   - name : University of Helsinki
     contact: Antti Laaksonen
@@ -87,7 +87,7 @@
   - name : University of Bergen
     contact: Brigt Håvardstun
     email: 'Brigt.Havardstun student.uib.no'
-    confirmed: false
+    confirmed: true
     extra_contacts:
       - name: Torstein Strømme
         email: 'Torstein.Stromme uib.no'
