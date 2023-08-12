@@ -64,7 +64,7 @@
   - name : Vilnius University
     contact: Vladas Tumasonis
     email: 'vladas.tumasonis mif.vu.lt'
-    confirmed: false
+    confirmed: true
 
   - name: VILNIUS TECH
     contact: Artūras Mackūnas
@@ -122,8 +122,8 @@
 
   - name : Linköpings universitet
     contact: Lowe Kozak Åslöv
-    email: 'ordf lithekod.se'
-    confirmed: false
+    email: 'comp lithekod.se'
+    confirmed: true
 
   - name : Luleå Institute of Technology
     contact: Anton Johansson
