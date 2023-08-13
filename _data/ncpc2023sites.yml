@@ -113,7 +113,7 @@
   - name : Chalmers
     contact: Victor Song
     email: 'songv chalmers.se'
-    confirmed: false
+    confirmed: true
 
   - name : Karlstad University
     contact: Jonathan Vestin
