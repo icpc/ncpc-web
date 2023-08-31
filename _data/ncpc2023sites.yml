@@ -5,6 +5,7 @@
     extra_unis:
       - name: Danish Technical University
       - name: ITU Copenhagen
+    url: https://www.netcompany.com/da/events/2023/dm-i-programmering
     contact: Monica Borup Duch
     email : 'mbd netcompany.com'
     extra_contacts:
@@ -54,6 +55,10 @@
   emoji: 🇮🇸
   unis:
   - name : Reykjavik University
+    contact: Arnar Bjarni Arnarson
+    email: 'keppnisforritun gmail.com'
+    confirmed: true
+  - name : University of Akureyri
     contact: Arnar Bjarni Arnarson
     email: 'keppnisforritun gmail.com'
     confirmed: true
@@ -134,6 +139,7 @@
     contact: Måns Magnusson
     email: 'exoji2e gmail.com'
     confirmed: true
+    url: https://codeatlth.org/events/2023-10-07-ncpc/
 
   - name : KTH Royal Institute of Technology
     contact: Björn Martinsson
