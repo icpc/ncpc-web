@@ -86,9 +86,9 @@
   emoji: 🇳🇴
   unis:
   - name : NTNU Trondheim
-    contact: Kristoffer Nyvoll
-    email: 'kristnyv stud.ntnu.no'
-    confirmed: false
+    contact: Felix Berner
+    email: 'felix.t.berner ntnu.no'
+    confirmed: true
 
   - name : University of Bergen
     contact: Brigt Håvardstun
