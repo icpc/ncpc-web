@@ -3,7 +3,7 @@ layout: default
 headerText: "NCPC 2023"
 title: "Nordic Collegiate Programming Contest 2023"
 year: 2023
-lastUpdate: "2023-09-07"
+lastUpdate: "2023-09-14"
 ---
 {% include_relative navbar.md %}
 
