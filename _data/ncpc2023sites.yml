@@ -99,9 +99,9 @@
         email: 'Torstein.Stromme uib.no'
 
   - name : University of Oslo
-    contact: Sergey Jakobsen
-    email: 'sergeyj uio.no'
-    confirmed: false
+    contact: Sebastian Sandberg Hareide
+    email: 'sebassha ifi.uio.no'
+    confirmed: true
 
   - name : UiT - Narvik
     contact: Ronny Stirling
@@ -145,7 +145,7 @@
   - name : KTH Royal Institute of Technology
     contact: Björn Martinsson
     email: 'bmart kth.se'
-    confirmed: false
+    confirmed: true
 
   - name : Umeå University
     contact: Tomas Forsman
