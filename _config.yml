@@ -2,6 +2,13 @@
 title: "NCPC - Nordic Collegiate Programming Contest"
 discord_link: https://discord.gg/8mDKWnBJUY
 
+ncpc2023editdate: "2023-09-18"
+defaults:
+  - scope:
+      path: "ncpc2023"
+    values:
+      lastUpdate: "2023-09-18"
+
 kramdown:
   parse_block_html: true
 

@@ -36,7 +36,7 @@
   - name : University of Tartu
     contact: Meelis Kull
     email : 'meelis.kull ut.ee'
-    confirmed: false
+    confirmed: true
 
 - name: Finland
   emoji: 🇫🇮
