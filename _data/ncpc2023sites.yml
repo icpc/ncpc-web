@@ -94,6 +94,7 @@
     contact: Brigt Håvardstun
     email: 'Brigt.Havardstun student.uib.no'
     confirmed: true
+    url: https://contest.ii.uib.no/ncpc/2023/
     extra_contacts:
       - name: Torstein Strømme
         email: 'Torstein.Stromme uib.no'
@@ -151,3 +152,4 @@
     contact: Tomas Forsman
     email: 'stric cs.umu.se'
     confirmed: false
+    declined: true

@@ -31,7 +31,13 @@
           </div>
           {% endfor %}
         </td>
-        <td>{% if uni.confirmed %} ✅ Confirmed {% else %} Pending Confirmation {% endif %} </td>
+        <td>{% if uni.confirmed %}
+        ✅ Confirmed
+        {% elsif uni.declined %}
+        Not organizing this year
+        {% else %}
+        Pending Confirmation
+        {% endif %}</td>
       </tr>
     {% endfor %}
   {% endfor %}
