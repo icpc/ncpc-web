@@ -126,11 +126,13 @@
     contact: Jonathan Vestin
     email: 'jonathan.vestin kau.se'
     confirmed: true
+    url: https://www.cs.kau.se/ncpc23/
 
   - name : Linköpings universitet
     contact: Lowe Kozak Åslöv
     email: 'comp lithekod.se'
     confirmed: true
+    url: https://lithekod.se/competitions/ncpc/2023/
 
   - name : Luleå Institute of Technology
     contact: Anton Johansson
@@ -142,6 +144,9 @@
     email: 'exoji2e gmail.com'
     confirmed: true
     url: https://codeatlth.org/events/2023-10-07-ncpc/
+    extra_contacts:
+      - name: Per Andersson
+        email: 'per.andersson cs.lth.se'
 
   - name : KTH Royal Institute of Technology
     contact: Björn Martinsson
