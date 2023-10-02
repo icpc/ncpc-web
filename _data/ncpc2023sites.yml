@@ -49,7 +49,7 @@
   - name : University of Helsinki
     contact: Antti Laaksonen
     email : 'ahslaaks cs.helsinki.fi'
-    confirmed: false
+    confirmed: true
 
 
 - name: Iceland
