@@ -11,6 +11,8 @@ year: 2023
   <h3>Compete</h3>
 </div>
 
+- Constest site: [https://ncpc23.kattis.com/](https://ncpc23.kattis.com/)
+
 Join the Nordic Collegiate Programming Contest (NCPC) and test your skills in competitive programming! Whether you're looking to become the Nordic Champion or just want to have fun solving engaging problems, NCPC is the perfect platform for you.
 
 NCPC is held at the local [sites listed below](#sites).

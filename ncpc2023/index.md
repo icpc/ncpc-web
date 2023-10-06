@@ -25,6 +25,19 @@ Each university hosts their own local site. Scoreboards are maintained for local
 </div>
 
 <div class="news-item">
+<i>2023-10-06</i>
+
+The contest site is live at [https://ncpc23.kattis.com/](https://ncpc23.kattis.com/)
+
+Teams will be imported tonight.
+
+</div>
+<div class="news-item">
+<i>2023-10-04</i>
+
+The registration is closed.
+</div>
+<div class="news-item">
 <i>2023-08-05</i>
 
 The registration has opened at [https://icpc.global/regionals/finder/Nordic](https://icpc.global/regionals/finder/Nordic).
