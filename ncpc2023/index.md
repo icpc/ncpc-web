@@ -34,7 +34,7 @@ The winning team was _Omogen Heap_ from KTH, Sweden, who solved 10 out of 11 pro
 ### Contest links:
 - [Final results](https://ncpc23.kattis.com/standings)
 - Problem set: [ncpc2023problems.pdf](https://github.com/icpc/ncpc-web/releases/download/ncpc2023-data/ncpc2023problems.pdf)
-- Slides describing solutions: [ncpc22slides.pdf](https://github.com/icpc/ncpc-web/releases/download/ncpc2023-data/ncpc22slides.pdf)
+- Slides describing solutions: [ncpc23slides.pdf](https://github.com/icpc/ncpc-web/releases/download/ncpc2023-data/ncpc23slides.pdf)
 - Packaged problems including testdata, solutions, wrong solutions, output validators, input generators, problem statement sources, etc: [ncpc2023-problems.zip](https://github.com/icpc/ncpc-web/releases/download/ncpc2023-data/ncpc2023-problems.zip) (27 MB)
 - Judges' solutions: [ncpc2023-solutions.zip](https://github.com/icpc/ncpc-web/releases/download/ncpc2023-data/ncpc2023-solutions.zip) (53 KB)
 
