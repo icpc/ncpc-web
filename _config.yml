@@ -6,7 +6,7 @@ defaults:
   - scope:
       path: "ncpc2023"
     values:
-      lastUpdate: "2023-10-06"
+      lastUpdate: "2023-10-09"
 
 kramdown:
   parse_block_html: true

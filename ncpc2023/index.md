@@ -25,6 +25,21 @@ Each university hosts their own local site. Scoreboards are maintained for local
 </div>
 
 <div class="news-item">
+<i>2023-10-09</i>
+
+The Nordic Collegiate Programming Contest 2023 took place <b>{{ page.dateTime }}</b>. In total 203 teams participated from 7 countries, trying to solve as many as possible of the 11 problems.
+
+The winning team was _Omogen Heap_ from KTH, Sweden, who solved 10 out of 11 problems! _The Baloon Animals_ from University of Copenhagen, Denmark placed second with 9 problems solved. In third placed _2>3_ from Lund University, solvning 8 problems. Congratualtions to the top teams!
+
+### Contest links:
+- [Final results](https://ncpc23.kattis.com/standings)
+- Problem set: [ncpc2023problems.pdf](https://github.com/icpc/ncpc-web/releases/download/ncpc2023-data/ncpc2023problems.pdf)
+- Slides describing solutions: [ncpc22slides.pdf](https://github.com/icpc/ncpc-web/releases/download/ncpc2023-data/ncpc22slides.pdf)
+- Packaged problems including testdata, solutions, wrong solutions, output validators, input generators, problem statement sources, etc: [ncpc2023-problems.zip](https://github.com/icpc/ncpc-web/releases/download/ncpc2023-data/ncpc2023-problems.zip) (27 MB)
+- Judges' solutions: [ncpc2023-solutions.zip](https://github.com/icpc/ncpc-web/releases/download/ncpc2023-data/ncpc2023-solutions.zip) (53 KB)
+
+</div>
+<div class="news-item">
 <i>2023-10-06</i>
 
 The contest site is live at [https://ncpc23.kattis.com/](https://ncpc23.kattis.com/)

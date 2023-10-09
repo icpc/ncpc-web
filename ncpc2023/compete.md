@@ -11,7 +11,18 @@ year: 2023
   <h3>Compete</h3>
 </div>
 
-- Constest site: [https://ncpc23.kattis.com/](https://ncpc23.kattis.com/)
+The Nordic Collegiate Programming Contest 2023 took place <b>{{ page.dateTime }}</b>. In total 203 teams participated from 7 countries, trying to solve as many as possible of the 11 problems.
+
+The winning team was _Omogen Heap_ from KTH, Sweden, who solved 10 out of 11 problems! _The Baloon Animals_ from University of Copenhagen, Denmark placed second with 9 problems solved. In third placed _2>3_ from Lund University, solvning 8 problems. Congratualtions to the top teams!
+
+### Contest links:
+- [Final results](https://ncpc23.kattis.com/standings)
+- Problem set: [ncpc2023problems.pdf](https://github.com/icpc/ncpc-web/releases/download/ncpc2023-data/ncpc2023problems.pdf)
+- Slides describing solutions: [ncpc23slides.pdf](https://github.com/icpc/ncpc-web/releases/download/ncpc2023-data/ncpc23slides.pdf)
+- Packaged problems including testdata, solutions, wrong solutions, output validators, input generators, problem statement sources, etc: [ncpc2023-problems.zip](https://github.com/icpc/ncpc-web/releases/download/ncpc2023-data/ncpc2023-problems.zip) (27 MB)
+- Judges' solutions: [ncpc2023-solutions.zip](https://github.com/icpc/ncpc-web/releases/download/ncpc2023-data/ncpc2023-solutions.zip) (53 KB)
+
+---
 
 Join the Nordic Collegiate Programming Contest (NCPC) and test your skills in competitive programming! Whether you're looking to become the Nordic Champion or just want to have fun solving engaging problems, NCPC is the perfect platform for you.
 
@@ -25,7 +36,7 @@ Form a three-member team and get ready to take on the challenge!
   <a name="registration"></a>
   <h3>Registration</h3>
 </div>
-Register at [https://icpc.global/regionals/finder/Nordic](https://icpc.global/regionals/finder/Nordic).
+Registeration was found at [https://icpc.global/regionals/finder/Nordic](https://icpc.global/regionals/finder/Nordic).
 
 <div class="bar">
   <a name="rules"></a>
