@@ -13,7 +13,7 @@ year: 2023
 
 The Nordic Collegiate Programming Contest 2023 took place <b>{{ page.dateTime }}</b>. In total 203 teams participated from 7 countries, trying to solve as many as possible of the 11 problems.
 
-The winning team was _Omogen Heap_ from KTH, Sweden, who solved 10 out of 11 problems! _The Baloon Animals_ from University of Copenhagen, Denmark placed second with 9 problems solved. In third placed _2>3_ from Lund University, solvning 8 problems. Congratualtions to the top teams!
+The winning team was _Omogen Heap_ from KTH, Sweden, who solved 10 out of 11 problems! _The Baloon Animals_ from University of Copenhagen, Denmark placed second with 9 problems solved. In third placed _2>3_ from Lund University, solvning 8 problems. Congratulations to the top teams!
 
 ### Contest links:
 - [Final results](https://ncpc23.kattis.com/standings)
