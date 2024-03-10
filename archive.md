@@ -1,16 +1,17 @@
 ---
 layout: default
 headerText: "NCPC Archive"
-lastUpdate: "2023-02-12"
+lastUpdate: "2023-11-26"
 ---
 
-{% include_relative ncpc2023/navbar.md %}
+{% include_relative ncpc2024/navbar.md %}
 
 <br/>
 
 ### Previous Contests:
 
 <ul>
+<li><a href="ncpc2023/">NCPC 2023</a></li>
 <li><a href="ncpc2022/">NCPC 2022</a></li>
 <li><a href="ncpc2021/">NCPC 2021</a></li>
 <li><a href="ncpc2020/">NCPC 2020</a></li>
@@ -123,8 +124,6 @@ lastUpdate: "2023-02-12"
     <li>itpro.no:
         <a href="http://itpro.no/art/5119.html">NTNU i programmerings-VM</a></li>
 </ul>
-
-
 
 <h5>Northwestern European Regional Contest 2003</h5>
 <ul>

@@ -1,10 +1,10 @@
 ---
 layout: default
 headerText: "About NCPC"
-lastUpdate: "2023-02-12"
+lastUpdate: "2024-03-10"
 ---
 
-{% include_relative ncpc2023/navbar.md %}
+{% include_relative ncpc2024/navbar.md %}
 
 <br/>
 The Nordic Collegiate Programming Contest (NCPC) is an annual team-based programming contest aimed at university and college students in the Nordic and Baltic countries. NCPC takes place at at many participating universities and colleges. The same problem set is used at all sites. NCPC results are aggregated electronically, and the event simultaneously serves as local, national, and Nordic championships.
