@@ -8,11 +8,11 @@
       contact: Monica Borup Duch
       email: "mbd netcompany.com"
       extra_contacts:
-        - name: Anne Honum
-          email: "ahhj netcompany.com"
         - name: Klaus Skelbæk Madsen
           email: "ksm jobindex.dk"
-      confirmed: false
+        - name: Sophia Saxil Engel
+          email: "sope netcompany.com"
+      confirmed: true
 
     - name: Aarhus University
       contact: Gerth Stølting Brodal
