@@ -71,7 +71,7 @@
     - name: VILNIUS TECH
       contact: Artūras Mackūnas
       email: "arturas.mackunas vilniustech.lt"
-      confirmed: false
+      confirmed: true
 
     - name: Kaunas University of Technology
       contact: Mindaugas Vasiljevas
