@@ -135,7 +135,7 @@
     - name: Lund University
       contact: Måns Magnusson
       email: "exoji2e gmail.com"
-      confirmed: false
+      confirmed: true
       extra_contacts:
         - name: Per Andersson
           email: "per.andersson cs.lth.se"
