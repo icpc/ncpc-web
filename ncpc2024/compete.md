@@ -24,17 +24,14 @@ Form a three-member team and get ready to take on the challenge!
   <a name="registration"></a>
   <h3>Registration</h3>
 </div>
-Registration has not opened yet.
+Registration is open at [https://icpc.global/regionals/finder/Nordic](https://icpc.global/regionals/finder/Nordic). Last day to register is Wednesday the 2nd of October 2024.
 
 <div class="bar">
   <a name="rules"></a>
   <h3>Rules</h3>
 </div>
 
-The rules are not yet finalized for NCPC 2024. They will most likely be similar to the [rules of last year](/ncpc2023/compete#rules).
-
-<!--
--->
+{% include_relative rules.md %}
 
 <div class="bar">
   <a name="sites"></a>

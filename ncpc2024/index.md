@@ -27,6 +27,11 @@ Each university hosts their own local site. Scoreboards are maintained for local
 </div>
 
 <div class="news-item">
+<i>2024-08-25</i>
+
+Registration is open at [https://icpc.global/regionals/finder/Nordic](https://icpc.global/regionals/finder/Nordic)!
+</div>
+<div class="news-item">
 <i>2024-03-11</i>
 
 The contest date for NCPC 2024 is **October 5th, 2024**. We look forward to seeing you!
