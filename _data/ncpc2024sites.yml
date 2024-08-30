@@ -120,7 +120,7 @@
     - name: Karlstad University
       contact: Jonathan Vestin
       email: "jonathan.vestin kau.se"
-      confirmed: false
+      confirmed: true
 
     - name: Linköpings universitet
       contact: Lowe Kozak Åslöv
