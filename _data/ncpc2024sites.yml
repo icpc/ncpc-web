@@ -54,11 +54,11 @@
     - name: University of Iceland
       contact: Arnar Bjarni Arnarson
       email: "keppnisforritun gmail.com"
-      confirmed: false
+      confirmed: true
     - name: University of Akureyri
       contact: Arnar Bjarni Arnarson
       email: "keppnisforritun gmail.com"
-      confirmed: false
+      confirmed: true
 
 - name: Lithuania
   emoji: 🇱🇹
