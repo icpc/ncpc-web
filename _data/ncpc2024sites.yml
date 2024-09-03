@@ -28,7 +28,7 @@
     - name: Tallinn University of Technology
       contact: Ago Luberg
       email: "ago.luberg taltech.ee"
-      confirmed: false
+      confirmed: true
 
     - name: University of Tartu
       contact: Meelis Kull
