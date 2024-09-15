@@ -123,9 +123,12 @@
       confirmed: true
 
     - name: Linköpings universitet
-      contact: Lowe Kozak Åslöv
-      email: "comp lithekod.se"
-      confirmed: false
+      contact: Morgan Nordberg
+      email: "ordf lithekod.se"
+      extra_contacts:
+        - name: Astrid Lauenstein
+          email: vordf lithekod.se
+      confirmed: true
 
     - name: Luleå Institute of Technology
       contact: Anton Johansson
