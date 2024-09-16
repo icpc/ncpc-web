@@ -95,9 +95,9 @@
           email: "Torstein.Stromme uib.no"
 
     - name: University of Oslo
-      contact: Sebastian Sandberg Hareide
-      email: "sebassha ifi.uio.no"
-      confirmed: false
+      contact: Jonas Berger Nyvold
+      email: "jonasbny ifi.uio.no"
+      confirmed: true
 
     - name: UiT - Narvik
       contact: Ronny Stirling
