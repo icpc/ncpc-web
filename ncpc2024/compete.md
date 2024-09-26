@@ -2,7 +2,7 @@
 layout: default
 headerText: "NCPC 2024"
 title: "Nordic Collegiate Programming Contest 2024"
-dateTime: "Saturday October 7th 11:00-16:00 CEST (UTC+2)"
+dateTime: "Saturday October 5th 2024 11:00-16:00 CEST (UTC+2)"
 year: 2024
 ---
 
@@ -14,7 +14,7 @@ year: 2024
 
 Join the Nordic Collegiate Programming Contest (NCPC) and test your skills in competitive programming! Whether you're looking to become the Nordic Champion or just want to have fun solving engaging problems, NCPC is the perfect platform for you.
 
-NCPC is held at the local [sites listed below](#sites).
+NCPC is held on **{{ page.dateTime }}** at the local [sites listed below](#sites).
 
 The contest uses the [Kattis](https://kattis.com) automatic judging system. If you're new to Kattis, we encourage you to familiarize yourself with the system by trying it out before the contest. We suggest that you check out the [problems from last year's NCPC](https://ncpc22.kattis.com/problems). For even more practice, visit [https://open.kattis.com/](https://open.kattis.com/) featuring thousands of problems of various difficulty.
 
