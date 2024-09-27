@@ -10,7 +10,7 @@ defaults:
   - scope:
       path: "ncpc2024"
     values:
-      lastUpdate: "2024-09-26"
+      lastUpdate: "2024-09-27"
 
 kramdown:
   parse_block_html: true

@@ -21,6 +21,10 @@
       extra_contacts:
         - name: Sheila Lærkegaard Johannesen
           email: "sljo netcompany.com"
+    - name: University of Southern Denmark - Sønderborg
+      contact: Krzysztof Sierszecki
+      email: "krzys mmmi.sdu.dk"
+      confirmed: true
 
 - name: Estonia
   emoji: 🇪🇪
