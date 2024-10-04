@@ -12,6 +12,14 @@ year: 2024
   <h3>Compete</h3>
 </div>
 
+**The contest site is live at [https://ncpc24.kattis.com/](https://ncpc24.kattis.com/)**
+
+Teams will be imported during the night 4-5th October.
+
+After the contest there will be a solution stream on zoom, the link will be posted on discord.
+
+<br>
+
 Join the Nordic Collegiate Programming Contest (NCPC) and test your skills in competitive programming! Whether you're looking to become the Nordic Champion or just want to have fun solving engaging problems, NCPC is the perfect platform for you.
 
 NCPC is held on **{{ page.dateTime }}** at the local [sites listed below](#sites).

@@ -25,7 +25,16 @@ Each university hosts their own local site. Scoreboards are maintained for local
   <a name="news" ></a>
   <h3>News</h3>
 </div>
+<div class="news-item">
+<i>2024-10-04</i>
 
+The contest site is live at [https://ncpc24.kattis.com/](https://ncpc24.kattis.com/)
+
+Teams will be imported tonight.
+
+After the contest there will be a solution stream on zoom, the link will be posted on discord.
+
+</div>
 <div class="news-item">
 <i>2024-08-25</i>
 
