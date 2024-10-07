@@ -12,12 +12,20 @@ year: 2024
   <h3>Compete</h3>
 </div>
 
-**The contest site is live at [https://ncpc24.kattis.com/](https://ncpc24.kattis.com/)**
+The Nordic Collegiate Programming Contest 2024 took place <b>{{ page.dateTime }}</b>. In total 213 teams participated from 7 countries, trying to solve as many as possible of the 11 problems.
 
-Teams will be imported during the night 4-5th October.
+The winning team was `Just Balloons | Nothing` from University of Copenhagen, Denmark, who solved 10 out of 11 problems! `Aalto CS-A1140 Team 2` from Aalto University, Finland placed second with 7 problems solved. In third placed `grinders` from KTH, Sweden solving 7 problems. Congratulations to the top teams!
 
-After the contest there will be a solution stream on zoom, the link will be posted on discord.
+### Contest links:
+- [Final results](https://ncpc24.kattis.com/contests/ncpc24/standings?filter=6261)
+- Problem set: [ncpc2024problems.pdf](https://github.com/icpc/ncpc-web/releases/download/ncpc2024-data/ncpc2024problems.pdf)
+- Slides describing solutions: [ncpc24slides.pdf](https://github.com/icpc/ncpc-web/releases/download/ncpc2024-data/ncpc24slides.pdf)
+- Packaged problems including testdata, solutions, wrong solutions, output validators, input generators, problem statement sources, etc: [ncpc2024-problems.zip](https://github.com/icpc/ncpc-web/releases/download/ncpc2024-data/ncpc2024-problems.zip) (13 MB)
+- Judges' solutions: [ncpc2024-solutions.zip](https://github.com/icpc/ncpc-web/releases/download/ncpc2024-data/ncpc2024-solutions.zip) (59 KB)
 
+Thank you for participating, we hope to see you again next year!
+
+<hr>
 <br>
 
 Join the Nordic Collegiate Programming Contest (NCPC) and test your skills in competitive programming! Whether you're looking to become the Nordic Champion or just want to have fun solving engaging problems, NCPC is the perfect platform for you.
@@ -32,7 +40,7 @@ Form a three-member team and get ready to take on the challenge!
   <a name="registration"></a>
   <h3>Registration</h3>
 </div>
-Registration is open at [https://icpc.global/regionals/finder/Nordic](https://icpc.global/regionals/finder/Nordic). Last day to register is Wednesday the 2nd of October 2024.
+Registration closed Wednesday the 2nd of October 2024. Registration system: [https://icpc.global/regionals/finder/Nordic](https://icpc.global/regionals/finder/Nordic).
 
 <div class="bar">
   <a name="rules"></a>
