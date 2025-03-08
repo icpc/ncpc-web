@@ -277,3 +277,20 @@ a {
         display: none;
     }
 }
+
+.call-to-action-wrap {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+@media (max-width: 425px) {
+    .call-to-action-wrap {
+        flex-direction: column;
+    }
+    .call-to-action-wrap button {
+        width: 100%;
+    }
+}

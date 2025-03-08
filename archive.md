@@ -1,16 +1,17 @@
 ---
 layout: default
 headerText: "NCPC Archive"
-lastUpdate: "2023-11-26"
+lastUpdate: "2025-03-08"
 ---
 
-{% include_relative ncpc2024/navbar.md %}
+{% include_relative ncpc2025/navbar.md %}
 
 <br/>
 
 ### Previous Contests:
 
 <ul>
+<li><a href="ncpc2024/">NCPC 2024</a></li>
 <li><a href="ncpc2023/">NCPC 2023</a></li>
 <li><a href="ncpc2022/">NCPC 2022</a></li>
 <li><a href="ncpc2021/">NCPC 2021</a></li>

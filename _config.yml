@@ -11,6 +11,14 @@ defaults:
       path: "ncpc2024"
     values:
       lastUpdate: "2024-10-07"
+  - scope:
+      path: "ncpc2025"
+    values:
+      headerText: "NCPC 2025"
+      lastUpdate: "2025-03-08"
+      eventTime: "Saturday October 4th 2025 11:00-16:00 CEST (UTC+2)"
+      title: "Nordic Collegiate Programming Contest 2025"
+      year: 2025
 
 kramdown:
   parse_block_html: true
