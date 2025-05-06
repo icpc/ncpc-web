@@ -22,6 +22,12 @@ Each university hosts their own local site. Scoreboards are maintained for local
   <h3>News</h3>
 </div>
 <div class="news-item">
+<i>2025-05-06</i>
+
+We are seeking your problem ideas for NCPC 2025. The deadline to submit your problem idea is the 20th of July 2025. Read more in our [call for problems](call-for-problems).
+
+</div>
+<div class="news-item">
 <i>2025-03-08</i>
 
 The contest date for NCPC {{ page.year }} is **October 4th, 2025**. We look forward to seeing you!

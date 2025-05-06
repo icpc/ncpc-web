@@ -42,3 +42,7 @@ Get in contact with the organizers of {{year}} by joining the [NCPC discord serv
 <br />
 
 Annually, coaches and organizers gather at the [NWERC](https://nwerc.eu) competition for a meeting to discuss and determine the details of the upcoming edition of NCPC.
+
+<br>
+
+If you want to submit a problem to NCPC 2025 and be part of the jury, check out our [call for problems](call-for-problems)
