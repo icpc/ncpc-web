@@ -5,19 +5,21 @@
       extra_unis:
         - name: Danish Technical University
         - name: ITU Copenhagen
-      contact: Monica Borup Duch
-      email: "mbd netcompany.com"
+      contact: Sophia Saxil Engel
+      email: "sope netcompany.com"
       extra_contacts:
         - name: Klaus Skelbæk Madsen
           email: "ksm jobindex.dk"
-        - name: Sophia Saxil Engel
-          email: "sope netcompany.com"
-      confirmed: false
+        - name: Isabella Maria Lucia Gersby
+          email: "isag netcompany.com"
+        - name: Victoria Granly Kok
+          email: "vick netcompany.com"
+      confirmed: true
 
     - name: Aarhus University
       contact: Gerth Stølting Brodal
       email: "gerth cs.au.dk"
-      confirmed: false
+      confirmed: true
       extra_contacts:
         - name: Sheila Lærkegaard Johannesen
           email: "sljo netcompany.com"
