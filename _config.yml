@@ -15,7 +15,7 @@ defaults:
       path: "ncpc2025"
     values:
       headerText: "NCPC 2025"
-      lastUpdate: "2025-06-27"
+      lastUpdate: "2025-08-12"
       eventTime: "Saturday October 4th 2025 11:00-16:00 CEST (UTC+2)"
       title: "Nordic Collegiate Programming Contest 2025"
       year: 2025

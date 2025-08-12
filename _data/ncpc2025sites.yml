@@ -159,4 +159,7 @@
     - name: Umeå University
       contact: Tomas Forsman
       email: "stric cs.umu.se"
-      confirmed: false
+      confirmed: true
+      extra_contacts:
+        - name: Mattias Åsander
+          email: mattiasa cs.umu.se
