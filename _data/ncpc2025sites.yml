@@ -52,7 +52,7 @@
     - name: University of Helsinki
       contact: Antti Laaksonen
       email: "ahslaaks cs.helsinki.fi"
-      confirmed: false
+      confirmed: true
 
 - name: Iceland
   emoji: 🇮🇸
@@ -134,12 +134,9 @@
       confirmed: true
 
     - name: Linköpings universitet
-      contact: Morgan Nordberg
+      contact: Kacper Uminski
       email: "ordf lithekod.se"
-      extra_contacts:
-        - name: Astrid Lauenstein
-          email: vordf lithekod.se
-      confirmed: false
+      confirmed: true
 
     - name: Luleå Institute of Technology
       contact: Anton Johansson
