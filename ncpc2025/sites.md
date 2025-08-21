@@ -28,4 +28,4 @@ Each site should meet the following conditions:
 - Each team should have easy access to a power outlet for their computer.
 - Each team should receive 3 printed copies of the problem statements in a sealed envelope in the minutes before the contest, which they may open once the contest starts.
 
-Site directors are in communication with the NCPC organizers through the NCPC discord server. To join and stay up-to-date on important information, follow the link: [{{site.discord_link}}]({{site.discord_link}})
+Site directors are in communication with the NCPC organizers through the NCPC discord server. To join and stay up-to-date on important information, follow the link: [{{site.discord_link}}]({{site.discord_link}}). There is also a `site-director` role with a chat for site-directors and the jury. If you are a site director, but do not have that role, contact Måns with your discord username.

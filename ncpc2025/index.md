@@ -22,6 +22,14 @@ Each university hosts their own local site. Scoreboards are maintained for local
   <h3>News</h3>
 </div>
 <div class="news-item">
+<i>2025-08-21</i>
+
+Registration is now open at [https://icpc.global/regionals/finder/Nordic-2026](https://icpc.global/regionals/finder/Nordic-2026).
+
+Last day to register is Wednesday 1st of October 2025.
+
+</div>
+<div class="news-item">
 <i>2025-05-06</i>
 
 We are seeking your problem ideas for NCPC 2025. The deadline to submit your problem idea is the 20th of July 2025. Read more in our [call for problems](call-for-problems).

@@ -20,7 +20,9 @@ Form a three-member team and get ready to take on the challenge!
   <a name="registration"></a>
   <h3>Registration</h3>
 </div>
-Registration will open during the summer of 2025.
+Registration is now open at [https://icpc.global/regionals/finder/Nordic-2026](https://icpc.global/regionals/finder/Nordic-2026).
+
+Last day to register is Wednesday 1st of October 2025.
 
 <div class="bar">
   <a name="rules"></a>
