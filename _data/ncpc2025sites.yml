@@ -47,7 +47,7 @@
     - name: Aalto University
       contact: Jukka Suomela
       email: "jukka.suomela aalto.fi"
-      confirmed: false
+      confirmed: true
 
     - name: University of Helsinki
       contact: Antti Laaksonen
@@ -77,7 +77,7 @@
     - name: VILNIUS TECH
       contact: Artūras Mackūnas
       email: "arturas.mackunas vilniustech.lt"
-      confirmed: false
+      confirmed: true
 
     - name: Kaunas University of Technology
       contact: Mindaugas Vasiljevas
