@@ -34,7 +34,7 @@
     - name: Tallinn University of Technology
       contact: Ago Luberg
       email: "ago.luberg taltech.ee"
-      confirmed: false
+      confirmed: true
 
     - name: University of Tartu
       contact: Meelis Kull
@@ -119,9 +119,9 @@
   emoji: 🇸🇪
   unis:
     - name: Chalmers
-      contact: Victor Song
-      email: "songv chalmers.se"
-      confirmed: false
+      contact: Rasmus Hulthe
+      email: "rasmuswario gmail.com"
+      confirmed: true
 
     - name: Karlstad University
       contact: Jonathan Vestin
