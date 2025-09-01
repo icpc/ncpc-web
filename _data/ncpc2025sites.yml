@@ -10,8 +10,6 @@
       extra_contacts:
         - name: Klaus Skelbæk Madsen
           email: "ksm jobindex.dk"
-        - name: Isabella Maria Lucia Gersby
-          email: "isag netcompany.com"
         - name: Victoria Granly Kok
           email: "vick netcompany.com"
       confirmed: true
@@ -21,8 +19,8 @@
       email: "gerth cs.au.dk"
       confirmed: true
       extra_contacts:
-        - name: Sheila Lærkegaard Johannesen
-          email: "sljo netcompany.com"
+        - name: Frederik Jacobsen
+          email: "frj netcompany.com"
     - name: University of Southern Denmark - Sønderborg
       contact: Krzysztof Sierszecki
       email: "krzys mmmi.sdu.dk"
@@ -88,9 +86,9 @@
   emoji: 🇳🇴
   unis:
     - name: NTNU Trondheim
-      contact: Theodor Beck
-      email: "karl.t.l.beck ntnu.no"
-      confirmed: false
+      contact: Ola Vassbotn
+      email: "olamva stud.ntnu.no"
+      confirmed: true
 
     - name: University of Bergen
       contact: Brigt Håvardstun
@@ -151,7 +149,7 @@
     - name: KTH Royal Institute of Technology
       contact: Björn Martinsson
       email: "bmart kth.se"
-      confirmed: false
+      confirmed: true
 
     - name: Umeå University
       contact: Tomas Forsman
