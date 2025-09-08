@@ -37,7 +37,7 @@
     - name: University of Tartu
       contact: Meelis Kull
       email: "meelis.kull ut.ee"
-      confirmed: false
+      confirmed: true
 
 - name: Finland
   emoji: 🇫🇮
@@ -70,7 +70,7 @@
     - name: Vilnius University
       contact: Vladas Tumasonis
       email: "vladas.tumasonis mif.vu.lt"
-      confirmed: false
+      confirmed: true
 
     - name: VILNIUS TECH
       contact: Artūras Mackūnas
@@ -124,7 +124,7 @@
     - name: Karlstad University
       contact: Jonathan Vestin
       email: "jonathan.vestin kau.se"
-      confirmed: false
+      confirmed: true
     
     - name: Jönköping University
       contact: Rudy Matela
