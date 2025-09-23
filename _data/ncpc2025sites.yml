@@ -99,9 +99,9 @@
           email: "Torstein.Stromme uib.no"
 
     - name: University of Oslo
-      contact: Jonas Berger Nyvold
-      email: "jonasbny ifi.uio.no"
-      confirmed: false
+      contact: Alexander Ramm Østgaard
+      email: "alexros ifi.uio.no"
+      confirmed: true
 
     - name: UiT - Narvik
       contact: Ronny Stirling
