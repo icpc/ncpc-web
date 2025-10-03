@@ -22,6 +22,14 @@ Each university hosts their own local site. Scoreboards are maintained for local
   <h3>News</h3>
 </div>
 <div class="news-item">
+<i>2025-10-03</i>
+
+The contest site is live at [https://ncpc25.kattis.com/contests/ncpc25](https://ncpc25.kattis.com/contests/ncpc25).
+
+During the night between October 3rd and 4th, your team will be added to the contest site, and your usual Kattis account will be linked to your team. If you don't have a Kattis account (or if the one you use doesn't match the email in the ICPC system), we'll create a new one for you. In that case, you'll get an email with the details about the new account.
+
+</div>
+<div class="news-item">
 <i>2025-08-21</i>
 
 Registration is now open at [https://icpc.global/regionals/finder/Nordic-2026](https://icpc.global/regionals/finder/Nordic-2026).
