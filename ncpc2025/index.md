@@ -22,6 +22,22 @@ Each university hosts their own local site. Scoreboards are maintained for local
   <h3>News</h3>
 </div>
 <div class="news-item">
+<i>2025-11-10</i>
+
+The Nordic Collegiate Programming Contest 2025 took place the <b>4th of October 2025</b>. In total 232 teams participated from 7 countries, trying to solve as many as possible of the 11 problems.
+
+The winning team was `snowman` from University of Copenhagen, Denmark, who solved 10 problems! `BishBashBosh` from Aarhus University, Denmark placed second also with 10 problems solved. In third placed `Omogen Heap` from KTH, Sweden solving 9 problems. Congratulations to the top teams!
+
+### Contest links:
+- [Final results](https://ncpc25.kattis.com/contests/ncpc25/standings)
+- Problem set: [ncpc2025problems.pdf](https://github.com/icpc/ncpc-web/releases/download/ncpc2025-data/ncpc2025problems.pdf)
+- Slides describing solutions: [ncpc25slides.pdf](https://github.com/icpc/ncpc-web/releases/download/ncpc2025-data/ncpc25slides.pdf)
+- Packaged problems including testdata, solutions, wrong solutions, output validators, input generators, problem statement sources, etc: [ncpc2025-problems.zip](https://github.com/icpc/ncpc-web/releases/download/ncpc2025-data/ncpc2025-problems.zip) (341 MB)
+- Judges' solutions: [ncpc2025-solutions.zip](https://github.com/icpc/ncpc-web/releases/download/ncpc2025-data/ncpc2025-solutions.zip) (76 KB)
+
+Thank you for participating, we hope to see you again next year!
+</div>
+<div class="news-item">
 <i>2025-10-03</i>
 
 The contest site is live at [https://ncpc25.kattis.com/contests/ncpc25](https://ncpc25.kattis.com/contests/ncpc25).

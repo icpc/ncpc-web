@@ -33,7 +33,7 @@ The Nordic Collegiate Programming Contest 2024 took place <b>{{ page.dateTime }}
 The winning team was `Just Balloons | Nothing` from University of Copenhagen, Denmark, who solved 10 out of 11 problems! `Aalto CS-A1140 Team 2` from Aalto University, Finland placed second with 7 problems solved. In third placed `grinders` from KTH, Sweden solving 7 problems. Congratulations to the top teams!
 
 ### Contest links:
-- [Final results](https://ncpc24.kattis.com/contests/ncpc24/standings?filter=6261)
+- [Final results](https://ncpc24.kattis.com/contests/ncpc24/standings/6261)
 - Problem set: [ncpc2024problems.pdf](https://github.com/icpc/ncpc-web/releases/download/ncpc2024-data/ncpc2024problems.pdf)
 - Slides describing solutions: [ncpc24slides.pdf](https://github.com/icpc/ncpc-web/releases/download/ncpc2024-data/ncpc24slides.pdf)
 - Packaged problems including testdata, solutions, wrong solutions, output validators, input generators, problem statement sources, etc: [ncpc2024-problems.zip](https://github.com/icpc/ncpc-web/releases/download/ncpc2024-data/ncpc2024-problems.zip) (13 MB)
