@@ -19,6 +19,14 @@ defaults:
       eventTime: "Saturday October 4th 2025 11:00-16:00 CEST (UTC+2)"
       title: "Nordic Collegiate Programming Contest 2025"
       year: 2025
+  - scope:
+      path: "ncpc2026"
+    values:
+      headerText: "NCPC 2026"
+      lastUpdate: "2026-05-10"
+      eventTime: "Saturday October 3rd 2026 11:00-16:00 CEST (UTC+2)"
+      title: "Nordic Collegiate Programming Contest 2026"
+      year: 2026
 
 kramdown:
   parse_block_html: true

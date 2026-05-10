@@ -1,0 +1,160 @@
+- name: Denmark
+  emoji: 🇩🇰
+  unis:
+    - name: University of Copenhagen
+      extra_unis:
+        - name: Danish Technical University
+        - name: ITU Copenhagen
+      contact: Sophia Saxil Engel
+      email: "sope netcompany.com"
+      extra_contacts:
+        - name: Klaus Skelbæk Madsen
+          email: "ksm jobindex.dk"
+        - name: Victoria Granly Kok
+          email: "vick netcompany.com"
+      confirmed: false
+
+    - name: Aarhus University
+      contact: Gerth Stølting Brodal
+      email: "gerth cs.au.dk"
+      confirmed: false
+      extra_contacts:
+        - name: Frederik Jacobsen
+          email: "frj netcompany.com"
+    - name: University of Southern Denmark - Sønderborg
+      contact: Krzysztof Sierszecki
+      email: "krzys mmmi.sdu.dk"
+      confirmed: false
+
+- name: Estonia
+  emoji: 🇪🇪
+  unis:
+    - name: Tallinn University of Technology
+      contact: Ago Luberg
+      email: "ago.luberg taltech.ee"
+      confirmed: false
+
+    - name: University of Tartu
+      contact: Meelis Kull
+      email: "meelis.kull ut.ee"
+      confirmed: false
+
+- name: Finland
+  emoji: 🇫🇮
+  unis:
+    - name: Aalto University
+      contact: Jukka Suomela
+      email: "jukka.suomela aalto.fi"
+      confirmed: false
+
+    - name: University of Helsinki
+      contact: Antti Laaksonen
+      email: "ahslaaks cs.helsinki.fi"
+      confirmed: false
+
+- name: Iceland
+  emoji: 🇮🇸
+  unis:
+    - name: University of Iceland
+      contact: Arnar Bjarni Arnarson
+      email: "keppnisforritun gmail.com"
+      confirmed: false
+    - name: University of Akureyri
+      contact: Arnar Bjarni Arnarson
+      email: "keppnisforritun gmail.com"
+      confirmed: false
+
+- name: Lithuania
+  emoji: 🇱🇹
+  unis:
+    - name: Vilnius University
+      contact: Vladas Tumasonis
+      email: "vladas.tumasonis mif.vu.lt"
+      confirmed: false
+
+    - name: VILNIUS TECH
+      contact: Artūras Mackūnas
+      email: "arturas.mackunas vilniustech.lt"
+      confirmed: false
+
+    - name: Kaunas University of Technology
+      contact: Mindaugas Vasiljevas
+      email: "mindaugas.vasiljevas ktu.lt"
+      confirmed: false
+
+- name: Norway
+  emoji: 🇳🇴
+  unis:
+    - name: NTNU Trondheim
+      contact: Ola Vassbotn
+      email: "olamva stud.ntnu.no"
+      confirmed: false
+
+    - name: University of Bergen
+      contact: Brigt Håvardstun
+      email: "Brigt.Havardstun uib.no"
+      confirmed: false
+      extra_contacts:
+        - name: Torstein Strømme
+          email: "Torstein.Stromme uib.no"
+
+    - name: University of Oslo
+      contact: Alexander Ramm Østgaard
+      email: "alexros ifi.uio.no"
+      confirmed: false
+
+    - name: UiT - Narvik
+      contact: Ronny Stirling
+      email: "rst112 post.uit.no"
+      confirmed: false
+
+    - name: UiT - Tromsø
+      contact: Eindride Kjersheim
+      email: "eindride.kjersheim gmail.com"
+      confirmed: false
+
+- name: Sweden
+  emoji: 🇸🇪
+  unis:
+    - name: Chalmers
+      contact: Rasmus Hulthe
+      email: "rasmuswario gmail.com"
+      confirmed: false
+
+    - name: Karlstad University
+      contact: Jonathan Vestin
+      email: "jonathan.vestin kau.se"
+      confirmed: false
+    
+    - name: Jönköping University
+      contact: Rudy Matela
+      email: "rudy.matela ju.se"
+      confirmed: false
+
+    - name: Linköpings universitet
+      contact: Vilgot Johansen
+      email: "vilgot.johansen hotmail.com"
+      confirmed: false
+
+    - name: Luleå Institute of Technology
+      contact: Anton Johansson
+      email: "anton.johansson ludd.ltu.se"
+      confirmed: false
+
+    - name: Lund University
+      contact: Måns Magnusson
+      email: "exoji2e gmail.com"
+      confirmed: false
+
+    - name: KTH Royal Institute of Technology
+      contact: Björn Martinsson
+      email: "bmart kth.se"
+      confirmed: false
+
+    - name: Umeå University
+      contact: Tomas Forsman
+      email: "stric cs.umu.se"
+      confirmed: false
+      extra_contacts:
+        - name: Mattias Åsander
+          email: mattiasa cs.umu.se
