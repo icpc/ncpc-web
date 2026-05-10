@@ -52,4 +52,4 @@ Registration closed the 2nd of October 2025. Registration system: [https://icpc.
 
 {% include_relative site_table.md %}
 
-If your university is not listed - contact your computer science department or programming society, and ask if they would like to host a local site. It's also usually possible to compete at a nearby university's site. Interested in hosting a site? Have a look at the [site page](/ncpc2024/sites).
+If your university is not listed - contact your computer science department or programming society, and ask if they would like to host a local site. It's also usually possible to compete at a nearby university's site. Interested in hosting a site? Have a look at the [site page](/ncpc2025/sites).
