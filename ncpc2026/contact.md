@@ -45,4 +45,4 @@ Annually, coaches and organizers gather at the [NWERC](https://nwerc.eu) competi
 
 <br>
 
-If you want to submit a problem to NCPC 2025 and be part of the jury, check out our [call for problems](call-for-problems)
+If you want to submit a problem to NCPC {{ page.year }} and be part of the jury, check out our [call for problems](call-for-problems)
