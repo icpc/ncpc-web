@@ -93,7 +93,7 @@
     - name: University of Bergen
       contact: Brigt Håvardstun
       email: "Brigt.Havardstun uib.no"
-      confirmed: false
+      confirmed: true
       extra_contacts:
         - name: Torstein Strømme
           email: "Torstein.Stromme uib.no"
