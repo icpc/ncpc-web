@@ -3,7 +3,7 @@
     <span></span><span></span><span></span>
 </div>
 <nav id="navbar" class="navbar menu-bar" >
-  <a href="/ncpc2026/"><div class="menu-item">NCPC 2025</div></a>
+  <a href="/ncpc2026/"><div class="menu-item">NCPC {{ page.year }}</div></a>
   <a href="/ncpc2026/compete"><div class="menu-item">Compete</div></a>
   <a href="/ncpc2026/compete#rules"><div class="menu-item">Rules</div></a>
   <a href="/ncpc2026/sites"><div class="menu-item">Sites</div></a>
