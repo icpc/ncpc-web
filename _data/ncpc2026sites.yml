@@ -129,7 +129,7 @@
     - name: Jönköping University
       contact: Rudy Matela
       email: "rudy.matela ju.se"
-      confirmed: false
+      confirmed: true
 
     - name: Linköpings universitet
       contact: Vilgot Johansen
