@@ -17,7 +17,7 @@
     - name: Aarhus University
       contact: Gerth Stølting Brodal
       email: "gerth cs.au.dk"
-      confirmed: false
+      confirmed: true
       extra_contacts:
         - name: Frederik Jacobsen
           email: "frj netcompany.com"
