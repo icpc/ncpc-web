@@ -24,7 +24,7 @@
     - name: University of Southern Denmark - Sønderborg
       contact: Krzysztof Sierszecki
       email: "krzys mmmi.sdu.dk"
-      confirmed: false
+      confirmed: true
 
 - name: Estonia
   emoji: 🇪🇪
@@ -50,7 +50,7 @@
     - name: University of Helsinki
       contact: Antti Laaksonen
       email: "ahslaaks cs.helsinki.fi"
-      confirmed: false
+      confirmed: true
 
 - name: Iceland
   emoji: 🇮🇸
@@ -75,7 +75,7 @@
     - name: VILNIUS TECH
       contact: Artūras Mackūnas
       email: "arturas.mackunas vilniustech.lt"
-      confirmed: false
+      confirmed: true
 
     - name: Kaunas University of Technology
       contact: Mindaugas Vasiljevas
@@ -151,7 +151,7 @@
     - name: Umeå University
       contact: Tomas Forsman
       email: "stric cs.umu.se"
-      confirmed: false
+      confirmed: true
       extra_contacts:
         - name: Mattias Åsander
           email: mattiasa cs.umu.se
