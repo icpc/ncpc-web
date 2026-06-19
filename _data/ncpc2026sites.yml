@@ -12,7 +12,7 @@
           email: "ksm jobindex.dk"
         - name: Victoria Granly Kok
           email: "vick netcompany.com"
-      confirmed: false
+      confirmed: true
 
     - name: Aarhus University
       contact: Gerth Stølting Brodal
