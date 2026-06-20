@@ -147,9 +147,9 @@
       confirmed: true
 
     - name: KTH Royal Institute of Technology
-      contact: Björn Martinsson
-      email: "bmart kth.se"
-      confirmed: false
+      contact: Nils Gustafsson
+      email: "nils.gustafsson kodsport.se"
+      confirmed: true
 
     - name: Umeå University
       contact: Tomas Forsman
