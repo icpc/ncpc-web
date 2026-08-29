@@ -60,6 +60,8 @@
   emoji: 🇮🇸
   unis:
     - name: Reykjavík University
+      extra_unis:
+        - name: University of Iceland
       contact: Arnar Bjarni Arnarson
       email: "keppnisforritun gmail.com"
       confirmed: true
