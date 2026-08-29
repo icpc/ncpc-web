@@ -19,8 +19,12 @@
       email: "gerth cs.au.dk"
       confirmed: true
       extra_contacts:
-        - name: Frederik Jacobsen
-          email: "frj netcompany.com"
+        - name: Mohamad Abdul Latif Farhoud
+          email: "mofa netcompany.com"
+        - name: Nicklas Vedsted
+          email: "nvk netcompany.com"
+        - name: Lisa Maria Huynh
+          email: "limh netcompany.com"
     - name: University of Southern Denmark - Sønderborg
       contact: Krzysztof Sierszecki
       email: "krzys mmmi.sdu.dk"
