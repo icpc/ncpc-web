@@ -90,9 +90,9 @@
   emoji: 🇳🇴
   unis:
     - name: NTNU Trondheim
-      contact: Ola Vassbotn
-      email: "olamva stud.ntnu.no"
-      confirmed: false
+      contact: Mads Bårnes
+      email: "madsab stud.ntnu.no"
+      confirmed: true
 
     - name: University of Bergen
       contact: Torstein Strømme
@@ -100,9 +100,9 @@
       confirmed: true
 
     - name: University of Oslo
-      contact: Alexander Ramm Østgaard
-      email: "alexros ifi.uio.no"
-      confirmed: false
+      contact: Mia Ugland
+      email: "miau uio.no"
+      confirmed: true
 
     - name: UiT - Narvik
       contact: Ronny Stirling
