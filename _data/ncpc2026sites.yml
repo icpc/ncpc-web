@@ -74,7 +74,7 @@
     - name: Vilnius University
       contact: Vladas Tumasonis
       email: "vladas.tumasonis mif.vu.lt"
-      confirmed: false
+      confirmed: true
 
     - name: VILNIUS TECH
       contact: Artūras Mackūnas
