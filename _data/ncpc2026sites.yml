@@ -99,7 +99,7 @@
     - name: University of Agder
       contact: Mohammad Dabaja
       email: mohammad.dabaja.j@gmail.com
-      confirmed: false
+      confirmed: true
 
     - name: University of Bergen
       contact: Torstein Strømme
