@@ -96,6 +96,11 @@
       email: "madsab stud.ntnu.no"
       confirmed: true
 
+    - name: University of Agder
+      contact: Mohammad Dabaja
+      email: mohammad.dabaja.j@gmail.com
+      confirmed: false
+
     - name: University of Bergen
       contact: Torstein Strømme
       email: "Torstein.Stromme uib.no"
