@@ -23,6 +23,20 @@ Each university hosts their own local site. Scoreboards are maintained for local
 </div>
 
 <div class="news-item">
+<i>2026-09-28</i>
+
+The jury has received many queries from different individuals regarding use of software or prewritten code.
+These queries have included specific descriptions of things that were technically allowed by the rules.
+However, the jury agreed unanimously that these uses of local code were not adhering to the spirit of the rules.
+After careful deliberation, we were unable to amend the rules in a smaller manner to address the issue these queries raised.
+As such, we felt forced to rewrite the rules and limit use of software and prewritten code.
+We are making them more aligned with what you might expect in an on-site contest which provides
+an environment, such as NWERC, despite the contest remaining Bring Your Own Device.
+Probably the most impactful change to teams is that prewritten code must now be printed, like at NWERC.
+
+Please see the rules page for details.
+
+<div class="news-item">
 <i>2026-05-10</i>
 
 We are seeking your problem ideas for NCPC {{ page.year }}. The deadline to submit your problem idea is the 28th of June {{ page.year }}. Read more in our [call for problems](call-for-problems).
