@@ -113,16 +113,6 @@
       email: "miau uio.no"
       confirmed: true
 
-    - name: UiT - Narvik
-      contact: Ronny Stirling
-      email: "rst112 post.uit.no"
-      confirmed: false
-
-    - name: UiT - Tromsø
-      contact: Eindride Kjersheim
-      email: "eindride.kjersheim gmail.com"
-      confirmed: false
-
 - name: Sweden
   emoji: 🇸🇪
   unis:
@@ -131,11 +121,6 @@
       email: "rasmuswario gmail.com"
       confirmed: true
 
-    - name: Karlstad University
-      contact: Jonathan Vestin
-      email: "jonathan.vestin kau.se"
-      confirmed: false
-    
     - name: Jönköping University
       contact: Rudy Matela
       email: "rudy.matela ju.se"
@@ -148,11 +133,6 @@
       extra_contacts:
         - name: Markus Hård
           email: "ledamot lithekod.se"
-
-    - name: Luleå Institute of Technology
-      contact: Anton Johansson
-      email: "anton.johansson ludd.ltu.se"
-      confirmed: false
 
     - name: Lund University
       contact: Måns Magnusson
