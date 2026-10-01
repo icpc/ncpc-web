@@ -8,6 +8,8 @@
       contact: Sophia Saxil Engel
       email: "sope netcompany.com"
       extra_contacts:
+        - name: Mikkel Rohde Nielsen
+          email: "mrsi netcompany.com"
         - name: Klaus Skelbæk Madsen
           email: "ksm jobindex.dk"
         - name: Victoria Granly Kok
@@ -21,8 +23,8 @@
       extra_contacts:
         - name: Mohamad Abdul Latif Farhoud
           email: "mofa netcompany.com"
-        - name: Nicklas Vedsted
-          email: "nvk netcompany.com"
+        - name: Mikkel Rohde Nielsen
+          email: "mrsi netcompany.com"
         - name: Lisa Maria Huynh
           email: "limh netcompany.com"
     - name: University of Southern Denmark - Sønderborg
