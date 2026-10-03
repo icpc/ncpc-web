@@ -23,6 +23,13 @@ Each university hosts their own local site. Scoreboards are maintained for local
 </div>
 
 <div class="news-item">
+<i>2026-10-03</i>
+
+The livestream for solution presentation and results will start a little after 14:00:00 UTC+0000 (16:00:00 CEST).
+We expect there to be approximately 10 to 15 minutes buffer for wrapping up before we start the presentation.
+The link to the meeting is <a href="https://eu01web.zoom.us/j/65408943736">here</a>.
+
+<div class="news-item">
 <i>2026-09-28</i>
 
 The jury has received many queries from different individuals regarding use of software or prewritten code.
@@ -35,6 +42,7 @@ an environment, such as NWERC, despite the contest remaining Bring Your Own Devi
 Probably the most impactful change to teams is that prewritten code must now be printed, like at NWERC.
 
 Please see the rules page for details.
+</div>
 
 <div class="news-item">
 <i>2026-05-10</i>
