@@ -35,6 +35,7 @@
 - You may **NOT** use any additional electronic devices (such as mobile phones) to compete.
 - You may bring printed material (such as books).
 - You may **NOT** communicate with anyone other than the contest organizers and your own team members.
+- You **MUST** run the screen recording tool during the entire contest; separate instructions will be sent out by email before the contest starts.
 
 #### Recommended and allowed software
 
